@@ -24,6 +24,9 @@ const PARTIALS = path.join(ROOT, "src", "partials");
  * plataforma resuelve en el preview) y los enlaces internos apuntando a
  * /preview/{id} cuando ya existe el mapa preview-ids.json. */
 const VIEWS = path.join(ROOT, "production", "views");
+/* La plataforma sirve los assets del proyecto bajo /projects/{slug}/, no en la
+ * raíz: un /assets/… root-relative da 404 en el preview. */
+const ASSET_BASE = process.env.LC_ASSET_BASE || "/projects/re-diseno-la-cometa";
 const PREVIEW_MAP = path.join(ROOT, "preview-ids.json");
 const previews = fs.existsSync(PREVIEW_MAP)
   ? JSON.parse(fs.readFileSync(PREVIEW_MAP, "utf8"))
@@ -83,11 +86,26 @@ ${partial("footer")}
 function toBlade(html, meta) {
   return html
     .replace(/"@(context|type|id|graph)"/g, '"@@$1"')
-    .replace(/\/dist\/styles\.css/g, "/assets/styles.css")
-    .replace(/\/js\//g, "/assets/js/")
+    .replace(/\/dist\/styles\.css/g, ASSET_BASE + "/assets/styles.css")
+    .replace(/\/js\//g, ASSET_BASE + "/assets/js/")
+    .replace(/(src|href|content)="\/assets\//g, '$1="' + ASSET_BASE + '/assets/')
+    .replace(/url\(\/assets\//g, "url(" + ASSET_BASE + "/assets/")
+    .replace(/data-scale-src="\/assets\//g, 'data-scale-src="' + ASSET_BASE + '/assets/')
     .replace(/(href|action)="(\/[^"#?]*)"/g, function (m, attr, url) {
-      var id = previews[url];
-      return id ? attr + '="/preview/' + id + '"' : m;
+      /* Cada vista se sirve en su propia /preview/{id}: un enlace root-relative
+       * da 404. Se busca la vista exacta y, si no existe (p. ej. las fichas de
+       * sede que todavía no se construyeron), la más cercana hacia arriba. */
+      var candidates = [url, url.replace(/\/?$/, "/")];
+      var parts = url.replace(/\/$/, "").split("/");
+      while (parts.length > 2) {
+        parts.pop();
+        candidates.push(parts.join("/") + "/");
+      }
+      for (var i = 0; i < candidates.length; i++) {
+        var id = previews[candidates[i]];
+        if (id) return attr + '="/preview/' + id + '"';
+      }
+      return m;
     });
 }
 

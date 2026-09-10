@@ -24,8 +24,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/styles.css">
-<link rel="icon" href="/assets/LC-Logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/projects/re-diseno-la-cometa/assets/styles.css">
+<link rel="icon" href="/projects/re-diseno-la-cometa/assets/LC-Logo.svg" type="image/svg+xml">
 <script type="application/ld+json">
 {
   "@@context": "https://schema.org",
@@ -42,18 +42,18 @@
 <!-- ================= MASTHEAD (N6) ================= -->
 <header class="lc-masthead">
   <div class="lc-shell lc-masthead__row">
-    <a href="/" aria-label="Galería La Cometa — inicio" class="flex items-center gap-3 shrink-0">
-      <img src="/assets/LC-Logo.svg" alt="" width="112" height="50" class="h-8 w-auto sm:h-9" aria-hidden="true">
+    <a href="/preview/1089" aria-label="Galería La Cometa — inicio" class="flex items-center gap-3 shrink-0">
+      <img src="/projects/re-diseno-la-cometa/assets/LC-Logo.svg" alt="" width="112" height="50" class="h-8 w-auto sm:h-9" aria-hidden="true">
       <span class="sr-only">Galería La Cometa</span>
     </a>
 
     <nav class="lc-masthead__nav" aria-label="Principal">
-      <a class="lc-navlink" href="/exhibiciones/">Exposiciones</a>
-      <a class="lc-navlink" href="/artistas/">Artistas</a>
-      <a class="lc-navlink" href="/obras/">Obras</a>
-      <a class="lc-navlink" href="/ferias/">Ferias</a>
-      <a class="lc-navlink" href="/noticias/">Noticias</a>
-      <a class="lc-navlink" href="/la-galeria/">La galería</a>
+      <a class="lc-navlink" href="/preview/1088">Exposiciones</a>
+      <a class="lc-navlink" href="/preview/1095">Artistas</a>
+      <a class="lc-navlink" href="/preview/1090">Obras</a>
+      <a class="lc-navlink" href="/preview/1086">Ferias</a>
+      <a class="lc-navlink" href="/preview/1087">Noticias</a>
+      <a class="lc-navlink" href="/preview/1091">La galería</a>
     </nav>
 
     <div class="flex items-center gap-1 sm:gap-3 shrink-0">
@@ -104,13 +104,13 @@
       <div class="grid gap-10 md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] mt-12" data-menu-panels>
         <nav aria-label="Secciones del sitio">
           <ul class="space-y-1">
-            <li><a class="lc-megalink" href="/exhibiciones/">Exposiciones</a></li>
-            <li><a class="lc-megalink" href="/artistas/">Artistas</a></li>
-            <li><a class="lc-megalink" href="/obras/">Obras</a></li>
-            <li><a class="lc-megalink" href="/ferias/">Ferias</a></li>
-            <li><a class="lc-megalink" href="/noticias/">Noticias</a></li>
-            <li><a class="lc-megalink" href="/la-galeria/">La galería</a></li>
-            <li><a class="lc-megalink" href="/contacto/">Contacto</a></li>
+            <li><a class="lc-megalink" href="/preview/1088">Exposiciones</a></li>
+            <li><a class="lc-megalink" href="/preview/1095">Artistas</a></li>
+            <li><a class="lc-megalink" href="/preview/1090">Obras</a></li>
+            <li><a class="lc-megalink" href="/preview/1086">Ferias</a></li>
+            <li><a class="lc-megalink" href="/preview/1087">Noticias</a></li>
+            <li><a class="lc-megalink" href="/preview/1091">La galería</a></li>
+            <li><a class="lc-megalink" href="/preview/1094">Contacto</a></li>
           </ul>
         </nav>
 
@@ -118,16 +118,16 @@
           <div>
             <h2 class="lc-caps mb-3">Sedes</h2>
             <ul class="space-y-1 text-lg">
-              <li><a class="lc-link" href="/la-galeria/bogota">Bogotá</a></li>
-              <li><a class="lc-link" href="/la-galeria/medellin">Medellín</a></li>
-              <li><a class="lc-link" href="/la-galeria/miami">Miami</a></li>
-              <li><a class="lc-link" href="/la-galeria/madrid">Madrid</a></li>
-              <li><a class="lc-link" href="/la-galeria/mexico">Ciudad de México</a></li>
+              <li><a class="lc-link" href="/preview/1091">Bogotá</a></li>
+              <li><a class="lc-link" href="/preview/1091">Medellín</a></li>
+              <li><a class="lc-link" href="/preview/1091">Miami</a></li>
+              <li><a class="lc-link" href="/preview/1091">Madrid</a></li>
+              <li><a class="lc-link" href="/preview/1091">Ciudad de México</a></li>
             </ul>
           </div>
           <div>
             <h2 class="lc-caps mb-3">Idioma</h2>
-            <p class="lc-meta"><a class="lc-link" href="/" aria-current="page">Español</a> · <a class="lc-link" href="/en/" hreflang="en" lang="en">English</a></p>
+            <p class="lc-meta"><a class="lc-link" href="/preview/1089" aria-current="page">Español</a> · <a class="lc-link" href="/en/" hreflang="en" lang="en">English</a></p>
           </div>
         </div>
       </div>
@@ -140,7 +140,7 @@
   <section class="lc-shell pt-8 pb-6 md:pt-12">
     <nav class="lc-crumbs" aria-label="Ruta">
       <ol>
-        <li><a href="/">Inicio</a></li>
+        <li><a href="/preview/1089">Inicio</a></li>
         <li aria-current="page">Ferias</li>
       </ol>
     </nav>
@@ -187,28 +187,28 @@
       <section data-year-group="2026" aria-labelledby="f-2026">
         <h3 id="f-2026" class="lc-caps border-b border-[color:var(--color-rule)] pb-2 mb-2">2026</h3>
         <ul>
-          <li><a class="lc-index__row" href="/ferias/"><span class="lc-caps">Madrid</span><span class="lc-card__title">ARCO Madrid 2026</span><span class="lc-meta">Feria internacional</span><span class="lc-meta md:text-right">4 — 8 de marzo</span></a></li>
-          <li><a class="lc-index__row" href="/ferias/"><span class="lc-caps">CDMX</span><span class="lc-card__title">Zona Maco 2026</span><span class="lc-meta">Feria internacional</span><span class="lc-meta md:text-right">4 — 8 de febrero</span></a></li>
+          <li><a class="lc-index__row" href="/preview/1086"><span class="lc-caps">Madrid</span><span class="lc-card__title">ARCO Madrid 2026</span><span class="lc-meta">Feria internacional</span><span class="lc-meta md:text-right">4 — 8 de marzo</span></a></li>
+          <li><a class="lc-index__row" href="/preview/1086"><span class="lc-caps">CDMX</span><span class="lc-card__title">Zona Maco 2026</span><span class="lc-meta">Feria internacional</span><span class="lc-meta md:text-right">4 — 8 de febrero</span></a></li>
         </ul>
       </section>
 
       <section data-year-group="2025" aria-labelledby="f-2025" class="mt-12">
         <h3 id="f-2025" class="lc-caps border-b border-[color:var(--color-rule)] pb-2 mb-2">2025</h3>
         <ul>
-          <li><a class="lc-index__row" href="/ferias/"><span class="lc-caps">Miami</span><span class="lc-card__title">Untitled Art 2025</span><span class="lc-meta">Feria internacional</span><span class="lc-meta md:text-right">3 — 7 de diciembre</span></a></li>
-          <li><a class="lc-index__row" href="/ferias/"><span class="lc-caps">Bogotá</span><span class="lc-card__title">ArtBo 2025</span><span class="lc-meta">Feria internacional</span><span class="lc-meta md:text-right">25 — 28 de septiembre</span></a></li>
-          <li><a class="lc-index__row" href="/ferias/"><span class="lc-caps">CDMX</span><span class="lc-card__title">Zona Maco 2025</span><span class="lc-meta">Feria internacional</span><span class="lc-meta md:text-right">5 — 9 de febrero</span></a></li>
+          <li><a class="lc-index__row" href="/preview/1086"><span class="lc-caps">Miami</span><span class="lc-card__title">Untitled Art 2025</span><span class="lc-meta">Feria internacional</span><span class="lc-meta md:text-right">3 — 7 de diciembre</span></a></li>
+          <li><a class="lc-index__row" href="/preview/1086"><span class="lc-caps">Bogotá</span><span class="lc-card__title">ArtBo 2025</span><span class="lc-meta">Feria internacional</span><span class="lc-meta md:text-right">25 — 28 de septiembre</span></a></li>
+          <li><a class="lc-index__row" href="/preview/1086"><span class="lc-caps">CDMX</span><span class="lc-card__title">Zona Maco 2025</span><span class="lc-meta">Feria internacional</span><span class="lc-meta md:text-right">5 — 9 de febrero</span></a></li>
         </ul>
       </section>
 
       <section data-year-group="2024" aria-labelledby="f-2024" class="mt-12">
         <h3 id="f-2024" class="lc-caps border-b border-[color:var(--color-rule)] pb-2 mb-2">2024</h3>
         <ul>
-          <li><a class="lc-index__row" href="/ferias/"><span class="lc-caps">Miami</span><span class="lc-card__title">Untitled Art 2024</span><span class="lc-meta">Feria internacional</span><span class="lc-meta md:text-right">4 — 8 de diciembre</span></a></li>
-          <li><a class="lc-index__row" href="/ferias/"><span class="lc-caps">Abu Dhabi</span><span class="lc-card__title">Abu Dhabi Art Fair 2024</span><span class="lc-meta">Feria internacional</span><span class="lc-meta md:text-right">20 — 24 de noviembre</span></a></li>
-          <li><a class="lc-index__row" href="/ferias/"><span class="lc-caps">París</span><span class="lc-card__title">Paris Photo 2024</span><span class="lc-meta">Feria internacional</span><span class="lc-meta md:text-right">7 — 10 de noviembre</span></a></li>
-          <li><a class="lc-index__row" href="/ferias/"><span class="lc-caps">Turín</span><span class="lc-card__title">Artissima 2024</span><span class="lc-meta">Feria internacional</span><span class="lc-meta md:text-right">1 — 3 de noviembre</span></a></li>
-          <li><a class="lc-index__row" href="/ferias/"><span class="lc-caps">Bogotá</span><span class="lc-card__title">ArtBo 2024</span><span class="lc-meta">Feria internacional</span><span class="lc-meta md:text-right">26 — 29 de septiembre</span></a></li>
+          <li><a class="lc-index__row" href="/preview/1086"><span class="lc-caps">Miami</span><span class="lc-card__title">Untitled Art 2024</span><span class="lc-meta">Feria internacional</span><span class="lc-meta md:text-right">4 — 8 de diciembre</span></a></li>
+          <li><a class="lc-index__row" href="/preview/1086"><span class="lc-caps">Abu Dhabi</span><span class="lc-card__title">Abu Dhabi Art Fair 2024</span><span class="lc-meta">Feria internacional</span><span class="lc-meta md:text-right">20 — 24 de noviembre</span></a></li>
+          <li><a class="lc-index__row" href="/preview/1086"><span class="lc-caps">París</span><span class="lc-card__title">Paris Photo 2024</span><span class="lc-meta">Feria internacional</span><span class="lc-meta md:text-right">7 — 10 de noviembre</span></a></li>
+          <li><a class="lc-index__row" href="/preview/1086"><span class="lc-caps">Turín</span><span class="lc-card__title">Artissima 2024</span><span class="lc-meta">Feria internacional</span><span class="lc-meta md:text-right">1 — 3 de noviembre</span></a></li>
+          <li><a class="lc-index__row" href="/preview/1086"><span class="lc-caps">Bogotá</span><span class="lc-card__title">ArtBo 2024</span><span class="lc-meta">Feria internacional</span><span class="lc-meta md:text-right">26 — 29 de septiembre</span></a></li>
         </ul>
       </section>
     </div>
@@ -226,19 +226,19 @@
     <div>
       <h2 class="lc-caps mb-3">Navegar</h2>
       <ul class="space-y-1 lc-meta">
-        <li><a class="lc-link" href="/exhibiciones/">Exposiciones</a></li>
-        <li><a class="lc-link" href="/artistas/">Artistas</a></li>
-        <li><a class="lc-link" href="/obras/">Obras</a></li>
-        <li><a class="lc-link" href="/ferias/">Ferias</a></li>
-        <li><a class="lc-link" href="/noticias/">Noticias</a></li>
+        <li><a class="lc-link" href="/preview/1088">Exposiciones</a></li>
+        <li><a class="lc-link" href="/preview/1095">Artistas</a></li>
+        <li><a class="lc-link" href="/preview/1090">Obras</a></li>
+        <li><a class="lc-link" href="/preview/1086">Ferias</a></li>
+        <li><a class="lc-link" href="/preview/1087">Noticias</a></li>
       </ul>
     </div>
     <div>
       <h2 class="lc-caps mb-3">Contacto</h2>
       <ul class="space-y-1 lc-meta">
         <li><a class="lc-link" href="mailto:info@galerialacometa.com">info@galerialacometa.com</a></li>
-        <li><a class="lc-link" href="/contacto/">Formulario de contacto</a></li>
-        <li><a class="lc-link" href="/la-galeria/">Sedes y horarios</a></li>
+        <li><a class="lc-link" href="/preview/1094">Formulario de contacto</a></li>
+        <li><a class="lc-link" href="/preview/1091">Sedes y horarios</a></li>
       </ul>
       <p class="lc-meta mt-3">Correo oficial único para todo el sitio y los directorios externos.</p>
     </div>
@@ -304,8 +304,8 @@
 </div>
 
 
-<script src="/assets/js/data.js"></script>
-<script src="/assets/js/main.js"></script>
-<script src="/assets/js/components.js"></script>
+<script src="/projects/re-diseno-la-cometa/assets/js/data.js"></script>
+<script src="/projects/re-diseno-la-cometa/assets/js/main.js"></script>
+<script src="/projects/re-diseno-la-cometa/assets/js/components.js"></script>
 </body>
 </html>

@@ -24,8 +24,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/styles.css">
-<link rel="icon" href="/assets/LC-Logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/projects/re-diseno-la-cometa/assets/styles.css">
+<link rel="icon" href="/projects/re-diseno-la-cometa/assets/LC-Logo.svg" type="image/svg+xml">
 <script type="application/ld+json">
 {
   "@@context": "https://schema.org",
@@ -70,18 +70,18 @@
 <!-- ================= MASTHEAD (N6) ================= -->
 <header class="lc-masthead">
   <div class="lc-shell lc-masthead__row">
-    <a href="/" aria-label="Galería La Cometa — inicio" class="flex items-center gap-3 shrink-0">
-      <img src="/assets/LC-Logo.svg" alt="" width="112" height="50" class="h-8 w-auto sm:h-9" aria-hidden="true">
+    <a href="/preview/1089" aria-label="Galería La Cometa — inicio" class="flex items-center gap-3 shrink-0">
+      <img src="/projects/re-diseno-la-cometa/assets/LC-Logo.svg" alt="" width="112" height="50" class="h-8 w-auto sm:h-9" aria-hidden="true">
       <span class="sr-only">Galería La Cometa</span>
     </a>
 
     <nav class="lc-masthead__nav" aria-label="Principal">
-      <a class="lc-navlink" href="/exhibiciones/">Exposiciones</a>
-      <a class="lc-navlink" href="/artistas/">Artistas</a>
-      <a class="lc-navlink" href="/obras/">Obras</a>
-      <a class="lc-navlink" href="/ferias/">Ferias</a>
-      <a class="lc-navlink" href="/noticias/">Noticias</a>
-      <a class="lc-navlink" href="/la-galeria/">La galería</a>
+      <a class="lc-navlink" href="/preview/1088">Exposiciones</a>
+      <a class="lc-navlink" href="/preview/1095">Artistas</a>
+      <a class="lc-navlink" href="/preview/1090">Obras</a>
+      <a class="lc-navlink" href="/preview/1086">Ferias</a>
+      <a class="lc-navlink" href="/preview/1087">Noticias</a>
+      <a class="lc-navlink" href="/preview/1091">La galería</a>
     </nav>
 
     <div class="flex items-center gap-1 sm:gap-3 shrink-0">
@@ -132,13 +132,13 @@
       <div class="grid gap-10 md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] mt-12" data-menu-panels>
         <nav aria-label="Secciones del sitio">
           <ul class="space-y-1">
-            <li><a class="lc-megalink" href="/exhibiciones/">Exposiciones</a></li>
-            <li><a class="lc-megalink" href="/artistas/">Artistas</a></li>
-            <li><a class="lc-megalink" href="/obras/">Obras</a></li>
-            <li><a class="lc-megalink" href="/ferias/">Ferias</a></li>
-            <li><a class="lc-megalink" href="/noticias/">Noticias</a></li>
-            <li><a class="lc-megalink" href="/la-galeria/">La galería</a></li>
-            <li><a class="lc-megalink" href="/contacto/">Contacto</a></li>
+            <li><a class="lc-megalink" href="/preview/1088">Exposiciones</a></li>
+            <li><a class="lc-megalink" href="/preview/1095">Artistas</a></li>
+            <li><a class="lc-megalink" href="/preview/1090">Obras</a></li>
+            <li><a class="lc-megalink" href="/preview/1086">Ferias</a></li>
+            <li><a class="lc-megalink" href="/preview/1087">Noticias</a></li>
+            <li><a class="lc-megalink" href="/preview/1091">La galería</a></li>
+            <li><a class="lc-megalink" href="/preview/1094">Contacto</a></li>
           </ul>
         </nav>
 
@@ -146,16 +146,16 @@
           <div>
             <h2 class="lc-caps mb-3">Sedes</h2>
             <ul class="space-y-1 text-lg">
-              <li><a class="lc-link" href="/la-galeria/bogota">Bogotá</a></li>
-              <li><a class="lc-link" href="/la-galeria/medellin">Medellín</a></li>
-              <li><a class="lc-link" href="/la-galeria/miami">Miami</a></li>
-              <li><a class="lc-link" href="/la-galeria/madrid">Madrid</a></li>
-              <li><a class="lc-link" href="/la-galeria/mexico">Ciudad de México</a></li>
+              <li><a class="lc-link" href="/preview/1091">Bogotá</a></li>
+              <li><a class="lc-link" href="/preview/1091">Medellín</a></li>
+              <li><a class="lc-link" href="/preview/1091">Miami</a></li>
+              <li><a class="lc-link" href="/preview/1091">Madrid</a></li>
+              <li><a class="lc-link" href="/preview/1091">Ciudad de México</a></li>
             </ul>
           </div>
           <div>
             <h2 class="lc-caps mb-3">Idioma</h2>
-            <p class="lc-meta"><a class="lc-link" href="/" aria-current="page">Español</a> · <a class="lc-link" href="/en/" hreflang="en" lang="en">English</a></p>
+            <p class="lc-meta"><a class="lc-link" href="/preview/1089" aria-current="page">Español</a> · <a class="lc-link" href="/en/" hreflang="en" lang="en">English</a></p>
           </div>
         </div>
       </div>
@@ -168,8 +168,8 @@
   <section class="lc-shell pt-8 pb-6 md:pt-12">
     <nav class="lc-crumbs" aria-label="Ruta">
       <ol>
-        <li><a href="/">Inicio</a></li>
-        <li><a href="/artistas/">Artistas</a></li>
+        <li><a href="/preview/1089">Inicio</a></li>
+        <li><a href="/preview/1095">Artistas</a></li>
         <li aria-current="page">Dámaxo Henao</li>
       </ol>
     </nav>
@@ -180,12 +180,12 @@
         <p class="lc-meta mt-4 text-[length:var(--text-lg)]">Medellín, Colombia, 1995 · Pintura y dibujo</p>
         <p class="lc-caps mt-6"><span class="lc-live">En sala</span> · Bogotá · hasta el 12 de septiembre</p>
         <div class="mt-5 flex flex-wrap gap-3">
-          <a class="lc-btn" href="/exhibiciones/bogota/el-volumen-que-toco-la-luz-damaxo-henao-es/">Ver su exposición</a>
+          <a class="lc-btn" href="/preview/1085">Ver su exposición</a>
           <a class="lc-btn lc-btn--ghost" href="#obras">Ver la obra disponible</a>
         </div>
       </div>
       <figure class="lc-figure lc-reveal" style="aspect-ratio: 4 / 5;">
-        <img src="/assets/img/artista-damaxo-retrato.webp" alt="Retrato de Dámaxo Henao en su taller" loading="lazy" decoding="async">
+        <img src="/projects/re-diseno-la-cometa/assets/img/artista-damaxo-retrato.webp" alt="Retrato de Dámaxo Henao en su taller" loading="lazy" decoding="async">
       </figure>
     </div>
   </section>
@@ -259,9 +259,9 @@
       <div data-filmstrip>
         <ul class="lc-strip__rail" data-rail tabindex="0" aria-label="Obras de Dámaxo Henao">
           <li class="lc-card w-[min(78vw,20rem)]">
-            <a href="/obras/transeunte/" class="block">
+            <a href="/preview/1093" class="block">
               <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-                <img src="/assets/img/obra-transeunte.webp" alt="«Transeúnte», óleo sobre lienzo de Dámaxo Henao, 65,5 × 293 cm" loading="lazy" decoding="async">
+                <img src="/projects/re-diseno-la-cometa/assets/img/obra-transeunte.webp" alt="«Transeúnte», óleo sobre lienzo de Dámaxo Henao, 65,5 × 293 cm" loading="lazy" decoding="async">
               </figure>
               <h3 class="lc-card__title mt-3">Transeúnte</h3>
             </a>
@@ -269,9 +269,9 @@
             <button type="button" class="lc-link mt-3" data-inquire="Transeúnte — Dámaxo Henao">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
-            <a href="/obras/" class="block">
+            <a href="/preview/1090" class="block">
               <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-                <img src="/assets/img/obra-centinela.webp" alt="«El centinela diurno», óleo sobre lienzo de Dámaxo Henao, 95 × 128,5 cm" loading="lazy" decoding="async">
+                <img src="/projects/re-diseno-la-cometa/assets/img/obra-centinela.webp" alt="«El centinela diurno», óleo sobre lienzo de Dámaxo Henao, 95 × 128,5 cm" loading="lazy" decoding="async">
               </figure>
               <h3 class="lc-card__title mt-3">El centinela diurno</h3>
             </a>
@@ -279,9 +279,9 @@
             <button type="button" class="lc-link mt-3" data-inquire="El centinela diurno — Dámaxo Henao">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
-            <a href="/obras/" class="block">
+            <a href="/preview/1090" class="block">
               <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-                <img src="/assets/img/obra-puerta.webp" alt="«Puerta», óleo sobre lienzo de Dámaxo Henao" loading="lazy" decoding="async">
+                <img src="/projects/re-diseno-la-cometa/assets/img/obra-puerta.webp" alt="«Puerta», óleo sobre lienzo de Dámaxo Henao" loading="lazy" decoding="async">
               </figure>
               <h3 class="lc-card__title mt-3">Puerta</h3>
             </a>
@@ -289,9 +289,9 @@
             <button type="button" class="lc-link mt-3" data-inquire="Puerta — Dámaxo Henao">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
-            <a href="/obras/" class="block">
+            <a href="/preview/1090" class="block">
               <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-                <img src="/assets/img/obra-mejores-amigos.webp" alt="«Mejores amigos», óleo sobre lienzo de Dámaxo Henao, 31 × 20 × 3 cm" loading="lazy" decoding="async">
+                <img src="/projects/re-diseno-la-cometa/assets/img/obra-mejores-amigos.webp" alt="«Mejores amigos», óleo sobre lienzo de Dámaxo Henao, 31 × 20 × 3 cm" loading="lazy" decoding="async">
               </figure>
               <h3 class="lc-card__title mt-3">Mejores amigos</h3>
             </a>
@@ -299,9 +299,9 @@
             <button type="button" class="lc-link mt-3" data-inquire="Mejores amigos — Dámaxo Henao">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
-            <a href="/obras/" class="block">
+            <a href="/preview/1090" class="block">
               <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-                <img src="/assets/img/obra-torre-ermitano.webp" alt="«La torre del ermitaño», óleo sobre lienzo y madera de Dámaxo Henao, 161,5 × 45,5 × 51 cm" loading="lazy" decoding="async">
+                <img src="/projects/re-diseno-la-cometa/assets/img/obra-torre-ermitano.webp" alt="«La torre del ermitaño», óleo sobre lienzo y madera de Dámaxo Henao, 161,5 × 45,5 × 51 cm" loading="lazy" decoding="async">
               </figure>
               <h3 class="lc-card__title mt-3">La torre del ermitaño</h3>
             </a>
@@ -309,9 +309,9 @@
             <button type="button" class="lc-link mt-3" data-inquire="La torre del ermitaño — Dámaxo Henao">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
-            <a href="/obras/" class="block">
+            <a href="/preview/1090" class="block">
               <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-                <img src="/assets/img/obra-los-tiempos.webp" alt="«Los tiempos de la ilusión del hogar», tríptico al óleo sobre lienzo de Dámaxo Henao, 150 × 150 cm, 2023" loading="lazy" decoding="async">
+                <img src="/projects/re-diseno-la-cometa/assets/img/obra-los-tiempos.webp" alt="«Los tiempos de la ilusión del hogar», tríptico al óleo sobre lienzo de Dámaxo Henao, 150 × 150 cm, 2023" loading="lazy" decoding="async">
               </figure>
               <h3 class="lc-card__title mt-3">Los tiempos de la ilusión del hogar</h3>
             </a>
@@ -338,17 +338,17 @@
   <section id="exposiciones" class="lc-shell lc-band" aria-labelledby="h-exp">
     <div class="lc-section-head">
       <h2 id="h-exp" class="text-[length:var(--text-3xl)]">Exposiciones</h2>
-      <a class="lc-link" href="/exhibiciones/">Ver el programa completo <span class="lc-arrow" aria-hidden="true">→</span></a>
+      <a class="lc-link" href="/preview/1088">Ver el programa completo <span class="lc-arrow" aria-hidden="true">→</span></a>
     </div>
 
     <ul>
       <li>
-        <a class="lc-index__row" href="/exhibiciones/bogota/el-volumen-que-toco-la-luz-damaxo-henao-es/">
+        <a class="lc-index__row" href="/preview/1085">
           <span class="lc-caps">Bogotá</span>
           <span class="lc-card__title">El volumen que tocó la luz</span>
           <span class="lc-meta">Individual</span>
           <span class="lc-meta md:text-right">05.08 — 12.09.2026</span>
-          <img class="lc-index__peek" src="/assets/img/sala-volumen-2.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+          <img class="lc-index__peek" src="/projects/re-diseno-la-cometa/assets/img/sala-volumen-2.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
         </a>
       </li>
     </ul>
@@ -394,7 +394,7 @@
       </div>
       <div class="flex flex-wrap gap-3">
         <button type="button" class="lc-btn" data-inquire="Obra de Dámaxo Henao">Consultar por su obra</button>
-        <a class="lc-btn lc-btn--ghost" href="/la-galeria/bogota/">Visitar la sede de Bogotá</a>
+        <a class="lc-btn lc-btn--ghost" href="/preview/1091">Visitar la sede de Bogotá</a>
       </div>
     </div>
   </section>
@@ -411,19 +411,19 @@
     <div>
       <h2 class="lc-caps mb-3">Navegar</h2>
       <ul class="space-y-1 lc-meta">
-        <li><a class="lc-link" href="/exhibiciones/">Exposiciones</a></li>
-        <li><a class="lc-link" href="/artistas/">Artistas</a></li>
-        <li><a class="lc-link" href="/obras/">Obras</a></li>
-        <li><a class="lc-link" href="/ferias/">Ferias</a></li>
-        <li><a class="lc-link" href="/noticias/">Noticias</a></li>
+        <li><a class="lc-link" href="/preview/1088">Exposiciones</a></li>
+        <li><a class="lc-link" href="/preview/1095">Artistas</a></li>
+        <li><a class="lc-link" href="/preview/1090">Obras</a></li>
+        <li><a class="lc-link" href="/preview/1086">Ferias</a></li>
+        <li><a class="lc-link" href="/preview/1087">Noticias</a></li>
       </ul>
     </div>
     <div>
       <h2 class="lc-caps mb-3">Contacto</h2>
       <ul class="space-y-1 lc-meta">
         <li><a class="lc-link" href="mailto:info@galerialacometa.com">info@galerialacometa.com</a></li>
-        <li><a class="lc-link" href="/contacto/">Formulario de contacto</a></li>
-        <li><a class="lc-link" href="/la-galeria/">Sedes y horarios</a></li>
+        <li><a class="lc-link" href="/preview/1094">Formulario de contacto</a></li>
+        <li><a class="lc-link" href="/preview/1091">Sedes y horarios</a></li>
       </ul>
       <p class="lc-meta mt-3">Correo oficial único para todo el sitio y los directorios externos.</p>
     </div>
@@ -489,8 +489,8 @@
 </div>
 
 
-<script src="/assets/js/data.js"></script>
-<script src="/assets/js/main.js"></script>
-<script src="/assets/js/components.js"></script>
+<script src="/projects/re-diseno-la-cometa/assets/js/data.js"></script>
+<script src="/projects/re-diseno-la-cometa/assets/js/main.js"></script>
+<script src="/projects/re-diseno-la-cometa/assets/js/components.js"></script>
 </body>
 </html>

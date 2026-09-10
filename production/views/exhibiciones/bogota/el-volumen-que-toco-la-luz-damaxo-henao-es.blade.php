@@ -24,8 +24,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/styles.css">
-<link rel="icon" href="/assets/LC-Logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/projects/re-diseno-la-cometa/assets/styles.css">
+<link rel="icon" href="/projects/re-diseno-la-cometa/assets/LC-Logo.svg" type="image/svg+xml">
 <script type="application/ld+json">
 {
   "@@context": "https://schema.org",
@@ -67,18 +67,18 @@
 <!-- ================= MASTHEAD (N6) ================= -->
 <header class="lc-masthead">
   <div class="lc-shell lc-masthead__row">
-    <a href="/" aria-label="Galería La Cometa — inicio" class="flex items-center gap-3 shrink-0">
-      <img src="/assets/LC-Logo.svg" alt="" width="112" height="50" class="h-8 w-auto sm:h-9" aria-hidden="true">
+    <a href="/preview/1089" aria-label="Galería La Cometa — inicio" class="flex items-center gap-3 shrink-0">
+      <img src="/projects/re-diseno-la-cometa/assets/LC-Logo.svg" alt="" width="112" height="50" class="h-8 w-auto sm:h-9" aria-hidden="true">
       <span class="sr-only">Galería La Cometa</span>
     </a>
 
     <nav class="lc-masthead__nav" aria-label="Principal">
-      <a class="lc-navlink" href="/exhibiciones/">Exposiciones</a>
-      <a class="lc-navlink" href="/artistas/">Artistas</a>
-      <a class="lc-navlink" href="/obras/">Obras</a>
-      <a class="lc-navlink" href="/ferias/">Ferias</a>
-      <a class="lc-navlink" href="/noticias/">Noticias</a>
-      <a class="lc-navlink" href="/la-galeria/">La galería</a>
+      <a class="lc-navlink" href="/preview/1088">Exposiciones</a>
+      <a class="lc-navlink" href="/preview/1095">Artistas</a>
+      <a class="lc-navlink" href="/preview/1090">Obras</a>
+      <a class="lc-navlink" href="/preview/1086">Ferias</a>
+      <a class="lc-navlink" href="/preview/1087">Noticias</a>
+      <a class="lc-navlink" href="/preview/1091">La galería</a>
     </nav>
 
     <div class="flex items-center gap-1 sm:gap-3 shrink-0">
@@ -129,13 +129,13 @@
       <div class="grid gap-10 md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] mt-12" data-menu-panels>
         <nav aria-label="Secciones del sitio">
           <ul class="space-y-1">
-            <li><a class="lc-megalink" href="/exhibiciones/">Exposiciones</a></li>
-            <li><a class="lc-megalink" href="/artistas/">Artistas</a></li>
-            <li><a class="lc-megalink" href="/obras/">Obras</a></li>
-            <li><a class="lc-megalink" href="/ferias/">Ferias</a></li>
-            <li><a class="lc-megalink" href="/noticias/">Noticias</a></li>
-            <li><a class="lc-megalink" href="/la-galeria/">La galería</a></li>
-            <li><a class="lc-megalink" href="/contacto/">Contacto</a></li>
+            <li><a class="lc-megalink" href="/preview/1088">Exposiciones</a></li>
+            <li><a class="lc-megalink" href="/preview/1095">Artistas</a></li>
+            <li><a class="lc-megalink" href="/preview/1090">Obras</a></li>
+            <li><a class="lc-megalink" href="/preview/1086">Ferias</a></li>
+            <li><a class="lc-megalink" href="/preview/1087">Noticias</a></li>
+            <li><a class="lc-megalink" href="/preview/1091">La galería</a></li>
+            <li><a class="lc-megalink" href="/preview/1094">Contacto</a></li>
           </ul>
         </nav>
 
@@ -143,16 +143,16 @@
           <div>
             <h2 class="lc-caps mb-3">Sedes</h2>
             <ul class="space-y-1 text-lg">
-              <li><a class="lc-link" href="/la-galeria/bogota">Bogotá</a></li>
-              <li><a class="lc-link" href="/la-galeria/medellin">Medellín</a></li>
-              <li><a class="lc-link" href="/la-galeria/miami">Miami</a></li>
-              <li><a class="lc-link" href="/la-galeria/madrid">Madrid</a></li>
-              <li><a class="lc-link" href="/la-galeria/mexico">Ciudad de México</a></li>
+              <li><a class="lc-link" href="/preview/1091">Bogotá</a></li>
+              <li><a class="lc-link" href="/preview/1091">Medellín</a></li>
+              <li><a class="lc-link" href="/preview/1091">Miami</a></li>
+              <li><a class="lc-link" href="/preview/1091">Madrid</a></li>
+              <li><a class="lc-link" href="/preview/1091">Ciudad de México</a></li>
             </ul>
           </div>
           <div>
             <h2 class="lc-caps mb-3">Idioma</h2>
-            <p class="lc-meta"><a class="lc-link" href="/" aria-current="page">Español</a> · <a class="lc-link" href="/en/" hreflang="en" lang="en">English</a></p>
+            <p class="lc-meta"><a class="lc-link" href="/preview/1089" aria-current="page">Español</a> · <a class="lc-link" href="/en/" hreflang="en" lang="en">English</a></p>
           </div>
         </div>
       </div>
@@ -165,9 +165,9 @@
   <section class="lc-shell pt-8 pb-6 md:pt-12">
     <nav class="lc-crumbs" aria-label="Ruta">
       <ol>
-        <li><a href="/">Inicio</a></li>
-        <li><a href="/exhibiciones/">Exposiciones</a></li>
-        <li><a href="/la-galeria/bogota/">Bogotá</a></li>
+        <li><a href="/preview/1089">Inicio</a></li>
+        <li><a href="/preview/1088">Exposiciones</a></li>
+        <li><a href="/preview/1091">Bogotá</a></li>
         <li aria-current="page">El volumen que tocó la luz</li>
       </ol>
     </nav>
@@ -175,18 +175,18 @@
     <p class="lc-caps mt-8"><span class="lc-live">En sala</span> · Bogotá · Individual</p>
     <h1 class="text-[length:var(--text-display-s)] mt-3 max-w-[16ch]">El volumen que tocó la luz</h1>
     <p class="lc-meta mt-4 text-[length:var(--text-lg)]">
-      <a class="lc-link" href="/artistas/damaxo-henao-es/">Dámaxo Henao</a>
+      <a class="lc-link" href="/preview/1092">Dámaxo Henao</a>
       · 5 de agosto — 12 de septiembre de 2026
     </p>
 
     <div class="mt-6 flex flex-wrap gap-3">
-      <a class="lc-btn" href="/la-galeria/bogota/">Cómo llegar</a>
+      <a class="lc-btn" href="/preview/1091">Cómo llegar</a>
       <button type="button" class="lc-btn lc-btn--ghost" data-inquire="Obra de «El volumen que tocó la luz» — Dámaxo Henao">Consultar por la obra</button>
     </div>
   </section>
 
   <figure class="lc-figure w-full" style="aspect-ratio: 16 / 9;">
-    <img src="/assets/img/sala-volumen-2.webp"
+    <img src="/projects/re-diseno-la-cometa/assets/img/sala-volumen-2.webp"
          alt="Vista general de la sala: pinturas de puertas colgadas sobre muros blancos con luz cenital"
          fetchpriority="high" decoding="async">
   </figure>
@@ -218,7 +218,7 @@
           <li class="w-[min(88vw,34rem)]">
             <button type="button" class="block w-full text-left" data-viewer-open>
               <figure class="lc-figure" style="aspect-ratio: 4 / 3;">
-                <img src="/assets/img/sala-volumen-1.webp" alt="Vista 1: entrada de la sala, dos pinturas de puertas enfrentadas" loading="lazy" decoding="async">
+                <img src="/projects/re-diseno-la-cometa/assets/img/sala-volumen-1.webp" alt="Vista 1: entrada de la sala, dos pinturas de puertas enfrentadas" loading="lazy" decoding="async">
               </figure>
               <p class="lc-meta mt-2">01 · Entrada de la sala</p>
             </button>
@@ -226,7 +226,7 @@
           <li class="w-[min(88vw,34rem)]">
             <button type="button" class="block w-full text-left" data-viewer-open>
               <figure class="lc-figure" style="aspect-ratio: 4 / 3;">
-                <img src="/assets/img/sala-volumen-2.webp" alt="Vista 2: muro principal con la serie completa de puertas" loading="lazy" decoding="async">
+                <img src="/projects/re-diseno-la-cometa/assets/img/sala-volumen-2.webp" alt="Vista 2: muro principal con la serie completa de puertas" loading="lazy" decoding="async">
               </figure>
               <p class="lc-meta mt-2">02 · Muro principal</p>
             </button>
@@ -234,7 +234,7 @@
           <li class="w-[min(88vw,34rem)]">
             <button type="button" class="block w-full text-left" data-viewer-open>
               <figure class="lc-figure" style="aspect-ratio: 4 / 3;">
-                <img src="/assets/img/sala-volumen-3.webp" alt="Vista 3: detalle de una pintura de puerta bajo luz rasante" loading="lazy" decoding="async">
+                <img src="/projects/re-diseno-la-cometa/assets/img/sala-volumen-3.webp" alt="Vista 3: detalle de una pintura de puerta bajo luz rasante" loading="lazy" decoding="async">
               </figure>
               <p class="lc-meta mt-2">03 · Luz rasante</p>
             </button>
@@ -242,7 +242,7 @@
           <li class="w-[min(88vw,34rem)]">
             <button type="button" class="block w-full text-left" data-viewer-open>
               <figure class="lc-figure" style="aspect-ratio: 4 / 3;">
-                <img src="/assets/img/sala-volumen-4.webp" alt="Vista 4: sala intermedia con la pieza de formato panorámico" loading="lazy" decoding="async">
+                <img src="/projects/re-diseno-la-cometa/assets/img/sala-volumen-4.webp" alt="Vista 4: sala intermedia con la pieza de formato panorámico" loading="lazy" decoding="async">
               </figure>
               <p class="lc-meta mt-2">04 · Sala intermedia</p>
             </button>
@@ -250,7 +250,7 @@
           <li class="w-[min(88vw,34rem)]">
             <button type="button" class="block w-full text-left" data-viewer-open>
               <figure class="lc-figure" style="aspect-ratio: 4 / 3;">
-                <img src="/assets/img/sala-volumen-5.webp" alt="Vista 5: pieza tridimensional sobre pedestal junto al muro" loading="lazy" decoding="async">
+                <img src="/projects/re-diseno-la-cometa/assets/img/sala-volumen-5.webp" alt="Vista 5: pieza tridimensional sobre pedestal junto al muro" loading="lazy" decoding="async">
               </figure>
               <p class="lc-meta mt-2">05 · Volumen sobre pedestal</p>
             </button>
@@ -258,7 +258,7 @@
           <li class="w-[min(88vw,34rem)]">
             <button type="button" class="block w-full text-left" data-viewer-open>
               <figure class="lc-figure" style="aspect-ratio: 4 / 3;">
-                <img src="/assets/img/sala-volumen-6.webp" alt="Vista 6: rincón de la sala con dos piezas de pequeño formato" loading="lazy" decoding="async">
+                <img src="/projects/re-diseno-la-cometa/assets/img/sala-volumen-6.webp" alt="Vista 6: rincón de la sala con dos piezas de pequeño formato" loading="lazy" decoding="async">
               </figure>
               <p class="lc-meta mt-2">06 · Pequeño formato</p>
             </button>
@@ -266,7 +266,7 @@
           <li class="w-[min(88vw,34rem)]">
             <button type="button" class="block w-full text-left" data-viewer-open>
               <figure class="lc-figure" style="aspect-ratio: 4 / 3;">
-                <img src="/assets/img/sala-volumen-7.webp" alt="Vista 7: salida de la sala y última pintura del recorrido" loading="lazy" decoding="async">
+                <img src="/projects/re-diseno-la-cometa/assets/img/sala-volumen-7.webp" alt="Vista 7: salida de la sala y última pintura del recorrido" loading="lazy" decoding="async">
               </figure>
               <p class="lc-meta mt-2">07 · Salida</p>
             </button>
@@ -356,9 +356,9 @@
 
     <ul class="grid gap-x-6 gap-y-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lc-grid-min-0">
       <li class="lc-card lc-card--obra lc-reveal">
-        <a href="/obras/transeunte/" class="block">
+        <a href="/preview/1093" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-            <img src="/assets/img/obra-transeunte.webp" alt="«Transeúnte», óleo sobre lienzo de Dámaxo Henao, 65,5 × 293 cm" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/obra-transeunte.webp" alt="«Transeúnte», óleo sobre lienzo de Dámaxo Henao, 65,5 × 293 cm" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Transeúnte</h3>
         </a>
@@ -366,9 +366,9 @@
         <button type="button" class="lc-link" data-inquire="Transeúnte — Dámaxo Henao">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
       </li>
       <li class="lc-card lc-card--obra lc-reveal">
-        <a href="/obras/" class="block">
+        <a href="/preview/1090" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-            <img src="/assets/img/obra-centinela.webp" alt="«El centinela diurno», óleo sobre lienzo de Dámaxo Henao, 95 × 128,5 cm" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/obra-centinela.webp" alt="«El centinela diurno», óleo sobre lienzo de Dámaxo Henao, 95 × 128,5 cm" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">El centinela diurno</h3>
         </a>
@@ -376,9 +376,9 @@
         <button type="button" class="lc-link" data-inquire="El centinela diurno — Dámaxo Henao">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
       </li>
       <li class="lc-card lc-card--obra lc-reveal">
-        <a href="/obras/" class="block">
+        <a href="/preview/1090" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-            <img src="/assets/img/obra-puerta.webp" alt="«Puerta», óleo sobre lienzo de Dámaxo Henao" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/obra-puerta.webp" alt="«Puerta», óleo sobre lienzo de Dámaxo Henao" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Puerta</h3>
         </a>
@@ -386,9 +386,9 @@
         <button type="button" class="lc-link" data-inquire="Puerta — Dámaxo Henao">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
       </li>
       <li class="lc-card lc-card--obra lc-reveal">
-        <a href="/obras/" class="block">
+        <a href="/preview/1090" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-            <img src="/assets/img/obra-mejores-amigos.webp" alt="«Mejores amigos», óleo sobre lienzo de Dámaxo Henao, 31 × 20 × 3 cm" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/obra-mejores-amigos.webp" alt="«Mejores amigos», óleo sobre lienzo de Dámaxo Henao, 31 × 20 × 3 cm" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Mejores amigos</h3>
         </a>
@@ -396,9 +396,9 @@
         <button type="button" class="lc-link" data-inquire="Mejores amigos — Dámaxo Henao">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
       </li>
       <li class="lc-card lc-card--obra lc-reveal">
-        <a href="/obras/" class="block">
+        <a href="/preview/1090" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-            <img src="/assets/img/obra-torre-ermitano.webp" alt="«La torre del ermitaño», óleo sobre lienzo y madera de Dámaxo Henao, 161,5 × 45,5 × 51 cm" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/obra-torre-ermitano.webp" alt="«La torre del ermitaño», óleo sobre lienzo y madera de Dámaxo Henao, 161,5 × 45,5 × 51 cm" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">La torre del ermitaño</h3>
         </a>
@@ -426,8 +426,8 @@
         <p class="lc-clock__time" data-clock-time>—:—</p>
         <p class="lc-clock__state" data-clock-state>Consultando…</p>
         <div class="flex flex-wrap gap-3 mt-2">
-          <a class="lc-btn" href="/la-galeria/bogota/">Ver la sede</a>
-          <a class="lc-btn lc-btn--ghost" href="/contacto/">Agendar una visita</a>
+          <a class="lc-btn" href="/preview/1091">Ver la sede</a>
+          <a class="lc-btn lc-btn--ghost" href="/preview/1094">Agendar una visita</a>
         </div>
       </div>
     </div>
@@ -471,19 +471,19 @@
     <div>
       <h2 class="lc-caps mb-3">Navegar</h2>
       <ul class="space-y-1 lc-meta">
-        <li><a class="lc-link" href="/exhibiciones/">Exposiciones</a></li>
-        <li><a class="lc-link" href="/artistas/">Artistas</a></li>
-        <li><a class="lc-link" href="/obras/">Obras</a></li>
-        <li><a class="lc-link" href="/ferias/">Ferias</a></li>
-        <li><a class="lc-link" href="/noticias/">Noticias</a></li>
+        <li><a class="lc-link" href="/preview/1088">Exposiciones</a></li>
+        <li><a class="lc-link" href="/preview/1095">Artistas</a></li>
+        <li><a class="lc-link" href="/preview/1090">Obras</a></li>
+        <li><a class="lc-link" href="/preview/1086">Ferias</a></li>
+        <li><a class="lc-link" href="/preview/1087">Noticias</a></li>
       </ul>
     </div>
     <div>
       <h2 class="lc-caps mb-3">Contacto</h2>
       <ul class="space-y-1 lc-meta">
         <li><a class="lc-link" href="mailto:info@galerialacometa.com">info@galerialacometa.com</a></li>
-        <li><a class="lc-link" href="/contacto/">Formulario de contacto</a></li>
-        <li><a class="lc-link" href="/la-galeria/">Sedes y horarios</a></li>
+        <li><a class="lc-link" href="/preview/1094">Formulario de contacto</a></li>
+        <li><a class="lc-link" href="/preview/1091">Sedes y horarios</a></li>
       </ul>
       <p class="lc-meta mt-3">Correo oficial único para todo el sitio y los directorios externos.</p>
     </div>
@@ -549,8 +549,8 @@
 </div>
 
 
-<script src="/assets/js/data.js"></script>
-<script src="/assets/js/main.js"></script>
-<script src="/assets/js/components.js"></script>
+<script src="/projects/re-diseno-la-cometa/assets/js/data.js"></script>
+<script src="/projects/re-diseno-la-cometa/assets/js/main.js"></script>
+<script src="/projects/re-diseno-la-cometa/assets/js/components.js"></script>
 </body>
 </html>

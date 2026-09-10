@@ -24,8 +24,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/styles.css">
-<link rel="icon" href="/assets/LC-Logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/projects/re-diseno-la-cometa/assets/styles.css">
+<link rel="icon" href="/projects/re-diseno-la-cometa/assets/LC-Logo.svg" type="image/svg+xml">
 <script type="application/ld+json">
 {
   "@@context": "https://schema.org",
@@ -176,18 +176,18 @@
 <!-- ================= MASTHEAD (N6) ================= -->
 <header class="lc-masthead">
   <div class="lc-shell lc-masthead__row">
-    <a href="/" aria-label="Galería La Cometa — inicio" class="flex items-center gap-3 shrink-0">
-      <img src="/assets/LC-Logo.svg" alt="" width="112" height="50" class="h-8 w-auto sm:h-9" aria-hidden="true">
+    <a href="/preview/1089" aria-label="Galería La Cometa — inicio" class="flex items-center gap-3 shrink-0">
+      <img src="/projects/re-diseno-la-cometa/assets/LC-Logo.svg" alt="" width="112" height="50" class="h-8 w-auto sm:h-9" aria-hidden="true">
       <span class="sr-only">Galería La Cometa</span>
     </a>
 
     <nav class="lc-masthead__nav" aria-label="Principal">
-      <a class="lc-navlink" href="/exhibiciones/">Exposiciones</a>
-      <a class="lc-navlink" href="/artistas/">Artistas</a>
-      <a class="lc-navlink" href="/obras/">Obras</a>
-      <a class="lc-navlink" href="/ferias/">Ferias</a>
-      <a class="lc-navlink" href="/noticias/">Noticias</a>
-      <a class="lc-navlink" href="/la-galeria/">La galería</a>
+      <a class="lc-navlink" href="/preview/1088">Exposiciones</a>
+      <a class="lc-navlink" href="/preview/1095">Artistas</a>
+      <a class="lc-navlink" href="/preview/1090">Obras</a>
+      <a class="lc-navlink" href="/preview/1086">Ferias</a>
+      <a class="lc-navlink" href="/preview/1087">Noticias</a>
+      <a class="lc-navlink" href="/preview/1091">La galería</a>
     </nav>
 
     <div class="flex items-center gap-1 sm:gap-3 shrink-0">
@@ -238,13 +238,13 @@
       <div class="grid gap-10 md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] mt-12" data-menu-panels>
         <nav aria-label="Secciones del sitio">
           <ul class="space-y-1">
-            <li><a class="lc-megalink" href="/exhibiciones/">Exposiciones</a></li>
-            <li><a class="lc-megalink" href="/artistas/">Artistas</a></li>
-            <li><a class="lc-megalink" href="/obras/">Obras</a></li>
-            <li><a class="lc-megalink" href="/ferias/">Ferias</a></li>
-            <li><a class="lc-megalink" href="/noticias/">Noticias</a></li>
-            <li><a class="lc-megalink" href="/la-galeria/">La galería</a></li>
-            <li><a class="lc-megalink" href="/contacto/">Contacto</a></li>
+            <li><a class="lc-megalink" href="/preview/1088">Exposiciones</a></li>
+            <li><a class="lc-megalink" href="/preview/1095">Artistas</a></li>
+            <li><a class="lc-megalink" href="/preview/1090">Obras</a></li>
+            <li><a class="lc-megalink" href="/preview/1086">Ferias</a></li>
+            <li><a class="lc-megalink" href="/preview/1087">Noticias</a></li>
+            <li><a class="lc-megalink" href="/preview/1091">La galería</a></li>
+            <li><a class="lc-megalink" href="/preview/1094">Contacto</a></li>
           </ul>
         </nav>
 
@@ -252,16 +252,16 @@
           <div>
             <h2 class="lc-caps mb-3">Sedes</h2>
             <ul class="space-y-1 text-lg">
-              <li><a class="lc-link" href="/la-galeria/bogota">Bogotá</a></li>
-              <li><a class="lc-link" href="/la-galeria/medellin">Medellín</a></li>
-              <li><a class="lc-link" href="/la-galeria/miami">Miami</a></li>
-              <li><a class="lc-link" href="/la-galeria/madrid">Madrid</a></li>
-              <li><a class="lc-link" href="/la-galeria/mexico">Ciudad de México</a></li>
+              <li><a class="lc-link" href="/preview/1091">Bogotá</a></li>
+              <li><a class="lc-link" href="/preview/1091">Medellín</a></li>
+              <li><a class="lc-link" href="/preview/1091">Miami</a></li>
+              <li><a class="lc-link" href="/preview/1091">Madrid</a></li>
+              <li><a class="lc-link" href="/preview/1091">Ciudad de México</a></li>
             </ul>
           </div>
           <div>
             <h2 class="lc-caps mb-3">Idioma</h2>
-            <p class="lc-meta"><a class="lc-link" href="/" aria-current="page">Español</a> · <a class="lc-link" href="/en/" hreflang="en" lang="en">English</a></p>
+            <p class="lc-meta"><a class="lc-link" href="/preview/1089" aria-current="page">Español</a> · <a class="lc-link" href="/en/" hreflang="en" lang="en">English</a></p>
           </div>
         </div>
       </div>
@@ -285,7 +285,7 @@
   <!-- Plancha de la exposición vigente -->
   <section class="mt-4" aria-labelledby="ensala-destacada">
     <figure class="lc-figure w-full" style="aspect-ratio: 16 / 9;">
-      <img src="/assets/img/exh-apocalypse.webp"
+      <img src="/projects/re-diseno-la-cometa/assets/img/exh-apocalypse.webp"
            alt="Vista de sala de «Apocalypse now o la fabricación del paraíso» en La Cometa Bogotá: obra colgada en muros blancos bajo luz cenital"
            fetchpriority="high" decoding="async">
     </figure>
@@ -297,8 +297,8 @@
         <p class="lc-meta mt-3">Exposición colectiva · 5 de agosto — 12 de septiembre de 2026</p>
       </div>
       <div class="flex flex-wrap gap-3 md:justify-end">
-        <a class="lc-btn" href="/exhibiciones/bogota/apocalypse-now-o-la-fabricacion-del-paraiso-bogota-2026-es">Ver la exposición</a>
-        <a class="lc-btn lc-btn--ghost" href="/contacto/">Agendar visita</a>
+        <a class="lc-btn" href="/preview/1088">Ver la exposición</a>
+        <a class="lc-btn lc-btn--ghost" href="/preview/1094">Agendar visita</a>
       </div>
     </div>
   </section>
@@ -310,7 +310,7 @@
         <h2 id="h-exposiciones" class="text-[length:var(--text-3xl)]">Exposiciones</h2>
         <p class="lc-meta mt-2 lc-measure">Cada exposición indica sede y estado. El archivo completo vive en una URL propia y paginada.</p>
       </div>
-      <a class="lc-link" href="/exhibiciones/">Ver todas <span class="lc-arrow" aria-hidden="true">→</span></a>
+      <a class="lc-link" href="/preview/1088">Ver todas <span class="lc-arrow" aria-hidden="true">→</span></a>
     </div>
 
     <div class="lc-tabs border-b border-[color:var(--color-rule)] mb-2" role="tablist" aria-label="Estado de las exposiciones">
@@ -322,21 +322,21 @@
     <div id="panel-ensala" role="tabpanel" aria-labelledby="tab-ensala" tabindex="0" class="focus-visible:outline-none">
       <ul>
         <li>
-          <a class="lc-index__row" href="/exhibiciones/bogota/apocalypse-now-o-la-fabricacion-del-paraiso-bogota-2026-es">
+          <a class="lc-index__row" href="/preview/1088">
             <span class="lc-caps">Bogotá</span>
             <span class="lc-card__title">Apocalypse now o la fabricación del paraíso</span>
             <span class="lc-meta">Exposición colectiva</span>
             <span class="lc-meta md:text-right">05.08 — 12.09.2026</span>
-            <img class="lc-index__peek" src="/assets/img/exh-apocalypse.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            <img class="lc-index__peek" src="/projects/re-diseno-la-cometa/assets/img/exh-apocalypse.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
           </a>
         </li>
         <li>
-          <a class="lc-index__row" href="/exhibiciones/bogota/el-volumen-que-toco-la-luz-damaxo-henao-es">
+          <a class="lc-index__row" href="/preview/1085">
             <span class="lc-caps">Bogotá</span>
             <span class="lc-card__title">El volumen que tocó la luz</span>
             <span class="lc-meta">Dámaxo Henao</span>
             <span class="lc-meta md:text-right">05.08 — 12.09.2026</span>
-            <img class="lc-index__peek" src="/assets/img/exh-volumen.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            <img class="lc-index__peek" src="/projects/re-diseno-la-cometa/assets/img/exh-volumen.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
           </a>
         </li>
       </ul>
@@ -345,57 +345,57 @@
     <div id="panel-programa" role="tabpanel" aria-labelledby="tab-programa" tabindex="0" hidden>
       <ul>
         <li>
-          <a class="lc-index__row" href="/exhibiciones/madrid/adam-goldstein-2026-madrid-parar-el-mundo-es">
+          <a class="lc-index__row" href="/preview/1088">
             <span class="lc-caps">Madrid</span>
             <span class="lc-card__title">Parar el mundo</span>
             <span class="lc-meta">Adam Goldstein</span>
             <span class="lc-meta md:text-right" title="Fechas pendientes de confirmar en Expressia">Fechas —</span>
-            <img class="lc-index__peek" src="/assets/img/exh-goldstein.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            <img class="lc-index__peek" src="/projects/re-diseno-la-cometa/assets/img/exh-goldstein.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
           </a>
         </li>
         <li>
-          <a class="lc-index__row" href="/exhibiciones/madrid/pensamiento-magico-el-a%C3%B1o-entrante-es">
+          <a class="lc-index__row" href="/preview/1088">
             <span class="lc-caps">Madrid</span>
             <span class="lc-card__title">Pensamiento mágico · El año entrante</span>
             <span class="lc-meta">Alejandro Ospina</span>
             <span class="lc-meta md:text-right" title="Fechas pendientes de confirmar en Expressia">Fechas —</span>
-            <img class="lc-index__peek" src="/assets/img/exh-ospina.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            <img class="lc-index__peek" src="/projects/re-diseno-la-cometa/assets/img/exh-ospina.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
           </a>
         </li>
         <li>
-          <a class="lc-index__row" href="/exhibiciones/miami/zhivago-duncan-delectable-garden-es">
+          <a class="lc-index__row" href="/preview/1088">
             <span class="lc-caps">Miami</span>
             <span class="lc-card__title">Delectable Garden</span>
             <span class="lc-meta">Zhivago Duncan</span>
             <span class="lc-meta md:text-right" title="Fechas pendientes de confirmar en Expressia">Fechas —</span>
-            <img class="lc-index__peek" src="/assets/img/exh-zhivago.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            <img class="lc-index__peek" src="/projects/re-diseno-la-cometa/assets/img/exh-zhivago.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
           </a>
         </li>
         <li>
-          <a class="lc-index__row" href="/exhibiciones/medellin/asicaz-monzon-envoltorios-es">
+          <a class="lc-index__row" href="/preview/1088">
             <span class="lc-caps">Medellín</span>
             <span class="lc-card__title">Envoltorios</span>
             <span class="lc-meta">Asicaz Monzón</span>
             <span class="lc-meta md:text-right" title="Fechas pendientes de confirmar en Expressia">Fechas —</span>
-            <img class="lc-index__peek" src="/assets/img/exh-asicaz.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            <img class="lc-index__peek" src="/projects/re-diseno-la-cometa/assets/img/exh-asicaz.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
           </a>
         </li>
         <li>
-          <a class="lc-index__row" href="/exhibiciones/bogota/veronica-lehner-de-ruidos-desbordes-y-otras-fricciones-2026-es">
+          <a class="lc-index__row" href="/preview/1088">
             <span class="lc-caps">Bogotá</span>
             <span class="lc-card__title">De ruidos, desbordes y otras fricciones</span>
             <span class="lc-meta">Verónica Lehner</span>
             <span class="lc-meta md:text-right" title="Fechas pendientes de confirmar en Expressia">Fechas —</span>
-            <img class="lc-index__peek" src="/assets/img/exh-lehner.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            <img class="lc-index__peek" src="/projects/re-diseno-la-cometa/assets/img/exh-lehner.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
           </a>
         </li>
         <li>
-          <a class="lc-index__row" href="/exhibiciones/madrid/maria-fernanda-cardoso-ara%C3%B1as-del-paraiso-es">
+          <a class="lc-index__row" href="/preview/1088">
             <span class="lc-caps">Madrid</span>
             <span class="lc-card__title">Arañas del paraíso</span>
             <span class="lc-meta">María Fernanda Cardoso</span>
             <span class="lc-meta md:text-right" title="Fechas pendientes de confirmar en Expressia">Fechas —</span>
-            <img class="lc-index__peek" src="/assets/img/exh-cardoso.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            <img class="lc-index__peek" src="/projects/re-diseno-la-cometa/assets/img/exh-cardoso.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
           </a>
         </li>
       </ul>
@@ -406,7 +406,7 @@
       <p class="lc-meta py-8 lc-measure">
         El archivo histórico se navega por año en una URL propia e indexable, no por scroll infinito.
       </p>
-      <a class="lc-btn lc-btn--ghost" href="/exhibiciones/archivo/">Abrir el archivo por año</a>
+      <a class="lc-btn lc-btn--ghost" href="/preview/1088">Abrir el archivo por año</a>
     </div>
   </section>
 
@@ -414,7 +414,7 @@
   <section class="lc-band lc-band--quiet" aria-labelledby="h-destacado">
     <div class="lc-shell grid gap-8 lg:grid-cols-[minmax(0,3fr)_minmax(0,2fr)] lg:items-center">
       <figure class="lc-figure lc-reveal" style="aspect-ratio: 3 / 2;">
-        <img src="/assets/img/artista-damaxo.webp"
+        <img src="/projects/re-diseno-la-cometa/assets/img/artista-damaxo.webp"
              alt="Obra de Dámaxo Henao de la exposición «El volumen que tocó la luz»" loading="lazy" decoding="async">
       </figure>
       <div class="lc-reveal">
@@ -425,8 +425,8 @@
           Su exposición <em>El volumen que tocó la luz</em> está en sala en Bogotá hasta el 12 de septiembre de 2026.
         </p>
         <div class="mt-6 flex flex-wrap gap-3">
-          <a class="lc-btn" href="/artistas/damaxo-henao-es">Ver al artista</a>
-          <a class="lc-btn lc-btn--ghost" href="/exhibiciones/bogota/el-volumen-que-toco-la-luz-damaxo-henao-es">Ver la exposición</a>
+          <a class="lc-btn" href="/preview/1092">Ver al artista</a>
+          <a class="lc-btn lc-btn--ghost" href="/preview/1085">Ver la exposición</a>
         </div>
       </div>
     </div>
@@ -451,72 +451,72 @@
 
     <ul class="grid gap-x-6 gap-y-10 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lc-grid-min-0" data-artist-grid>
       <li class="lc-card lc-reveal" data-letter="A">
-        <a href="/artistas/adam-goldstein-es" class="block group">
+        <a href="/preview/1095" class="block group">
           <figure class="lc-figure" style="aspect-ratio: 3 / 4;">
-            <img src="/assets/img/artista-adam-goldstein.webp" alt="Retrato del artista Adam Goldstein" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/artista-adam-goldstein.webp" alt="Retrato del artista Adam Goldstein" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Adam Goldstein</h3>
           <p class="lc-meta">Colombia · Pintura</p>
         </a>
       </li>
       <li class="lc-card lc-reveal" data-letter="A">
-        <a href="/artistas/adrian-gaitan-es" class="block">
+        <a href="/preview/1095" class="block">
           <figure class="lc-figure" style="aspect-ratio: 3 / 4;">
-            <img src="/assets/img/artista-adrian-gaitan.webp" alt="Retrato del artista Adrián Gaitán" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/artista-adrian-gaitan.webp" alt="Retrato del artista Adrián Gaitán" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Adrián Gaitán</h3>
           <p class="lc-meta">Colombia · Ensamblaje</p>
         </a>
       </li>
       <li class="lc-card lc-reveal" data-letter="A">
-        <a href="/artistas/alejandro-ospina-es" class="block">
+        <a href="/preview/1095" class="block">
           <figure class="lc-figure" style="aspect-ratio: 3 / 4;">
-            <img src="/assets/img/artista-alejandro-ospina.webp" alt="Retrato del artista Alejandro Ospina" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/artista-alejandro-ospina.webp" alt="Retrato del artista Alejandro Ospina" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Alejandro Ospina</h3>
           <p class="lc-meta">Colombia · Pintura</p>
         </a>
       </li>
       <li class="lc-card lc-reveal" data-letter="A">
-        <a href="/artistas/alejandro-sanchez-es" class="block">
+        <a href="/preview/1095" class="block">
           <figure class="lc-figure" style="aspect-ratio: 3 / 4;">
-            <img src="/assets/img/artista-alejandro-sanchez.webp" alt="Retrato del artista Alejandro Sánchez" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/artista-alejandro-sanchez.webp" alt="Retrato del artista Alejandro Sánchez" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Alejandro Sánchez</h3>
           <p class="lc-meta">Colombia · Escultura</p>
         </a>
       </li>
       <li class="lc-card lc-reveal" data-letter="C">
-        <a href="/artistas/camilo-restrepo-es" class="block">
+        <a href="/preview/1095" class="block">
           <figure class="lc-figure" style="aspect-ratio: 3 / 4;">
-            <img src="/assets/img/artista-camilo-restrepo.webp" alt="Retrato del artista Camilo Restrepo" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/artista-camilo-restrepo.webp" alt="Retrato del artista Camilo Restrepo" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Camilo Restrepo</h3>
           <p class="lc-meta">Colombia · Dibujo</p>
         </a>
       </li>
       <li class="lc-card lc-reveal" data-letter="C">
-        <a href="/artistas/carlos-castro-es" class="block">
+        <a href="/preview/1095" class="block">
           <figure class="lc-figure" style="aspect-ratio: 3 / 4;">
-            <img src="/assets/img/artista-carlos-castro.webp" alt="Retrato del artista Carlos Castro" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/artista-carlos-castro.webp" alt="Retrato del artista Carlos Castro" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Carlos Castro</h3>
           <p class="lc-meta">Colombia</p>
         </a>
       </li>
       <li class="lc-card lc-reveal" data-letter="D">
-        <a href="/artistas/daniel-nystrom-es" class="block">
+        <a href="/preview/1095" class="block">
           <figure class="lc-figure" style="aspect-ratio: 3 / 4;">
-            <img src="/assets/img/artista-daniel-nystrom.webp" alt="Retrato del artista Daniel Nyström" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/artista-daniel-nystrom.webp" alt="Retrato del artista Daniel Nyström" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Daniel Nyström</h3>
           <p class="lc-meta">Suecia</p>
         </a>
       </li>
       <li class="lc-card lc-reveal" data-letter="F">
-        <a href="/artistas/fernando-pinto-es" class="block">
+        <a href="/preview/1095" class="block">
           <figure class="lc-figure" style="aspect-ratio: 3 / 4;">
-            <img src="/assets/img/artista-fernando-pinto.webp" alt="Retrato del artista Fernando Pinto" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/artista-fernando-pinto.webp" alt="Retrato del artista Fernando Pinto" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Fernando Pinto</h3>
           <p class="lc-meta">Colombia · Escultura</p>
@@ -531,7 +531,7 @@
       <p class="lc-meta">Página 1 del listado</p>
       <div class="flex gap-3">
         <a class="lc-btn lc-btn--ghost" href="/artistas/?page=2" rel="next">Página 2</a>
-        <a class="lc-btn lc-btn--ghost" href="/artistas/">Ver todos</a>
+        <a class="lc-btn lc-btn--ghost" href="/preview/1095">Ver todos</a>
       </div>
     </nav>
   </section>
@@ -543,14 +543,14 @@
         <h2 id="h-obras" class="text-[length:var(--text-3xl)]">Obra disponible</h2>
         <p class="lc-meta mt-2 lc-measure">Ficha técnica completa a la vista y consulta directa por pieza, sin pasar por un formulario genérico.</p>
       </div>
-      <a class="lc-link" href="/obras/">Ver todas las obras <span class="lc-arrow" aria-hidden="true">→</span></a>
+      <a class="lc-link" href="/preview/1090">Ver todas las obras <span class="lc-arrow" aria-hidden="true">→</span></a>
     </div>
 
     <ul class="grid gap-x-6 gap-y-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lc-grid-min-0" data-obras>
       <li class="lc-card lc-card--obra lc-reveal">
-        <a href="/obras/" class="block">
+        <a href="/preview/1090" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-            <img src="/assets/img/obra-1.webp" alt="«Corte en el ojo», acrílico sobre lienzo de Miguel Ángel Rojas, 1991" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/obra-1.webp" alt="«Corte en el ojo», acrílico sobre lienzo de Miguel Ángel Rojas, 1991" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Corte en el ojo</h3>
         </a>
@@ -559,9 +559,9 @@
         <button type="button" class="lc-link" data-inquire="Corte en el ojo — Miguel Ángel Rojas">Consultar por esta obra <span class="lc-arrow" aria-hidden="true">→</span></button>
       </li>
       <li class="lc-card lc-card--obra lc-reveal">
-        <a href="/obras/" class="block">
+        <a href="/preview/1090" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-            <img src="/assets/img/obra-3.webp" alt="«Aparición (San Sebastián, Mattia Preti)» de Adrián Gaitán, aceite quemado de motor sobre madera reciclada, 2022" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/obra-3.webp" alt="«Aparición (San Sebastián, Mattia Preti)» de Adrián Gaitán, aceite quemado de motor sobre madera reciclada, 2022" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Aparición (San Sebastián, Mattia Preti)</h3>
         </a>
@@ -570,9 +570,9 @@
         <button type="button" class="lc-link" data-inquire="Aparición (San Sebastián, Mattia Preti) — Adrián Gaitán">Consultar por esta obra <span class="lc-arrow" aria-hidden="true">→</span></button>
       </li>
       <li class="lc-card lc-card--obra lc-reveal">
-        <a href="/obras/" class="block">
+        <a href="/preview/1090" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-            <img src="/assets/img/obra-5.webp" alt="«Elliptic Space II», óleo sobre lienzo de Adam Goldstein, 2024" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/obra-5.webp" alt="«Elliptic Space II», óleo sobre lienzo de Adam Goldstein, 2024" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Elliptic Space II</h3>
         </a>
@@ -581,9 +581,9 @@
         <button type="button" class="lc-link" data-inquire="Elliptic Space II — Adam Goldstein">Consultar por esta obra <span class="lc-arrow" aria-hidden="true">→</span></button>
       </li>
       <li class="lc-card lc-card--obra lc-reveal">
-        <a href="/obras/" class="block">
+        <a href="/preview/1090" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-            <img src="/assets/img/obra-6.webp" alt="«Ruru Layu», escultura en piedra Sol negro de Fernando Pinto, 2024" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/obra-6.webp" alt="«Ruru Layu», escultura en piedra Sol negro de Fernando Pinto, 2024" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Ruru Layu</h3>
         </a>
@@ -601,12 +601,12 @@
         <h2 id="h-ferias" class="text-[length:var(--text-3xl)]">Ferias</h2>
         <p class="lc-meta mt-2 lc-measure">Línea de tiempo por año, con la próxima participación al frente.</p>
       </div>
-      <a class="lc-link" href="/ferias/">Ver el historial completo <span class="lc-arrow" aria-hidden="true">→</span></a>
+      <a class="lc-link" href="/preview/1086">Ver el historial completo <span class="lc-arrow" aria-hidden="true">→</span></a>
     </div>
 
     <ol class="border-t border-[color:var(--color-rule)]">
       <li>
-        <a class="lc-index__row" href="/ferias/">
+        <a class="lc-index__row" href="/preview/1086">
           <span class="lc-caps">2026</span>
           <span class="lc-card__title">ARCO Madrid 2026</span>
           <span class="lc-meta">Madrid</span>
@@ -614,7 +614,7 @@
         </a>
       </li>
       <li>
-        <a class="lc-index__row" href="/ferias/">
+        <a class="lc-index__row" href="/preview/1086">
           <span class="lc-caps">2026</span>
           <span class="lc-card__title">Zona Maco 2026</span>
           <span class="lc-meta">Ciudad de México</span>
@@ -622,7 +622,7 @@
         </a>
       </li>
       <li>
-        <a class="lc-index__row" href="/ferias/">
+        <a class="lc-index__row" href="/preview/1086">
           <span class="lc-caps">2025</span>
           <span class="lc-card__title">Untitled Art 2025</span>
           <span class="lc-meta">Miami</span>
@@ -630,7 +630,7 @@
         </a>
       </li>
       <li>
-        <a class="lc-index__row" href="/ferias/">
+        <a class="lc-index__row" href="/preview/1086">
           <span class="lc-caps">2025</span>
           <span class="lc-card__title">ArtBo 2025</span>
           <span class="lc-meta">Bogotá</span>
@@ -647,41 +647,41 @@
         <h2 id="h-noticias" class="text-[length:var(--text-3xl)]">Noticias</h2>
         <p class="lc-meta mt-2 lc-measure">La fuente de contenido más viva del sitio, ahora con acceso directo desde el menú y categorías propias.</p>
       </div>
-      <a class="lc-link" href="/noticias/">Ver todas las noticias <span class="lc-arrow" aria-hidden="true">→</span></a>
+      <a class="lc-link" href="/preview/1087">Ver todas las noticias <span class="lc-arrow" aria-hidden="true">→</span></a>
     </div>
 
     <ul class="grid gap-x-6 gap-y-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lc-grid-min-0">
       <li class="lc-card lc-reveal">
-        <a href="/noticias/un-paso-en-mexico-marek-y-anuar-maauad-divino-engano-es" class="block">
+        <a href="/preview/1087" class="block">
           <figure class="lc-figure" style="aspect-ratio: 4 / 3;">
-            <img src="/assets/img/noticia-1.webp" alt="Vista de la muestra «Divino Engaño» de Marek Wolfryd y Anuar Maauad" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/noticia-1.webp" alt="Vista de la muestra «Divino Engaño» de Marek Wolfryd y Anuar Maauad" loading="lazy" decoding="async">
           </figure>
           <p class="lc-caps mt-3">Exposiciones</p>
           <h3 class="lc-card__title mt-1">Un paso en México: Marek Wolfryd y Anuar Maauad, «Divino Engaño»</h3>
         </a>
       </li>
       <li class="lc-card lc-reveal">
-        <a href="/noticias/mexico-ahora-mas-cerca" class="block">
+        <a href="/preview/1084" class="block">
           <figure class="lc-figure" style="aspect-ratio: 4 / 3;">
-            <img src="/assets/img/noticia-2.webp" alt="Nueva sede de La Cometa en Ciudad de México" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/noticia-2.webp" alt="Nueva sede de La Cometa en Ciudad de México" loading="lazy" decoding="async">
           </figure>
           <p class="lc-caps mt-3">Galería</p>
           <h3 class="lc-card__title mt-1">México, ahora más cerca</h3>
         </a>
       </li>
       <li class="lc-card lc-reveal">
-        <a href="/noticias/a-new-representation-luis-fernando-roldan-es" class="block">
+        <a href="/preview/1087" class="block">
           <figure class="lc-figure" style="aspect-ratio: 4 / 3;">
-            <img src="/assets/img/noticia-3.webp" alt="Obra de Luis Fernando Roldán" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/noticia-3.webp" alt="Obra de Luis Fernando Roldán" loading="lazy" decoding="async">
           </figure>
           <p class="lc-caps mt-3">Artistas</p>
           <h3 class="lc-card__title mt-1">Una nueva representación · Luis Fernando Roldán</h3>
         </a>
       </li>
       <li class="lc-card lc-reveal">
-        <a href="/noticias/alejandro-ospina-en-the-long-now-saatchi-gallery-at-40-es" class="block">
+        <a href="/preview/1087" class="block">
           <figure class="lc-figure" style="aspect-ratio: 4 / 3;">
-            <img src="/assets/img/noticia-4.webp" alt="Obra de Alejandro Ospina en la muestra The Long Now, Saatchi Gallery" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/noticia-4.webp" alt="Obra de Alejandro Ospina en la muestra The Long Now, Saatchi Gallery" loading="lazy" decoding="async">
           </figure>
           <p class="lc-caps mt-3">Prensa</p>
           <h3 class="lc-card__title mt-1">Alejandro Ospina en «The Long Now: Saatchi Gallery at 40»</h3>
@@ -699,11 +699,11 @@
       </div>
     </div>
     <ul class="grid gap-x-6 gap-y-8 grid-cols-2 lg:grid-cols-5 lc-grid-min-0 border-t border-[color:var(--color-rule)] pt-8">
-      <li><h3 class="lc-card__title">Bogotá</h3><p class="lc-meta mt-1">Colombia</p><a class="lc-link mt-2" href="/la-galeria/bogota">Ver sede</a></li>
-      <li><h3 class="lc-card__title">Medellín</h3><p class="lc-meta mt-1">Colombia</p><a class="lc-link mt-2" href="/la-galeria/medellin">Ver sede</a></li>
-      <li><h3 class="lc-card__title">Miami</h3><p class="lc-meta mt-1">Estados Unidos</p><a class="lc-link mt-2" href="/la-galeria/miami">Ver sede</a></li>
-      <li><h3 class="lc-card__title">Madrid</h3><p class="lc-meta mt-1">España</p><a class="lc-link mt-2" href="/la-galeria/madrid">Ver sede</a></li>
-      <li><h3 class="lc-card__title">Ciudad de México</h3><p class="lc-meta mt-1">México</p><a class="lc-link mt-2" href="/la-galeria/mexico">Ver sede</a></li>
+      <li><h3 class="lc-card__title">Bogotá</h3><p class="lc-meta mt-1">Colombia</p><a class="lc-link mt-2" href="/preview/1091">Ver sede</a></li>
+      <li><h3 class="lc-card__title">Medellín</h3><p class="lc-meta mt-1">Colombia</p><a class="lc-link mt-2" href="/preview/1091">Ver sede</a></li>
+      <li><h3 class="lc-card__title">Miami</h3><p class="lc-meta mt-1">Estados Unidos</p><a class="lc-link mt-2" href="/preview/1091">Ver sede</a></li>
+      <li><h3 class="lc-card__title">Madrid</h3><p class="lc-meta mt-1">España</p><a class="lc-link mt-2" href="/preview/1091">Ver sede</a></li>
+      <li><h3 class="lc-card__title">Ciudad de México</h3><p class="lc-meta mt-1">México</p><a class="lc-link mt-2" href="/preview/1091">Ver sede</a></li>
     </ul>
   </section>
 
@@ -754,19 +754,19 @@
     <div>
       <h2 class="lc-caps mb-3">Navegar</h2>
       <ul class="space-y-1 lc-meta">
-        <li><a class="lc-link" href="/exhibiciones/">Exposiciones</a></li>
-        <li><a class="lc-link" href="/artistas/">Artistas</a></li>
-        <li><a class="lc-link" href="/obras/">Obras</a></li>
-        <li><a class="lc-link" href="/ferias/">Ferias</a></li>
-        <li><a class="lc-link" href="/noticias/">Noticias</a></li>
+        <li><a class="lc-link" href="/preview/1088">Exposiciones</a></li>
+        <li><a class="lc-link" href="/preview/1095">Artistas</a></li>
+        <li><a class="lc-link" href="/preview/1090">Obras</a></li>
+        <li><a class="lc-link" href="/preview/1086">Ferias</a></li>
+        <li><a class="lc-link" href="/preview/1087">Noticias</a></li>
       </ul>
     </div>
     <div>
       <h2 class="lc-caps mb-3">Contacto</h2>
       <ul class="space-y-1 lc-meta">
         <li><a class="lc-link" href="mailto:info@galerialacometa.com">info@galerialacometa.com</a></li>
-        <li><a class="lc-link" href="/contacto/">Formulario de contacto</a></li>
-        <li><a class="lc-link" href="/la-galeria/">Sedes y horarios</a></li>
+        <li><a class="lc-link" href="/preview/1094">Formulario de contacto</a></li>
+        <li><a class="lc-link" href="/preview/1091">Sedes y horarios</a></li>
       </ul>
       <p class="lc-meta mt-3">Correo oficial único para todo el sitio y los directorios externos.</p>
     </div>
@@ -832,8 +832,8 @@
 </div>
 
 
-<script src="/assets/js/data.js"></script>
-<script src="/assets/js/main.js"></script>
-<script src="/assets/js/components.js"></script>
+<script src="/projects/re-diseno-la-cometa/assets/js/data.js"></script>
+<script src="/projects/re-diseno-la-cometa/assets/js/main.js"></script>
+<script src="/projects/re-diseno-la-cometa/assets/js/components.js"></script>
 </body>
 </html>
