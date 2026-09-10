@@ -378,7 +378,7 @@
 
   /* La obra nunca se recorta: se contiene sobre fondo de cal. */
   .lc-figure--obra { background: var(--color-paper-2); }
-  .lc-figure--obra img { object-fit: contain; padding: var(--space-md); }
+  .lc-figure.lc-figure--obra img { object-fit: contain; padding: var(--space-md); }
 
   .lc-figure img {
     width: 100%;
@@ -1025,4 +1025,210 @@
 
   [data-artist-grid][data-view="lista"] a:hover .lc-hive__name,
   [data-artist-grid][data-view="lista"] a:hover .lc-hive__meta { color: var(--color-ink); }
+}
+
+/* ===========================================================================
+ * Capa de movimiento — «la sala respira»
+ *
+ * La dirección es sala blanca: el movimiento no puede competir con la obra.
+ * Todo lo que se mueve aquí o bien acompaña al scroll (paralaje corto, la obra
+ * llega antes que su marco) o bien confirma una acción del visitante. Nada
+ * rebota, nada gira, nada se mueve solo en bucle salvo el riel de sedes.
+ * Todo se apaga con prefers-reduced-motion.
+ * ======================================================================== */
+@layer components {
+
+  /* ---- Telón de entrada --------------------------------------------------
+   * Una lámina de papel que se retira hacia arriba la primera vez que se abre
+   * el sitio en la sesión. Es la puerta de la galería, no un preloader: no
+   * espera a nada, dura 700 ms y no vuelve a aparecer. */
+  .lc-curtain {
+    position: fixed;
+    inset: 0;
+    z-index: 200;
+    background: var(--color-paper);
+    display: grid;
+    place-items: center;
+    transform-origin: top center;
+    animation: lc-curtain-up 780ms var(--ease-out) 120ms forwards;
+  }
+  .lc-curtain__mark {
+    font-family: var(--font-display);
+    font-size: clamp(1.5rem, 5vw, 2.75rem);
+    letter-spacing: -0.02em;
+    color: var(--color-ink);
+    opacity: 0;
+    animation: lc-curtain-mark 780ms var(--ease-out) forwards;
+  }
+  @keyframes lc-curtain-mark {
+    0%   { opacity: 0; transform: translateY(8px); }
+    35%  { opacity: 1; transform: none; }
+    100% { opacity: 0; transform: translateY(-8px); }
+  }
+  @keyframes lc-curtain-up {
+    to { transform: translateY(-101%); }
+  }
+
+  /* ---- Barra de avance de lectura ---------------------------------------- */
+  .lc-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    z-index: 60;
+    transform: scaleX(var(--lc-progress, 0));
+    transform-origin: left center;
+    background: var(--color-ink);
+    pointer-events: none;
+  }
+
+  /* ---- Masthead que se retira al bajar ----------------------------------- */
+  .lc-masthead {
+    transition: transform var(--dur-base) var(--ease-out),
+      box-shadow var(--dur-base) var(--ease-out);
+  }
+  .lc-masthead[data-pinned="off"] { transform: translateY(-100%); }
+  .lc-masthead[data-scrolled="1"] { box-shadow: 0 1px 0 var(--color-rule); }
+
+  /* ---- Títulos que suben por línea, detrás de su propio filete ------------ */
+  .lc-lines { display: block; }
+  .lc-lines__line { display: block; overflow: hidden; }
+  .lc-lines__inner {
+    display: block;
+    transform: translateY(110%);
+    transition: transform 820ms var(--ease-out);
+  }
+  .lc-lines.is-in .lc-lines__inner { transform: none; }
+  .lc-lines.is-in .lc-lines__line:nth-child(2) .lc-lines__inner { transition-delay: 70ms; }
+  .lc-lines.is-in .lc-lines__line:nth-child(3) .lc-lines__inner { transition-delay: 140ms; }
+  .lc-lines.is-in .lc-lines__line:nth-child(n+4) .lc-lines__inner { transition-delay: 210ms; }
+
+  /* ---- Revelado escalonado ------------------------------------------------ */
+  .lc-reveal { transition-delay: var(--lc-delay, 0ms); }
+
+  /* ---- Obra que se descubre: la imagen entra antes que su marco ----------- */
+  .lc-unveil { overflow: hidden; }
+  .lc-unveil > img,
+  .lc-unveil > picture > img {
+    clip-path: inset(0 0 100% 0);
+    transform: scale(1.06);
+    transition: clip-path 900ms var(--ease-out), transform 1200ms var(--ease-out);
+  }
+  .lc-unveil.is-in > img,
+  .lc-unveil.is-in > picture > img {
+    clip-path: inset(0 0 0 0);
+    transform: none;
+  }
+
+  /* ---- Paralaje corto -----------------------------------------------------
+   * El desplazamiento lo calcula el JS y lo escribe en --lc-shift. El tope es
+   * deliberadamente bajo: en una galería la obra no se despega del muro. */
+  [data-parallax] { will-change: transform; }
+  [data-parallax] > img,
+  [data-parallax] > picture > img {
+    transform: translate3d(0, var(--lc-shift, 0px), 0) scale(1.12);
+    transition: none;
+  }
+
+  /* ---- Microinteracciones ------------------------------------------------- */
+  .lc-link {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 0% var(--rule-hair, 1px);
+    transition: background-size var(--dur-base) var(--ease-out),
+      color var(--dur-fast) var(--ease-out);
+  }
+  .lc-link:hover,
+  .lc-link:focus-visible { background-size: 100% var(--rule-hair, 1px); }
+
+  .lc-btn {
+    transition: transform var(--dur-fast) var(--ease-out),
+      background-color var(--dur-fast) var(--ease-out),
+      color var(--dur-fast) var(--ease-out),
+      border-color var(--dur-fast) var(--ease-out);
+  }
+  .lc-btn:active { transform: translateY(1px); }
+
+  .lc-navlink { position: relative; }
+  .lc-navlink::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    height: var(--rule-hair);
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: right center;
+    transition: transform var(--dur-base) var(--ease-out);
+  }
+  .lc-navlink:hover::after,
+  .lc-navlink:focus-visible::after,
+  .lc-navlink[aria-current="page"]::after { transform: scaleX(1); transform-origin: left center; }
+
+  /* La cartela de la tarjeta sube un punto cuando el cursor entra en la obra */
+  .lc-card__title { transition: transform var(--dur-base) var(--ease-out); }
+  .lc-card:hover .lc-card__title,
+  .lc-card:focus-within .lc-card__title { transform: translateY(-2px); }
+
+  /* ---- Punto de sala: el cursor deja un halo sobre lo interactivo --------- */
+  .lc-dot {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: var(--rule-hair) solid var(--color-ink);
+    pointer-events: none;
+    z-index: 150;
+    opacity: 0;
+    transform: translate3d(var(--lc-x, 0), var(--lc-y, 0), 0) translate(-50%, -50%) scale(1);
+    transition: opacity var(--dur-base) var(--ease-out),
+      width var(--dur-base) var(--ease-out),
+      height var(--dur-base) var(--ease-out),
+      background-color var(--dur-base) var(--ease-out);
+  }
+  .lc-dot.is-on { opacity: 1; }
+  .lc-dot.is-hot {
+    width: 40px;
+    height: 40px;
+    background: color-mix(in oklab, var(--color-ink) 8%, transparent);
+  }
+
+  /* ---- Riel de sedes que corre despacio ---------------------------------- */
+  .lc-ticker { overflow: hidden; }
+  .lc-ticker__track {
+    display: inline-flex;
+    gap: var(--space-lg);
+    white-space: nowrap;
+    animation: lc-ticker 38s linear infinite;
+  }
+  .lc-ticker:hover .lc-ticker__track { animation-play-state: paused; }
+  @keyframes lc-ticker { to { transform: translateX(-50%); } }
+}
+
+@layer utilities {
+  /* Transición entre páginas donde el navegador la soporta. Va en utilities
+   * para que gane a cualquier regla previa de la vista. */
+  @media (prefers-reduced-motion: no-preference) {
+    ::view-transition-old(root) { animation: lc-fade-out 220ms var(--ease-out) both; }
+    ::view-transition-new(root) { animation: lc-fade-in 320ms var(--ease-out) both; }
+  }
+  @keyframes lc-fade-out { to { opacity: 0; } }
+  @keyframes lc-fade-in { from { opacity: 0; transform: translateY(8px); } }
+
+  @media (prefers-reduced-motion: reduce) {
+    .lc-curtain { display: none; }
+    .lc-dot { display: none; }
+    .lc-lines__inner { transform: none; transition: none; }
+    .lc-unveil > img,
+    .lc-unveil > picture > img { clip-path: none; transform: none; transition: none; }
+    [data-parallax] > img,
+    [data-parallax] > picture > img { transform: none; }
+    .lc-ticker__track { animation: none; }
+    .lc-masthead[data-pinned="off"] { transform: none; }
+  }
 }
