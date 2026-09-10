@@ -1,0 +1,13 @@
+{
+    "files": [
+        {
+            "filename": "project.md",
+            "name": "Core",
+            "hierarchy": "core",
+            "colour": "blue",
+            "source": "user",
+            "connections": []
+        }
+    ],
+    "context_pins": []
+}
