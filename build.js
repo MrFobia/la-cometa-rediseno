@@ -86,7 +86,12 @@ ${partial("footer")}
 function toBlade(html, meta) {
   return html
     .replace(/"@(context|type|id|graph)"/g, '"@@$1"')
-    .replace(/\/dist\/styles\.css/g, ASSET_BASE + "/assets/styles.css")
+    /* La plataforma sirve el .css como text/plain y manda nosniff, así que el
+     * navegador descarta la hoja enlazada: va incrustada. @verbatim evita que
+     * Blade se coma el @layer y las @media del CSS. El JS y las imágenes sí
+     * salen con su content-type correcto y quedan enlazados. */
+    .replace(/<link rel="stylesheet" href="\/dist\/styles\.css">/,
+      "@verbatim<style>" + fs.readFileSync(path.join(ROOT, "dist", "styles.css"), "utf8") + "</style>@endverbatim")
     .replace(/\/js\//g, ASSET_BASE + "/assets/js/")
     .replace(/(src|href|content)="\/assets\//g, '$1="' + ASSET_BASE + '/assets/')
     .replace(/url\(\/assets\//g, "url(" + ASSET_BASE + "/assets/")
