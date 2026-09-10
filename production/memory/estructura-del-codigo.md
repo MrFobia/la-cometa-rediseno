@@ -6,7 +6,7 @@ Source: observed
 verdad editable**; `production/views/*.blade.php` son salida compuesta por `build.js`. Editar una
 vista `.blade.php` a mano se pierde en la próxima corrida del build: el cambio va en `src/`. Los
 assets viven en `assets/` en la raíz y se espejan a `production/views/assets/` (44 imágenes `.webp`,
-`LC-Logo.svg`, `assets/js/{main,components,data}.js`, `assets/styles.css`).
+`LC-Logo.svg`, `assets/js/{data,main,components,motion}.js`, `assets/styles.css`).
 
 ## References
 
@@ -16,4 +16,5 @@ assets viven en `assets/` en la raíz y se espejan a `production/views/assets/` 
 - [Las vistas NO usan el CDN de Tailwind](./tailwind-compilado-no-cdn.md)
 - [Los assets en el preview](./assets-en-el-preview.md)
 - [Los links internos y preview-ids.json](./links-preview-ids.md)
+- [La capa de movimiento](./capa-de-movimiento.md)
 <!-- backbone:memory-references -->

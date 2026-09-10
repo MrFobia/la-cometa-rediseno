@@ -8,12 +8,13 @@ estático en la raíz del repo y las `.blade.php` en `production/views/`. `npm r
 `css:build` (Tailwind CLI → `dist/styles.css`), `assets:sync` (copia a `assets/` y espeja
 `production/views/assets/`) y `pages`. `tokens.css` es el sistema de diseño portable — paleta en
 `oklch`, tema "Sala blanca", display **Archivo** y cuerpo **Hanken Grotesk**; cualquier cambio de
-color o tipografía se hace ahí, no suelto en las vistas. `build.js` también reescribe los enlaces
-internos a `/preview/{id}` si existe `preview-ids.json` en la raíz — ese archivo **todavía no
-existe**, así que hoy emite las rutas normales.
+color o tipografía se hace ahí, no suelto en las vistas — y desde el 2026-09-10 `src/input.css`
+termina con los `@layer` de la capa de movimiento.
+_(updated 2026-09-10: decía que `preview-ids.json` "todavía no existe" — falso desde entonces,
+está completo con los 12 ids y los enlaces se reescriben a `/preview/{id}`; ver su neurona.)_
 
 ## References
 
 <!-- backbone:memory-references -->
-_None yet — connect this neuron to others on the memory map._
+- [La regla de la obra necesita doble clase](./regla-obra-object-fit.md)
 <!-- backbone:memory-references -->
