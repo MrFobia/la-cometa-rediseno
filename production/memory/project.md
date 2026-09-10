@@ -8,4 +8,5 @@ _Project_: Re diseño - La cometa
 - [Repositorio en GitHub](./repositorio.md)
 - [Estructura del código](./estructura-del-codigo.md)
 - [Preferencias de trabajo](./preferencias-de-trabajo.md)
+- [Regla: ningún dato se inventa](./regla-no-inventar-datos.md)
 <!-- backbone:memory-references -->
