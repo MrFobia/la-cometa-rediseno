@@ -6,7 +6,193 @@
             "hierarchy": "core",
             "colour": "blue",
             "source": "user",
-            "connections": []
+            "connections": [
+                {
+                    "target": "repositorio.md",
+                    "condition": "",
+                    "type": "neuron"
+                },
+                {
+                    "target": "estructura-del-codigo.md",
+                    "condition": "",
+                    "type": "neuron"
+                }
+            ],
+            "disabled": false,
+            "type": null,
+            "last_accessed_at": "2026-09-10T22:01:09+00:00"
+        },
+        {
+            "filename": "build-y-tokens.md",
+            "name": "build y tokens",
+            "hierarchy": "secondary",
+            "source": "ai",
+            "connections": [],
+            "created_at": "2026-09-10T20:29:12+00:00",
+            "last_accessed_at": "2026-09-10T22:01:09+00:00",
+            "disabled": false,
+            "type": "fact",
+            "contradicts": [],
+            "colour": "violet"
+        },
+        {
+            "filename": "estructura-del-codigo.md",
+            "name": "estructura del codigo",
+            "hierarchy": "secondary",
+            "source": "ai",
+            "connections": [
+                {
+                    "target": "vistas-de-produccion.md",
+                    "condition": "",
+                    "type": "neuron"
+                },
+                {
+                    "target": "build-y-tokens.md",
+                    "condition": "",
+                    "type": "neuron"
+                },
+                {
+                    "target": "tailwind-compilado-no-cdn.md",
+                    "condition": "",
+                    "type": "neuron"
+                },
+                {
+                    "target": "assets-en-el-preview.md",
+                    "condition": "",
+                    "type": "neuron"
+                },
+                {
+                    "target": "links-preview-ids.md",
+                    "condition": "",
+                    "type": "neuron"
+                }
+            ],
+            "created_at": "2026-09-10T20:28:58+00:00",
+            "last_accessed_at": "2026-09-10T22:01:09+00:00",
+            "disabled": false,
+            "type": "fact",
+            "contradicts": [],
+            "colour": "teal"
+        },
+        {
+            "filename": "git-safe-directory.md",
+            "name": "git safe directory",
+            "hierarchy": "secondary",
+            "source": "ai",
+            "connections": [],
+            "created_at": "2026-09-10T20:28:22+00:00",
+            "last_accessed_at": "2026-09-10T22:01:09+00:00",
+            "disabled": false,
+            "type": "quirk",
+            "contradicts": [],
+            "colour": "fuchsia"
+        },
+        {
+            "filename": "gitignore-del-scaffold.md",
+            "name": "gitignore del scaffold",
+            "hierarchy": "secondary",
+            "source": "ai",
+            "connections": [],
+            "created_at": "2026-09-10T20:28:28+00:00",
+            "last_accessed_at": "2026-09-10T22:01:09+00:00",
+            "disabled": false,
+            "type": "decision",
+            "contradicts": [],
+            "colour": "orange"
+        },
+        {
+            "filename": "merge-historias-no-relacionadas.md",
+            "name": "merge historias no relacionadas",
+            "hierarchy": "secondary",
+            "source": "ai",
+            "connections": [],
+            "created_at": "2026-09-10T20:28:16+00:00",
+            "last_accessed_at": "2026-09-10T22:01:09+00:00",
+            "disabled": false,
+            "type": "quirk",
+            "contradicts": [],
+            "colour": "fuchsia"
+        },
+        {
+            "filename": "repositorio.md",
+            "name": "repositorio",
+            "hierarchy": "secondary",
+            "source": "ai",
+            "connections": [
+                {
+                    "target": "merge-historias-no-relacionadas.md",
+                    "condition": "",
+                    "type": "neuron"
+                },
+                {
+                    "target": "git-safe-directory.md",
+                    "condition": "",
+                    "type": "neuron"
+                },
+                {
+                    "target": "gitignore-del-scaffold.md",
+                    "condition": "",
+                    "type": "neuron"
+                }
+            ],
+            "created_at": "2026-09-10T20:28:09+00:00",
+            "last_accessed_at": "2026-09-10T22:01:09+00:00",
+            "disabled": false,
+            "type": "reference",
+            "contradicts": [],
+            "colour": "fuchsia"
+        },
+        {
+            "filename": "tailwind-compilado-no-cdn.md",
+            "name": "tailwind compilado no cdn",
+            "hierarchy": "secondary",
+            "source": "ai",
+            "connections": [],
+            "created_at": "2026-09-10T20:29:18+00:00",
+            "last_accessed_at": "2026-09-10T22:01:09+00:00",
+            "disabled": false,
+            "type": "correction",
+            "contradicts": [],
+            "colour": "violet"
+        },
+        {
+            "filename": "vistas-de-produccion.md",
+            "name": "vistas de produccion",
+            "hierarchy": "secondary",
+            "source": "ai",
+            "connections": [],
+            "created_at": "2026-09-10T20:29:05+00:00",
+            "last_accessed_at": "2026-09-10T22:01:09+00:00",
+            "disabled": false,
+            "type": "fact",
+            "contradicts": [],
+            "colour": "amber"
+        },
+        {
+            "filename": "assets-en-el-preview.md",
+            "name": "assets en el preview",
+            "hierarchy": "secondary",
+            "source": "ai",
+            "connections": [],
+            "created_at": "2026-09-10T21:16:54+00:00",
+            "last_accessed_at": "2026-09-10T22:01:09+00:00",
+            "disabled": false,
+            "type": "constraint",
+            "contradicts": [],
+            "colour": "cyan"
+        },
+        {
+            "filename": "links-preview-ids.md",
+            "name": "links preview ids",
+            "hierarchy": "secondary",
+            "source": "ai",
+            "connections": [],
+            "created_at": "2026-09-10T21:17:02+00:00",
+            "last_accessed_at": "2026-09-10T22:01:09+00:00",
+            "disabled": false,
+            "type": "quirk",
+            "contradicts": [],
+            "colour": "violet"
         }
     ],
     "context_pins": []

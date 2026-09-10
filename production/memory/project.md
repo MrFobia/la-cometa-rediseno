@@ -5,5 +5,7 @@ _Project_: Re diseño - La cometa
 ## References
 
 <!-- backbone:memory-references -->
-
+- [Repositorio en GitHub](./repositorio.md)
+- [Estructura del código](./estructura-del-codigo.md)
+- [Preferencias de trabajo](./preferencias-de-trabajo.md)
 <!-- backbone:memory-references -->
