@@ -1,0 +1,21 @@
+{
+  "name": "rediseno-la-cometa",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Rediseño galerialacometa.com — vanilla + Tailwind + JS",
+  "scripts": {
+    "dev": "concurrently -k \"npm:pages:watch\" \"npm:css:watch\" \"npm:serve\"",
+    "pages": "node build.js",
+    "pages:watch": "node build.js --watch",
+    "css:watch": "tailwindcss -i ./src/input.css -o ./dist/styles.css --watch",
+    "css:build": "tailwindcss -i ./src/input.css -o ./dist/styles.css --minify",
+    "serve": "python3 -m http.server 4321",
+    "build": "npm run css:build && npm run assets:sync && npm run pages",
+    "assets:sync": "mkdir -p assets/js production/views && cp dist/styles.css assets/styles.css && cp js/*.js assets/js/ && rm -rf production/views/assets && mkdir -p production/views/assets && cp -R assets/. production/views/assets/"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "concurrently": "^9.1.2",
+    "tailwindcss": "^4.1.11"
+  }
+}

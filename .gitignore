@@ -1,0 +1,14 @@
+node_modules/
+.DS_Store
+
+# Páginas compuestas por build.js — la fuente vive en src/pages.
+# Se suben igual las vistas .blade.php de production/views, que es lo que
+# la plataforma registra y sirve en /preview/{id}.
+/index.html
+/artistas/
+/exhibiciones/
+/obras/
+/ferias/
+/noticias/
+/la-galeria/
+/contacto/
