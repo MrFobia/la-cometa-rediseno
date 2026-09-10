@@ -78,6 +78,7 @@ ${partial("footer")}
 <script src="/js/data.js"></script>
 <script src="/js/main.js"></script>
 <script src="/js/components.js"></script>
+<script src="/js/motion.js"></script>
 </body>
 </html>
 `;
