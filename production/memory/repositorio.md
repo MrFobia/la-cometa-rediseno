@@ -14,5 +14,6 @@ historias no relacionadas.
 <!-- backbone:memory-references -->
 - [Merge de historias no relacionadas](./merge-historias-no-relacionadas.md)
 - [Git exige safe.directory](./git-safe-directory.md)
+- [Permisos para que funcione el Pull de la UI](./permisos-para-el-pull-de-la-ui.md)
 - [El .gitignore vigente es el del scaffold](./gitignore-del-scaffold.md)
 <!-- backbone:memory-references -->
