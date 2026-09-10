@@ -24,8 +24,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/styles.css">
-<link rel="icon" href="/assets/LC-Logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/projects/re-diseno-la-cometa/assets/styles.css">
+<link rel="icon" href="/projects/re-diseno-la-cometa/assets/LC-Logo.svg" type="image/svg+xml">
 <script type="application/ld+json">
 {
   "@@context": "https://schema.org",
@@ -45,18 +45,18 @@
 <!-- ================= MASTHEAD (N6) ================= -->
 <header class="lc-masthead">
   <div class="lc-shell lc-masthead__row">
-    <a href="/" aria-label="Galería La Cometa — inicio" class="flex items-center gap-3 shrink-0">
-      <img src="/assets/LC-Logo.svg" alt="" width="112" height="50" class="h-8 w-auto sm:h-9" aria-hidden="true">
+    <a href="/preview/1089" aria-label="Galería La Cometa — inicio" class="flex items-center gap-3 shrink-0">
+      <img src="/projects/re-diseno-la-cometa/assets/LC-Logo.svg" alt="" width="112" height="50" class="h-8 w-auto sm:h-9" aria-hidden="true">
       <span class="sr-only">Galería La Cometa</span>
     </a>
 
     <nav class="lc-masthead__nav" aria-label="Principal">
-      <a class="lc-navlink" href="/exhibiciones/">Exposiciones</a>
-      <a class="lc-navlink" href="/artistas/">Artistas</a>
-      <a class="lc-navlink" href="/obras/">Obras</a>
-      <a class="lc-navlink" href="/ferias/">Ferias</a>
-      <a class="lc-navlink" href="/noticias/">Noticias</a>
-      <a class="lc-navlink" href="/la-galeria/">La galería</a>
+      <a class="lc-navlink" href="/preview/1088">Exposiciones</a>
+      <a class="lc-navlink" href="/preview/1095">Artistas</a>
+      <a class="lc-navlink" href="/preview/1090">Obras</a>
+      <a class="lc-navlink" href="/preview/1086">Ferias</a>
+      <a class="lc-navlink" href="/preview/1087">Noticias</a>
+      <a class="lc-navlink" href="/preview/1091">La galería</a>
     </nav>
 
     <div class="flex items-center gap-1 sm:gap-3 shrink-0">
@@ -107,13 +107,13 @@
       <div class="grid gap-10 md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] mt-12" data-menu-panels>
         <nav aria-label="Secciones del sitio">
           <ul class="space-y-1">
-            <li><a class="lc-megalink" href="/exhibiciones/">Exposiciones</a></li>
-            <li><a class="lc-megalink" href="/artistas/">Artistas</a></li>
-            <li><a class="lc-megalink" href="/obras/">Obras</a></li>
-            <li><a class="lc-megalink" href="/ferias/">Ferias</a></li>
-            <li><a class="lc-megalink" href="/noticias/">Noticias</a></li>
-            <li><a class="lc-megalink" href="/la-galeria/">La galería</a></li>
-            <li><a class="lc-megalink" href="/contacto/">Contacto</a></li>
+            <li><a class="lc-megalink" href="/preview/1088">Exposiciones</a></li>
+            <li><a class="lc-megalink" href="/preview/1095">Artistas</a></li>
+            <li><a class="lc-megalink" href="/preview/1090">Obras</a></li>
+            <li><a class="lc-megalink" href="/preview/1086">Ferias</a></li>
+            <li><a class="lc-megalink" href="/preview/1087">Noticias</a></li>
+            <li><a class="lc-megalink" href="/preview/1091">La galería</a></li>
+            <li><a class="lc-megalink" href="/preview/1094">Contacto</a></li>
           </ul>
         </nav>
 
@@ -121,16 +121,16 @@
           <div>
             <h2 class="lc-caps mb-3">Sedes</h2>
             <ul class="space-y-1 text-lg">
-              <li><a class="lc-link" href="/la-galeria/bogota">Bogotá</a></li>
-              <li><a class="lc-link" href="/la-galeria/medellin">Medellín</a></li>
-              <li><a class="lc-link" href="/la-galeria/miami">Miami</a></li>
-              <li><a class="lc-link" href="/la-galeria/madrid">Madrid</a></li>
-              <li><a class="lc-link" href="/la-galeria/mexico">Ciudad de México</a></li>
+              <li><a class="lc-link" href="/preview/1091">Bogotá</a></li>
+              <li><a class="lc-link" href="/preview/1091">Medellín</a></li>
+              <li><a class="lc-link" href="/preview/1091">Miami</a></li>
+              <li><a class="lc-link" href="/preview/1091">Madrid</a></li>
+              <li><a class="lc-link" href="/preview/1091">Ciudad de México</a></li>
             </ul>
           </div>
           <div>
             <h2 class="lc-caps mb-3">Idioma</h2>
-            <p class="lc-meta"><a class="lc-link" href="/" aria-current="page">Español</a> · <a class="lc-link" href="/en/" hreflang="en" lang="en">English</a></p>
+            <p class="lc-meta"><a class="lc-link" href="/preview/1089" aria-current="page">Español</a> · <a class="lc-link" href="/en/" hreflang="en" lang="en">English</a></p>
           </div>
         </div>
       </div>
@@ -143,7 +143,7 @@
   <section class="lc-shell pt-8 pb-6 md:pt-12">
     <nav class="lc-crumbs" aria-label="Ruta">
       <ol>
-        <li><a href="/">Inicio</a></li>
+        <li><a href="/preview/1089">Inicio</a></li>
         <li aria-current="page">Obras</li>
       </ol>
     </nav>
@@ -218,9 +218,9 @@
     <ul id="catalogo" class="lc-catalogue mt-8" data-mode="reticula">
 
       <li class="lc-card lc-card--obra" data-artista="miguel-angel-rojas" data-tecnica="pintura" data-decada="1990" data-estado="disponible" data-w="283" data-h="175">
-        <a href="/obras/" class="block">
+        <a href="/preview/1090" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-            <img src="/assets/img/obra-1.webp" alt="«Corte en el ojo», acrílico sobre lienzo de Miguel Ángel Rojas, 1991" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/obra-1.webp" alt="«Corte en el ojo», acrílico sobre lienzo de Miguel Ángel Rojas, 1991" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Corte en el ojo</h3>
         </a>
@@ -230,9 +230,9 @@
       </li>
 
       <li class="lc-card lc-card--obra" data-artista="miguel-angel-rojas" data-tecnica="objeto" data-decada="2000" data-estado="disponible" data-w="52" data-h="13.9">
-        <a href="/obras/" class="block">
+        <a href="/preview/1090" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-            <img src="/assets/img/obra-2.webp" alt="«Expectations 99/100» de Miguel Ángel Rojas, módulo en acrílico con hojilla de oro, 2007" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/obra-2.webp" alt="«Expectations 99/100» de Miguel Ángel Rojas, módulo en acrílico con hojilla de oro, 2007" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Expectations 99/100</h3>
         </a>
@@ -242,9 +242,9 @@
       </li>
 
       <li class="lc-card lc-card--obra" data-artista="adrian-gaitan" data-tecnica="escultura" data-decada="2020" data-estado="disponible" data-w="184" data-h="255">
-        <a href="/obras/" class="block">
+        <a href="/preview/1090" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-            <img src="/assets/img/obra-3.webp" alt="«Aparición (San Sebastián, Mattia Preti)» de Adrián Gaitán, aceite quemado de motor sobre madera reciclada, 2022" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/obra-3.webp" alt="«Aparición (San Sebastián, Mattia Preti)» de Adrián Gaitán, aceite quemado de motor sobre madera reciclada, 2022" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Aparición (San Sebastián, Mattia Preti)</h3>
         </a>
@@ -254,9 +254,9 @@
       </li>
 
       <li class="lc-card lc-card--obra" data-artista="camilo-restrepo" data-tecnica="dibujo" data-decada="2020" data-estado="disponible" data-w="105" data-h="90">
-        <a href="/obras/" class="block">
+        <a href="/preview/1090" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-            <img src="/assets/img/obra-4.webp" alt="«Drawing #1» de Camilo Restrepo, tinta y pastel de cera sobre papel" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/obra-4.webp" alt="«Drawing #1» de Camilo Restrepo, tinta y pastel de cera sobre papel" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Drawing #1</h3>
         </a>
@@ -266,9 +266,9 @@
       </li>
 
       <li class="lc-card lc-card--obra" data-artista="adam-goldstein" data-tecnica="pintura" data-decada="2020" data-estado="disponible" data-w="170" data-h="200">
-        <a href="/obras/" class="block">
+        <a href="/preview/1090" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-            <img src="/assets/img/obra-5.webp" alt="«Elliptic Space II», óleo sobre lienzo de Adam Goldstein, 2024" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/obra-5.webp" alt="«Elliptic Space II», óleo sobre lienzo de Adam Goldstein, 2024" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Elliptic Space II</h3>
         </a>
@@ -278,9 +278,9 @@
       </li>
 
       <li class="lc-card lc-card--obra" data-artista="fernando-pinto" data-tecnica="escultura" data-decada="2020" data-estado="disponible" data-w="65" data-h="55">
-        <a href="/obras/" class="block">
+        <a href="/preview/1090" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-            <img src="/assets/img/obra-6.webp" alt="«Ruru Layu», escultura en piedra Sol negro de Fernando Pinto, 2024" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/obra-6.webp" alt="«Ruru Layu», escultura en piedra Sol negro de Fernando Pinto, 2024" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Ruru Layu</h3>
         </a>
@@ -290,9 +290,9 @@
       </li>
 
       <li class="lc-card lc-card--obra" data-artista="alejandro-sanchez" data-tecnica="escultura" data-decada="2020" data-estado="reservada" data-w="110" data-h="152.5">
-        <a href="/obras/" class="block">
+        <a href="/preview/1090" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-            <img src="/assets/img/obra-7.webp" alt="«Incrustación» de Alejandro Sánchez, pinturas acrílicas sobre teja galvanizada y madera, 2025" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/obra-7.webp" alt="«Incrustación» de Alejandro Sánchez, pinturas acrílicas sobre teja galvanizada y madera, 2025" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Incrustación</h3>
         </a>
@@ -302,9 +302,9 @@
       </li>
 
       <li class="lc-card lc-card--obra" data-artista="ana-gonzalez" data-tecnica="textil" data-decada="2020" data-estado="disponible" data-w="96" data-h="22">
-        <a href="/obras/" class="block">
+        <a href="/preview/1090" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-            <img src="/assets/img/obra-8.webp" alt="«Serranías del Dios de la Noche II», textil de Ana González, 2024" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/obra-8.webp" alt="«Serranías del Dios de la Noche II», textil de Ana González, 2024" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Serranías del Dios de la Noche II</h3>
         </a>
@@ -314,9 +314,9 @@
       </li>
 
       <li class="lc-card lc-card--obra" data-artista="damaxo-henao" data-tecnica="pintura" data-decada="2020" data-estado="disponible" data-w="293" data-h="65.5">
-        <a href="/obras/transeunte/" class="block">
+        <a href="/preview/1093" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-            <img src="/assets/img/obra-transeunte.webp" alt="«Transeúnte», óleo sobre lienzo de Dámaxo Henao, 2026" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/obra-transeunte.webp" alt="«Transeúnte», óleo sobre lienzo de Dámaxo Henao, 2026" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Transeúnte</h3>
         </a>
@@ -326,9 +326,9 @@
       </li>
 
       <li class="lc-card lc-card--obra" data-artista="damaxo-henao" data-tecnica="pintura" data-decada="2020" data-estado="disponible" data-w="128.5" data-h="95">
-        <a href="/obras/" class="block">
+        <a href="/preview/1090" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-            <img src="/assets/img/obra-centinela.webp" alt="«El centinela diurno», óleo sobre lienzo de Dámaxo Henao, 2026" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/obra-centinela.webp" alt="«El centinela diurno», óleo sobre lienzo de Dámaxo Henao, 2026" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">El centinela diurno</h3>
         </a>
@@ -338,9 +338,9 @@
       </li>
 
       <li class="lc-card lc-card--obra" data-artista="damaxo-henao" data-tecnica="escultura" data-decada="2020" data-estado="disponible" data-w="45.5" data-h="161.5">
-        <a href="/obras/" class="block">
+        <a href="/preview/1090" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-            <img src="/assets/img/obra-torre-ermitano.webp" alt="«La torre del ermitaño», óleo sobre lienzo y madera de Dámaxo Henao, 2026" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/obra-torre-ermitano.webp" alt="«La torre del ermitaño», óleo sobre lienzo y madera de Dámaxo Henao, 2026" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">La torre del ermitaño</h3>
         </a>
@@ -350,9 +350,9 @@
       </li>
 
       <li class="lc-card lc-card--obra" data-artista="damaxo-henao" data-tecnica="pintura" data-decada="2020" data-estado="disponible" data-w="20" data-h="31">
-        <a href="/obras/" class="block">
+        <a href="/preview/1090" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-            <img src="/assets/img/obra-mejores-amigos.webp" alt="«Mejores amigos», óleo sobre lienzo de Dámaxo Henao, 2026" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/obra-mejores-amigos.webp" alt="«Mejores amigos», óleo sobre lienzo de Dámaxo Henao, 2026" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Mejores amigos</h3>
         </a>
@@ -362,9 +362,9 @@
       </li>
 
       <li class="lc-card lc-card--obra" data-artista="damaxo-henao" data-tecnica="pintura" data-decada="2020" data-estado="disponible" data-w="150" data-h="150">
-        <a href="/obras/" class="block">
+        <a href="/preview/1090" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
-            <img src="/assets/img/obra-los-tiempos.webp" alt="«Los tiempos de la ilusión del hogar», tríptico al óleo sobre lienzo de Dámaxo Henao, 2023" loading="lazy" decoding="async">
+            <img src="/projects/re-diseno-la-cometa/assets/img/obra-los-tiempos.webp" alt="«Los tiempos de la ilusión del hogar», tríptico al óleo sobre lienzo de Dámaxo Henao, 2023" loading="lazy" decoding="async">
           </figure>
           <h3 class="lc-card__title mt-3">Los tiempos de la ilusión del hogar</h3>
         </a>
@@ -399,19 +399,19 @@
     <div>
       <h2 class="lc-caps mb-3">Navegar</h2>
       <ul class="space-y-1 lc-meta">
-        <li><a class="lc-link" href="/exhibiciones/">Exposiciones</a></li>
-        <li><a class="lc-link" href="/artistas/">Artistas</a></li>
-        <li><a class="lc-link" href="/obras/">Obras</a></li>
-        <li><a class="lc-link" href="/ferias/">Ferias</a></li>
-        <li><a class="lc-link" href="/noticias/">Noticias</a></li>
+        <li><a class="lc-link" href="/preview/1088">Exposiciones</a></li>
+        <li><a class="lc-link" href="/preview/1095">Artistas</a></li>
+        <li><a class="lc-link" href="/preview/1090">Obras</a></li>
+        <li><a class="lc-link" href="/preview/1086">Ferias</a></li>
+        <li><a class="lc-link" href="/preview/1087">Noticias</a></li>
       </ul>
     </div>
     <div>
       <h2 class="lc-caps mb-3">Contacto</h2>
       <ul class="space-y-1 lc-meta">
         <li><a class="lc-link" href="mailto:info@galerialacometa.com">info@galerialacometa.com</a></li>
-        <li><a class="lc-link" href="/contacto/">Formulario de contacto</a></li>
-        <li><a class="lc-link" href="/la-galeria/">Sedes y horarios</a></li>
+        <li><a class="lc-link" href="/preview/1094">Formulario de contacto</a></li>
+        <li><a class="lc-link" href="/preview/1091">Sedes y horarios</a></li>
       </ul>
       <p class="lc-meta mt-3">Correo oficial único para todo el sitio y los directorios externos.</p>
     </div>
@@ -477,8 +477,8 @@
 </div>
 
 
-<script src="/assets/js/data.js"></script>
-<script src="/assets/js/main.js"></script>
-<script src="/assets/js/components.js"></script>
+<script src="/projects/re-diseno-la-cometa/assets/js/data.js"></script>
+<script src="/projects/re-diseno-la-cometa/assets/js/main.js"></script>
+<script src="/projects/re-diseno-la-cometa/assets/js/components.js"></script>
 </body>
 </html>

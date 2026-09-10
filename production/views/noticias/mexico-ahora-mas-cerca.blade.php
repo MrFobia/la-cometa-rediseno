@@ -24,8 +24,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/styles.css">
-<link rel="icon" href="/assets/LC-Logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/projects/re-diseno-la-cometa/assets/styles.css">
+<link rel="icon" href="/projects/re-diseno-la-cometa/assets/LC-Logo.svg" type="image/svg+xml">
 <script type="application/ld+json">
 {
   "@@context": "https://schema.org",
@@ -59,18 +59,18 @@
 <!-- ================= MASTHEAD (N6) ================= -->
 <header class="lc-masthead">
   <div class="lc-shell lc-masthead__row">
-    <a href="/" aria-label="Galería La Cometa — inicio" class="flex items-center gap-3 shrink-0">
-      <img src="/assets/LC-Logo.svg" alt="" width="112" height="50" class="h-8 w-auto sm:h-9" aria-hidden="true">
+    <a href="/preview/1089" aria-label="Galería La Cometa — inicio" class="flex items-center gap-3 shrink-0">
+      <img src="/projects/re-diseno-la-cometa/assets/LC-Logo.svg" alt="" width="112" height="50" class="h-8 w-auto sm:h-9" aria-hidden="true">
       <span class="sr-only">Galería La Cometa</span>
     </a>
 
     <nav class="lc-masthead__nav" aria-label="Principal">
-      <a class="lc-navlink" href="/exhibiciones/">Exposiciones</a>
-      <a class="lc-navlink" href="/artistas/">Artistas</a>
-      <a class="lc-navlink" href="/obras/">Obras</a>
-      <a class="lc-navlink" href="/ferias/">Ferias</a>
-      <a class="lc-navlink" href="/noticias/">Noticias</a>
-      <a class="lc-navlink" href="/la-galeria/">La galería</a>
+      <a class="lc-navlink" href="/preview/1088">Exposiciones</a>
+      <a class="lc-navlink" href="/preview/1095">Artistas</a>
+      <a class="lc-navlink" href="/preview/1090">Obras</a>
+      <a class="lc-navlink" href="/preview/1086">Ferias</a>
+      <a class="lc-navlink" href="/preview/1087">Noticias</a>
+      <a class="lc-navlink" href="/preview/1091">La galería</a>
     </nav>
 
     <div class="flex items-center gap-1 sm:gap-3 shrink-0">
@@ -121,13 +121,13 @@
       <div class="grid gap-10 md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] mt-12" data-menu-panels>
         <nav aria-label="Secciones del sitio">
           <ul class="space-y-1">
-            <li><a class="lc-megalink" href="/exhibiciones/">Exposiciones</a></li>
-            <li><a class="lc-megalink" href="/artistas/">Artistas</a></li>
-            <li><a class="lc-megalink" href="/obras/">Obras</a></li>
-            <li><a class="lc-megalink" href="/ferias/">Ferias</a></li>
-            <li><a class="lc-megalink" href="/noticias/">Noticias</a></li>
-            <li><a class="lc-megalink" href="/la-galeria/">La galería</a></li>
-            <li><a class="lc-megalink" href="/contacto/">Contacto</a></li>
+            <li><a class="lc-megalink" href="/preview/1088">Exposiciones</a></li>
+            <li><a class="lc-megalink" href="/preview/1095">Artistas</a></li>
+            <li><a class="lc-megalink" href="/preview/1090">Obras</a></li>
+            <li><a class="lc-megalink" href="/preview/1086">Ferias</a></li>
+            <li><a class="lc-megalink" href="/preview/1087">Noticias</a></li>
+            <li><a class="lc-megalink" href="/preview/1091">La galería</a></li>
+            <li><a class="lc-megalink" href="/preview/1094">Contacto</a></li>
           </ul>
         </nav>
 
@@ -135,16 +135,16 @@
           <div>
             <h2 class="lc-caps mb-3">Sedes</h2>
             <ul class="space-y-1 text-lg">
-              <li><a class="lc-link" href="/la-galeria/bogota">Bogotá</a></li>
-              <li><a class="lc-link" href="/la-galeria/medellin">Medellín</a></li>
-              <li><a class="lc-link" href="/la-galeria/miami">Miami</a></li>
-              <li><a class="lc-link" href="/la-galeria/madrid">Madrid</a></li>
-              <li><a class="lc-link" href="/la-galeria/mexico">Ciudad de México</a></li>
+              <li><a class="lc-link" href="/preview/1091">Bogotá</a></li>
+              <li><a class="lc-link" href="/preview/1091">Medellín</a></li>
+              <li><a class="lc-link" href="/preview/1091">Miami</a></li>
+              <li><a class="lc-link" href="/preview/1091">Madrid</a></li>
+              <li><a class="lc-link" href="/preview/1091">Ciudad de México</a></li>
             </ul>
           </div>
           <div>
             <h2 class="lc-caps mb-3">Idioma</h2>
-            <p class="lc-meta"><a class="lc-link" href="/" aria-current="page">Español</a> · <a class="lc-link" href="/en/" hreflang="en" lang="en">English</a></p>
+            <p class="lc-meta"><a class="lc-link" href="/preview/1089" aria-current="page">Español</a> · <a class="lc-link" href="/en/" hreflang="en" lang="en">English</a></p>
           </div>
         </div>
       </div>
@@ -158,8 +158,8 @@
     <section class="lc-shell pt-8 pb-6 md:pt-12">
       <nav class="lc-crumbs" aria-label="Ruta">
         <ol>
-          <li><a href="/">Inicio</a></li>
-          <li><a href="/noticias/">Noticias</a></li>
+          <li><a href="/preview/1089">Inicio</a></li>
+          <li><a href="/preview/1087">Noticias</a></li>
           <li aria-current="page">México, ahora más cerca</li>
         </ol>
       </nav>
@@ -174,7 +174,7 @@
     </section>
 
     <figure class="lc-figure w-full" style="aspect-ratio: 16 / 9;">
-      <img src="/assets/img/noticia-2.webp" alt="Espacio de la nueva oficina de proyectos de La Cometa en Ciudad de México" fetchpriority="high" decoding="async">
+      <img src="/projects/re-diseno-la-cometa/assets/img/noticia-2.webp" alt="Espacio de la nueva oficina de proyectos de La Cometa en Ciudad de México" fetchpriority="high" decoding="async">
     </figure>
 
     <section class="lc-shell lc-band mt-8" style="border-top: 0;">
@@ -220,9 +220,9 @@
 
           <h2 class="lc-caps mt-8 mb-3">Seguir leyendo</h2>
           <ul class="space-y-2">
-            <li><a class="lc-link" href="/la-galeria/">Todas las sedes</a></li>
-            <li><a class="lc-link" href="/ferias/">Zona Maco y otras ferias</a></li>
-            <li><a class="lc-link" href="/noticias/">Volver a Noticias</a></li>
+            <li><a class="lc-link" href="/preview/1091">Todas las sedes</a></li>
+            <li><a class="lc-link" href="/preview/1086">Zona Maco y otras ferias</a></li>
+            <li><a class="lc-link" href="/preview/1087">Volver a Noticias</a></li>
           </ul>
         </aside>
       </div>
@@ -241,19 +241,19 @@
     <div>
       <h2 class="lc-caps mb-3">Navegar</h2>
       <ul class="space-y-1 lc-meta">
-        <li><a class="lc-link" href="/exhibiciones/">Exposiciones</a></li>
-        <li><a class="lc-link" href="/artistas/">Artistas</a></li>
-        <li><a class="lc-link" href="/obras/">Obras</a></li>
-        <li><a class="lc-link" href="/ferias/">Ferias</a></li>
-        <li><a class="lc-link" href="/noticias/">Noticias</a></li>
+        <li><a class="lc-link" href="/preview/1088">Exposiciones</a></li>
+        <li><a class="lc-link" href="/preview/1095">Artistas</a></li>
+        <li><a class="lc-link" href="/preview/1090">Obras</a></li>
+        <li><a class="lc-link" href="/preview/1086">Ferias</a></li>
+        <li><a class="lc-link" href="/preview/1087">Noticias</a></li>
       </ul>
     </div>
     <div>
       <h2 class="lc-caps mb-3">Contacto</h2>
       <ul class="space-y-1 lc-meta">
         <li><a class="lc-link" href="mailto:info@galerialacometa.com">info@galerialacometa.com</a></li>
-        <li><a class="lc-link" href="/contacto/">Formulario de contacto</a></li>
-        <li><a class="lc-link" href="/la-galeria/">Sedes y horarios</a></li>
+        <li><a class="lc-link" href="/preview/1094">Formulario de contacto</a></li>
+        <li><a class="lc-link" href="/preview/1091">Sedes y horarios</a></li>
       </ul>
       <p class="lc-meta mt-3">Correo oficial único para todo el sitio y los directorios externos.</p>
     </div>
@@ -319,8 +319,8 @@
 </div>
 
 
-<script src="/assets/js/data.js"></script>
-<script src="/assets/js/main.js"></script>
-<script src="/assets/js/components.js"></script>
+<script src="/projects/re-diseno-la-cometa/assets/js/data.js"></script>
+<script src="/projects/re-diseno-la-cometa/assets/js/main.js"></script>
+<script src="/projects/re-diseno-la-cometa/assets/js/components.js"></script>
 </body>
 </html>
