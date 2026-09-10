@@ -1,0 +1,95 @@
+<!-- ================= MASTHEAD (N6) ================= -->
+<header class="lc-masthead">
+  <div class="lc-shell lc-masthead__row">
+    <a href="/" aria-label="Galería La Cometa — inicio" class="flex items-center gap-3 shrink-0">
+      <img src="/assets/LC-Logo.svg" alt="" width="112" height="50" class="h-8 w-auto sm:h-9" aria-hidden="true">
+      <span class="sr-only">Galería La Cometa</span>
+    </a>
+
+    <nav class="lc-masthead__nav" aria-label="Principal">
+      <a class="lc-navlink" href="/exhibiciones/">Exposiciones</a>
+      <a class="lc-navlink" href="/artistas/">Artistas</a>
+      <a class="lc-navlink" href="/obras/">Obras</a>
+      <a class="lc-navlink" href="/ferias/">Ferias</a>
+      <a class="lc-navlink" href="/noticias/">Noticias</a>
+      <a class="lc-navlink" href="/la-galeria/">La galería</a>
+    </nav>
+
+    <div class="flex items-center gap-1 sm:gap-3 shrink-0">
+      <button type="button" class="lc-iconbtn" data-open-menu data-open-search aria-label="Buscar en el sitio">
+        <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false">
+          <circle cx="7" cy="7" r="5.25" stroke="currentColor" stroke-width="1.4"/>
+          <path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+        </svg>
+        <span class="hidden sm:inline">Buscar</span>
+      </button>
+
+      <a class="lc-iconbtn" href="/en/" hreflang="en" lang="en">EN</a>
+
+      <button type="button" class="lc-iconbtn" data-open-menu aria-expanded="false" aria-controls="menu-general">
+        <span>Menú</span>
+        <svg width="16" height="12" viewBox="0 0 16 12" fill="none" aria-hidden="true" focusable="false">
+          <path d="M0 1h16M0 6h16M0 11h16" stroke="currentColor" stroke-width="1.4"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= OVERLAY: MENÚ + BUSCADOR GLOBAL ================= -->
+<div class="lc-overlay" id="menu-general" role="dialog" aria-modal="true" aria-label="Menú y buscador" hidden>
+  <div class="lc-shell lc-masthead__row">
+    <span class="lc-caps">Galería La Cometa</span>
+    <button type="button" class="lc-iconbtn" data-close-menu>
+      <span>Cerrar</span>
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true" focusable="false">
+        <path d="M1 1l12 12M13 1L1 13" stroke="currentColor" stroke-width="1.4"/>
+      </svg>
+    </button>
+  </div>
+
+  <div class="lc-overlay__body">
+    <div class="lc-shell pb-16">
+      <!-- Buscador global (referencia Victoria Miro: resultados dentro del propio menú) -->
+      <form class="pt-6" role="search" data-search-form autocomplete="off">
+        <label for="q" class="lc-caps block mb-2">Buscar artista, obra, exposición o noticia</label>
+        <input id="q" name="q" type="search" class="lc-searchfield" placeholder="Escribe un nombre…" data-search-input>
+      </form>
+
+      <p class="lc-meta mt-3" data-search-status role="status" aria-live="polite"></p>
+
+      <ul class="mt-4" data-search-results hidden></ul>
+
+      <div class="grid gap-10 md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] mt-12" data-menu-panels>
+        <nav aria-label="Secciones del sitio">
+          <ul class="space-y-1">
+            <li><a class="lc-megalink" href="/exhibiciones/">Exposiciones</a></li>
+            <li><a class="lc-megalink" href="/artistas/">Artistas</a></li>
+            <li><a class="lc-megalink" href="/obras/">Obras</a></li>
+            <li><a class="lc-megalink" href="/ferias/">Ferias</a></li>
+            <li><a class="lc-megalink" href="/noticias/">Noticias</a></li>
+            <li><a class="lc-megalink" href="/la-galeria/">La galería</a></li>
+            <li><a class="lc-megalink" href="/contacto/">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <div class="space-y-8">
+          <div>
+            <h2 class="lc-caps mb-3">Sedes</h2>
+            <ul class="space-y-1 text-lg">
+              <li><a class="lc-link" href="/la-galeria/bogota">Bogotá</a></li>
+              <li><a class="lc-link" href="/la-galeria/medellin">Medellín</a></li>
+              <li><a class="lc-link" href="/la-galeria/miami">Miami</a></li>
+              <li><a class="lc-link" href="/la-galeria/madrid">Madrid</a></li>
+              <li><a class="lc-link" href="/la-galeria/mexico">Ciudad de México</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="lc-caps mb-3">Idioma</h2>
+            <p class="lc-meta"><a class="lc-link" href="/" aria-current="page">Español</a> · <a class="lc-link" href="/en/" hreflang="en" lang="en">English</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

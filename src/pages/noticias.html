@@ -1,0 +1,94 @@
+<!--meta
+{
+  "out": "noticias/index.html",
+  "url": "/noticias/",
+  "title": "Noticias — Galería La Cometa",
+  "description": "Noticias, prensa y notas de artistas de Galería La Cometa. Contenido filtrable por categoría y estructurado para ser citado.",
+  "image": "/assets/img/noticia-2.webp",
+  "imageAlt": "Nueva oficina de proyectos de La Cometa en Ciudad de México",
+  "ld": {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Noticias de Galería La Cometa",
+    "url": "https://galerialacometa.com/noticias/"
+  }
+}
+meta-->
+
+<main id="contenido">
+  <section class="lc-shell pt-8 pb-6 md:pt-12">
+    <nav class="lc-crumbs" aria-label="Ruta">
+      <ol>
+        <li><a href="/">Inicio</a></li>
+        <li aria-current="page">Noticias</li>
+      </ol>
+    </nav>
+
+    <h1 class="text-[length:var(--text-display-s)] mt-6 max-w-[14ch]">Noticias</h1>
+    <p class="lc-measure lc-meta mt-5 text-[length:var(--text-lg)] leading-relaxed">
+      La sección más viva del sitio. Hoy todo es «noticia»: aquí cada nota lleva categoría,
+      fecha y una definición que se puede citar sin leerla entera.
+    </p>
+  </section>
+
+  <section class="lc-shell lc-band pt-8" aria-labelledby="h-notas">
+    <h2 id="h-notas" class="sr-only">Listado de noticias</h2>
+
+    <div class="lc-alpha mb-3" role="group" aria-label="Filtrar noticias por categoría" data-timeline="notas">
+      <button type="button" data-year="todos" aria-pressed="true">Todas</button>
+      <button type="button" data-year="galeria" aria-pressed="false">Galería</button>
+      <button type="button" data-year="exposiciones" aria-pressed="false">Exposiciones</button>
+      <button type="button" data-year="artistas" aria-pressed="false">Artistas</button>
+      <button type="button" data-year="prensa" aria-pressed="false">Prensa</button>
+    </div>
+    <p class="lc-meta mb-8" data-timeline-note role="status" aria-live="polite">Mostrando todas las categorías.</p>
+
+    <div id="notas" class="grid gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-4 lc-grid-min-0">
+      <article data-year-group="galeria" class="lc-card lc-reveal">
+        <a href="/noticias/mexico-ahora-mas-cerca/" class="block">
+          <figure class="lc-figure" style="aspect-ratio: 4 / 3;">
+            <img src="/assets/img/noticia-2.webp" alt="Nueva oficina de proyectos de La Cometa en Ciudad de México" loading="lazy" decoding="async">
+          </figure>
+          <p class="lc-caps mt-3">Galería · 28 de agosto de 2026</p>
+          <h3 class="lc-card__title mt-1">México, ahora más cerca</h3>
+        </a>
+        <p class="lc-meta mt-2">La Cometa abre una oficina de proyectos en Ciudad de México tras más de una década de vínculos.</p>
+      </article>
+
+      <article data-year-group="exposiciones" class="lc-card lc-reveal">
+        <a href="/noticias/" class="block">
+          <figure class="lc-figure" style="aspect-ratio: 4 / 3;">
+            <img src="/assets/img/noticia-1.webp" alt="Vista de la muestra «Divino Engaño» de Marek Wolfryd y Anuar Maauad" loading="lazy" decoding="async">
+          </figure>
+          <p class="lc-caps mt-3">Exposiciones · Fecha —</p>
+          <h3 class="lc-card__title mt-1">Un paso en México: Marek Wolfryd y Anuar Maauad, «Divino Engaño»</h3>
+        </a>
+      </article>
+
+      <article data-year-group="artistas" class="lc-card lc-reveal">
+        <a href="/noticias/" class="block">
+          <figure class="lc-figure" style="aspect-ratio: 4 / 3;">
+            <img src="/assets/img/noticia-3.webp" alt="Obra de Luis Fernando Roldán" loading="lazy" decoding="async">
+          </figure>
+          <p class="lc-caps mt-3">Artistas · Fecha —</p>
+          <h3 class="lc-card__title mt-1">Una nueva representación · Luis Fernando Roldán</h3>
+        </a>
+      </article>
+
+      <article data-year-group="prensa" class="lc-card lc-reveal">
+        <a href="/noticias/" class="block">
+          <figure class="lc-figure" style="aspect-ratio: 4 / 3;">
+            <img src="/assets/img/noticia-4.webp" alt="Obra de Alejandro Ospina en la muestra The Long Now, Saatchi Gallery" loading="lazy" decoding="async">
+          </figure>
+          <p class="lc-caps mt-3">Prensa · Fecha —</p>
+          <h3 class="lc-card__title mt-1">Alejandro Ospina en «The Long Now: Saatchi Gallery at 40»</h3>
+        </a>
+      </article>
+    </div>
+
+    <p class="lc-meta mt-10 lc-measure">
+      Las fechas marcadas «—» existen en el sitio actual pero no están normalizadas como dato.
+      Sin fecha estructurada, un artículo no puede firmarse ni citarse.
+    </p>
+  </section>
+</main>

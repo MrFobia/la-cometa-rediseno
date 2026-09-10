@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-09-10",
+    "macrostructure": "Catalogue (internas: Long Document + Workbench)",
+    "theme": "custom · Sala blanca",
+    "theme_axes": "light / grotesk-sans / neutral",
+    "vibe": "sala blanca, obra primero, archivo navegable",
+    "nav": "N6 masthead + nav contextual con scroll-spy en fichas",
+    "footer": "Ft5 statement",
+    "enrichment": "none — fotografía real de sala y obra",
+    "brief": "11 páginas internas de galerialacometa.com: artistas, obras, exposiciones, ferias, noticias, sedes y contacto"
+  },
+  {
+    "date": "2026-09-10",
+    "macrostructure": "Catalogue",
+    "theme": "custom · Sala blanca",
+    "theme_axes": "light / grotesk-sans / neutral",
+    "vibe": "sala blanca, obra primero, archivo navegable",
+    "nav": "N6 masthead",
+    "footer": "Ft5 statement",
+    "enrichment": "none — fotografía real de la galería",
+    "brief": "Rediseño home galerialacometa.com — vanilla + Tailwind + JS"
+  }
+]

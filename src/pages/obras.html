@@ -1,0 +1,266 @@
+<!--meta
+{
+  "out": "obras/index.html",
+  "url": "/obras/",
+  "title": "Obras disponibles — Galería La Cometa",
+  "description": "Catálogo de obra disponible en Galería La Cometa. Filtros combinables por artista, técnica, década y disponibilidad, y una vista de muro que cuelga las piezas a su tamaño real.",
+  "image": "/assets/img/obra-1.webp",
+  "imageAlt": "Obras disponibles en Galería La Cometa",
+  "ld": {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Obra disponible en Galería La Cometa",
+    "url": "https://galerialacometa.com/obras/",
+    "about": { "@id": "https://galerialacometa.com/#organizacion" }
+  }
+}
+meta-->
+
+<main id="contenido">
+  <section class="lc-shell pt-8 pb-6 md:pt-12">
+    <nav class="lc-crumbs" aria-label="Ruta">
+      <ol>
+        <li><a href="/">Inicio</a></li>
+        <li aria-current="page">Obras</li>
+      </ol>
+    </nav>
+
+    <h1 class="text-[length:var(--text-display-s)] mt-6 max-w-[16ch]">Obra disponible</h1>
+    <p class="lc-measure lc-meta mt-5 text-[length:var(--text-lg)] leading-relaxed">
+      Cambia a la vista de <strong>muro</strong> y el catálogo deja de ser una retícula:
+      cada pieza se cuelga a su tamaño real, unas junto a otras, como en un montaje de salón.
+    </p>
+  </section>
+
+  <!-- Filtros combinables + cambio de vista -->
+  <section class="lc-shell lc-band pt-8" aria-labelledby="h-catalogo">
+    <h2 id="h-catalogo" class="sr-only">Catálogo de obras</h2>
+
+    <div class="lc-filters" data-filters="catalogo">
+      <div>
+        <label class="lc-caps block mb-1" for="f-artista">Artista</label>
+        <select class="lc-field" id="f-artista" name="artista">
+          <option value="">Todos</option>
+          <option value="adam-goldstein">Adam Goldstein</option>
+          <option value="adrian-gaitan">Adrián Gaitán</option>
+          <option value="alejandro-sanchez">Alejandro Sánchez</option>
+          <option value="ana-gonzalez">Ana González</option>
+          <option value="camilo-restrepo">Camilo Restrepo</option>
+          <option value="damaxo-henao">Dámaxo Henao</option>
+          <option value="fernando-pinto">Fernando Pinto</option>
+          <option value="miguel-angel-rojas">Miguel Ángel Rojas</option>
+        </select>
+      </div>
+      <div>
+        <label class="lc-caps block mb-1" for="f-tecnica">Técnica</label>
+        <select class="lc-field" id="f-tecnica" name="tecnica">
+          <option value="">Todas</option>
+          <option value="pintura">Pintura</option>
+          <option value="escultura">Escultura</option>
+          <option value="dibujo">Dibujo</option>
+          <option value="textil">Textil</option>
+          <option value="objeto">Objeto</option>
+        </select>
+      </div>
+      <div>
+        <label class="lc-caps block mb-1" for="f-decada">Década</label>
+        <select class="lc-field" id="f-decada" name="decada">
+          <option value="">Todas</option>
+          <option value="1990">1990 — 1999</option>
+          <option value="2000">2000 — 2009</option>
+          <option value="2020">2020 — 2029</option>
+        </select>
+      </div>
+      <div>
+        <label class="lc-caps block mb-1" for="f-estado">Disponibilidad</label>
+        <select class="lc-field" id="f-estado" name="estado">
+          <option value="">Todas</option>
+          <option value="disponible">Disponible</option>
+          <option value="reservada">Reservada</option>
+        </select>
+      </div>
+      <button type="button" class="lc-btn lc-btn--ghost" data-filter-clear hidden>Limpiar</button>
+    </div>
+
+    <div class="flex flex-wrap items-center justify-between gap-4 mt-8 border-t border-[color:var(--color-rule)] pt-5">
+      <p class="lc-meta" data-filter-count role="status" aria-live="polite">13 obras</p>
+      <div class="flex" role="group" aria-label="Vista del catálogo" data-wall-switch="catalogo">
+        <button type="button" class="lc-tab px-3" data-mode-btn="reticula" aria-pressed="true">Retícula</button>
+        <button type="button" class="lc-tab px-3" data-mode-btn="muro" aria-pressed="false">Muro a escala</button>
+      </div>
+    </div>
+
+    <p class="lc-meta mt-6" data-filter-empty hidden>Ninguna obra cumple esa combinación de filtros. Prueba quitando uno.</p>
+
+    <ul id="catalogo" class="lc-catalogue mt-8" data-mode="reticula">
+
+      <li class="lc-card lc-card--obra" data-artista="miguel-angel-rojas" data-tecnica="pintura" data-decada="1990" data-estado="disponible" data-w="283" data-h="175">
+        <a href="/obras/" class="block">
+          <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
+            <img src="/assets/img/obra-1.webp" alt="«Corte en el ojo», acrílico sobre lienzo de Miguel Ángel Rojas, 1991" loading="lazy" decoding="async">
+          </figure>
+          <h3 class="lc-card__title mt-3">Corte en el ojo</h3>
+        </a>
+        <p class="lc-meta lc-catalogue__meta">Miguel Ángel Rojas</p>
+        <p class="lc-meta lc-catalogue__meta mt-1">Acrílico sobre lienzo · 175 × 283 cm · 1991</p>
+        <button type="button" class="lc-link" data-inquire="Corte en el ojo — Miguel Ángel Rojas">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
+      </li>
+
+      <li class="lc-card lc-card--obra" data-artista="miguel-angel-rojas" data-tecnica="objeto" data-decada="2000" data-estado="disponible" data-w="52" data-h="13.9">
+        <a href="/obras/" class="block">
+          <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
+            <img src="/assets/img/obra-2.webp" alt="«Expectations 99/100» de Miguel Ángel Rojas, módulo en acrílico con hojilla de oro, 2007" loading="lazy" decoding="async">
+          </figure>
+          <h3 class="lc-card__title mt-3">Expectations 99/100</h3>
+        </a>
+        <p class="lc-meta lc-catalogue__meta">Miguel Ángel Rojas</p>
+        <p class="lc-meta lc-catalogue__meta mt-1">Módulo en acrílico, hojilla de oro y oro electrolítico · 13,9 × 52 cm · 2007</p>
+        <button type="button" class="lc-link" data-inquire="Expectations 99/100 — Miguel Ángel Rojas">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
+      </li>
+
+      <li class="lc-card lc-card--obra" data-artista="adrian-gaitan" data-tecnica="escultura" data-decada="2020" data-estado="disponible" data-w="184" data-h="255">
+        <a href="/obras/" class="block">
+          <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
+            <img src="/assets/img/obra-3.webp" alt="«Aparición (San Sebastián, Mattia Preti)» de Adrián Gaitán, aceite quemado de motor sobre madera reciclada, 2022" loading="lazy" decoding="async">
+          </figure>
+          <h3 class="lc-card__title mt-3">Aparición (San Sebastián, Mattia Preti)</h3>
+        </a>
+        <p class="lc-meta lc-catalogue__meta">Adrián Gaitán</p>
+        <p class="lc-meta lc-catalogue__meta mt-1">Aceite quemado de motor sobre madera reciclada y marco de cartón · 255 × 184 × 7,5 cm · 2022</p>
+        <button type="button" class="lc-link" data-inquire="Aparición (San Sebastián, Mattia Preti) — Adrián Gaitán">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
+      </li>
+
+      <li class="lc-card lc-card--obra" data-artista="camilo-restrepo" data-tecnica="dibujo" data-decada="2020" data-estado="disponible" data-w="105" data-h="90">
+        <a href="/obras/" class="block">
+          <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
+            <img src="/assets/img/obra-4.webp" alt="«Drawing #1» de Camilo Restrepo, tinta y pastel de cera sobre papel" loading="lazy" decoding="async">
+          </figure>
+          <h3 class="lc-card__title mt-3">Drawing #1</h3>
+        </a>
+        <p class="lc-meta lc-catalogue__meta">Camilo Restrepo</p>
+        <p class="lc-meta lc-catalogue__meta mt-1">Tinta, pastel de cera soluble en agua, cinta, recortes de periódico, pegamento, pegatinas y saliva sobre papel · 90 × 105 cm · Año —</p>
+        <button type="button" class="lc-link" data-inquire="Drawing #1 — Camilo Restrepo">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
+      </li>
+
+      <li class="lc-card lc-card--obra" data-artista="adam-goldstein" data-tecnica="pintura" data-decada="2020" data-estado="disponible" data-w="170" data-h="200">
+        <a href="/obras/" class="block">
+          <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
+            <img src="/assets/img/obra-5.webp" alt="«Elliptic Space II», óleo sobre lienzo de Adam Goldstein, 2024" loading="lazy" decoding="async">
+          </figure>
+          <h3 class="lc-card__title mt-3">Elliptic Space II</h3>
+        </a>
+        <p class="lc-meta lc-catalogue__meta">Adam Goldstein</p>
+        <p class="lc-meta lc-catalogue__meta mt-1">Óleo sobre lienzo · 200 × 170 cm · 2024</p>
+        <button type="button" class="lc-link" data-inquire="Elliptic Space II — Adam Goldstein">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
+      </li>
+
+      <li class="lc-card lc-card--obra" data-artista="fernando-pinto" data-tecnica="escultura" data-decada="2020" data-estado="disponible" data-w="65" data-h="55">
+        <a href="/obras/" class="block">
+          <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
+            <img src="/assets/img/obra-6.webp" alt="«Ruru Layu», escultura en piedra Sol negro de Fernando Pinto, 2024" loading="lazy" decoding="async">
+          </figure>
+          <h3 class="lc-card__title mt-3">Ruru Layu</h3>
+        </a>
+        <p class="lc-meta lc-catalogue__meta">Fernando Pinto</p>
+        <p class="lc-meta lc-catalogue__meta mt-1">Piedra Sol negro · 55 × 65 × 65 cm · 2024</p>
+        <button type="button" class="lc-link" data-inquire="Ruru Layu — Fernando Pinto">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
+      </li>
+
+      <li class="lc-card lc-card--obra" data-artista="alejandro-sanchez" data-tecnica="escultura" data-decada="2020" data-estado="reservada" data-w="110" data-h="152.5">
+        <a href="/obras/" class="block">
+          <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
+            <img src="/assets/img/obra-7.webp" alt="«Incrustación» de Alejandro Sánchez, pinturas acrílicas sobre teja galvanizada y madera, 2025" loading="lazy" decoding="async">
+          </figure>
+          <h3 class="lc-card__title mt-3">Incrustación</h3>
+        </a>
+        <p class="lc-meta lc-catalogue__meta">Alejandro Sánchez</p>
+        <p class="lc-meta lc-catalogue__meta mt-1">Pinturas acrílicas sobre teja galvanizada y madera · 152,5 × 110 × 52 cm · 2025</p>
+        <button type="button" class="lc-link" data-inquire="Incrustación — Alejandro Sánchez">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
+      </li>
+
+      <li class="lc-card lc-card--obra" data-artista="ana-gonzalez" data-tecnica="textil" data-decada="2020" data-estado="disponible" data-w="96" data-h="22">
+        <a href="/obras/" class="block">
+          <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
+            <img src="/assets/img/obra-8.webp" alt="«Serranías del Dios de la Noche II», textil de Ana González, 2024" loading="lazy" decoding="async">
+          </figure>
+          <h3 class="lc-card__title mt-3">Serranías del Dios de la Noche II</h3>
+        </a>
+        <p class="lc-meta lc-catalogue__meta">Ana González</p>
+        <p class="lc-meta lc-catalogue__meta mt-1">Textil · 22 × 96 cm · 2024</p>
+        <button type="button" class="lc-link" data-inquire="Serranías del Dios de la Noche II — Ana González">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
+      </li>
+
+      <li class="lc-card lc-card--obra" data-artista="damaxo-henao" data-tecnica="pintura" data-decada="2020" data-estado="disponible" data-w="293" data-h="65.5">
+        <a href="/obras/transeunte/" class="block">
+          <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
+            <img src="/assets/img/obra-transeunte.webp" alt="«Transeúnte», óleo sobre lienzo de Dámaxo Henao, 2026" loading="lazy" decoding="async">
+          </figure>
+          <h3 class="lc-card__title mt-3">Transeúnte</h3>
+        </a>
+        <p class="lc-meta lc-catalogue__meta">Dámaxo Henao</p>
+        <p class="lc-meta lc-catalogue__meta mt-1">Óleo sobre lienzo · 65,5 × 293 cm · 2026</p>
+        <button type="button" class="lc-link" data-inquire="Transeúnte — Dámaxo Henao">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
+      </li>
+
+      <li class="lc-card lc-card--obra" data-artista="damaxo-henao" data-tecnica="pintura" data-decada="2020" data-estado="disponible" data-w="128.5" data-h="95">
+        <a href="/obras/" class="block">
+          <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
+            <img src="/assets/img/obra-centinela.webp" alt="«El centinela diurno», óleo sobre lienzo de Dámaxo Henao, 2026" loading="lazy" decoding="async">
+          </figure>
+          <h3 class="lc-card__title mt-3">El centinela diurno</h3>
+        </a>
+        <p class="lc-meta lc-catalogue__meta">Dámaxo Henao</p>
+        <p class="lc-meta lc-catalogue__meta mt-1">Óleo sobre lienzo · 95 × 128,5 cm · 2026</p>
+        <button type="button" class="lc-link" data-inquire="El centinela diurno — Dámaxo Henao">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
+      </li>
+
+      <li class="lc-card lc-card--obra" data-artista="damaxo-henao" data-tecnica="escultura" data-decada="2020" data-estado="disponible" data-w="45.5" data-h="161.5">
+        <a href="/obras/" class="block">
+          <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
+            <img src="/assets/img/obra-torre-ermitano.webp" alt="«La torre del ermitaño», óleo sobre lienzo y madera de Dámaxo Henao, 2026" loading="lazy" decoding="async">
+          </figure>
+          <h3 class="lc-card__title mt-3">La torre del ermitaño</h3>
+        </a>
+        <p class="lc-meta lc-catalogue__meta">Dámaxo Henao</p>
+        <p class="lc-meta lc-catalogue__meta mt-1">Óleo sobre lienzo y madera · 161,5 × 45,5 × 51 cm · 2026</p>
+        <button type="button" class="lc-link" data-inquire="La torre del ermitaño — Dámaxo Henao">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
+      </li>
+
+      <li class="lc-card lc-card--obra" data-artista="damaxo-henao" data-tecnica="pintura" data-decada="2020" data-estado="disponible" data-w="20" data-h="31">
+        <a href="/obras/" class="block">
+          <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
+            <img src="/assets/img/obra-mejores-amigos.webp" alt="«Mejores amigos», óleo sobre lienzo de Dámaxo Henao, 2026" loading="lazy" decoding="async">
+          </figure>
+          <h3 class="lc-card__title mt-3">Mejores amigos</h3>
+        </a>
+        <p class="lc-meta lc-catalogue__meta">Dámaxo Henao</p>
+        <p class="lc-meta lc-catalogue__meta mt-1">Óleo sobre lienzo · 31 × 20 × 3 cm · 2026</p>
+        <button type="button" class="lc-link" data-inquire="Mejores amigos — Dámaxo Henao">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
+      </li>
+
+      <li class="lc-card lc-card--obra" data-artista="damaxo-henao" data-tecnica="pintura" data-decada="2020" data-estado="disponible" data-w="150" data-h="150">
+        <a href="/obras/" class="block">
+          <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
+            <img src="/assets/img/obra-los-tiempos.webp" alt="«Los tiempos de la ilusión del hogar», tríptico al óleo sobre lienzo de Dámaxo Henao, 2023" loading="lazy" decoding="async">
+          </figure>
+          <h3 class="lc-card__title mt-3">Los tiempos de la ilusión del hogar</h3>
+        </a>
+        <p class="lc-meta lc-catalogue__meta">Dámaxo Henao</p>
+        <p class="lc-meta lc-catalogue__meta mt-1">Tríptico. Óleo sobre lienzo · 150 × 150 cm · 2023</p>
+        <button type="button" class="lc-link" data-inquire="Los tiempos de la ilusión del hogar — Dámaxo Henao">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
+      </li>
+    </ul>
+
+    <p class="lc-meta mt-8" data-wall-note hidden></p>
+    <p class="lc-meta mt-2">
+      El muro usa las medidas reales de la ficha técnica. Pasa el cursor sobre una pieza
+      para ver su cartela. Las obras sin medidas cargadas no
+      pueden colgarse a escala: aparecen solo en la retícula.
+    </p>
+
+    <nav class="mt-10 flex flex-wrap items-center justify-between gap-4 border-t border-[color:var(--color-rule)] pt-6" aria-label="Paginación del catálogo">
+      <p class="lc-meta">Página 1 del catálogo</p>
+      <a class="lc-btn lc-btn--ghost" href="/obras/?page=2" rel="next">Página 2</a>
+    </nav>
+  </section>
+</main>

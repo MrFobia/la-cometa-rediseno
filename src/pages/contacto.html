@@ -1,0 +1,104 @@
+<!--meta
+{
+  "out": "contacto/index.html",
+  "url": "/contacto/",
+  "title": "Contacto — Galería La Cometa",
+  "description": "Escribe a Galería La Cometa o agenda una visita a la sede de Bogotá, Miami, Madrid o Ciudad de México. Un solo correo oficial: info@galerialacometa.com.",
+  "image": "/assets/img/home-hero.webp",
+  "imageAlt": "Sala de Galería La Cometa",
+  "ld": {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "url": "https://galerialacometa.com/contacto/",
+    "mainEntity": { "@id": "https://galerialacometa.com/#organizacion" }
+  }
+}
+meta-->
+
+<main id="contenido">
+  <section class="lc-shell pt-8 pb-6 md:pt-12">
+    <nav class="lc-crumbs" aria-label="Ruta">
+      <ol>
+        <li><a href="/">Inicio</a></li>
+        <li aria-current="page">Contacto</li>
+      </ol>
+    </nav>
+
+    <h1 class="text-[length:var(--text-display-s)] mt-6 max-w-[14ch]">Contacto</h1>
+    <p class="lc-measure lc-meta mt-5 text-[length:var(--text-lg)] leading-relaxed">
+      Un solo correo oficial para todo el sitio y los directorios externos:
+      <a class="lc-link" href="mailto:info@galerialacometa.com">info@galerialacometa.com</a>.
+    </p>
+  </section>
+
+  <section class="lc-shell lc-band pt-8" aria-labelledby="h-form">
+    <div class="grid gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-start">
+      <div>
+        <h2 id="h-form" class="text-[length:var(--text-3xl)]">Escríbenos</h2>
+        <p class="lc-meta mt-3 lc-measure">
+          Cuéntanos qué te interesa —una obra, una visita, una colaboración— y te
+          respondemos desde la sede que corresponda.
+        </p>
+
+        <form class="grid gap-6 mt-8" data-inquire-form novalidate>
+          <div>
+            <label class="lc-caps block mb-1" for="in-nombre">Nombre</label>
+            <input class="lc-field" id="in-nombre" name="nombre" required autocomplete="name">
+          </div>
+          <div>
+            <label class="lc-caps block mb-1" for="in-email">Correo electrónico</label>
+            <input class="lc-field" id="in-email" name="email" type="email" required autocomplete="email">
+          </div>
+          <div>
+            <label class="lc-caps block mb-1" for="c-sede">Sede</label>
+            <select class="lc-field" id="c-sede" name="sede">
+              <option value="bogota">Bogotá</option>
+              <option value="miami">Miami</option>
+              <option value="madrid">Madrid</option>
+              <option value="mexico">Ciudad de México</option>
+            </select>
+          </div>
+          <div>
+            <label class="lc-caps block mb-1" for="in-mensaje">Mensaje</label>
+            <textarea class="lc-field" id="in-mensaje" name="mensaje" rows="4"></textarea>
+          </div>
+          <label class="flex items-start gap-3 lc-meta">
+            <input type="checkbox" name="acepta" required class="mt-1">
+            <span>Acepto la <a class="lc-link" href="/utilidades/terminos-y-condiciones/">política de tratamiento de datos</a>.</span>
+          </label>
+          <div class="flex items-center gap-4 flex-wrap">
+            <button class="lc-btn" type="submit" data-inquire-submit>Enviar mensaje</button>
+            <p class="lc-formnote" data-inquire-note role="status" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+
+      <aside>
+        <h2 class="lc-caps mb-4">Hora local ahora mismo</h2>
+        <ul class="grid gap-6 sm:grid-cols-2 lc-grid-min-0">
+          <li data-clock="bogota" data-hours="L-V 10-18|S 11-16">
+            <p class="lc-clock__state" data-clock-state>Consultando…</p>
+            <h3 class="lc-card__title mt-1">Bogotá</h3>
+            <p class="lc-clock__time" data-clock-time>—:—</p>
+          </li>
+          <li data-clock="miami" data-hours="L-V 10-18|S 11-16">
+            <p class="lc-clock__state" data-clock-state>Consultando…</p>
+            <h3 class="lc-card__title mt-1">Miami</h3>
+            <p class="lc-clock__time" data-clock-time>—:—</p>
+          </li>
+          <li data-clock="madrid" data-hours="M-V 11-19|S 11-14">
+            <p class="lc-clock__state" data-clock-state>Consultando…</p>
+            <h3 class="lc-card__title mt-1">Madrid</h3>
+            <p class="lc-clock__time" data-clock-time>—:—</p>
+          </li>
+          <li data-clock="mexico" data-hours="cita">
+            <p class="lc-clock__state" data-clock-state>Consultando…</p>
+            <h3 class="lc-card__title mt-1">Ciudad de México</h3>
+            <p class="lc-clock__time" data-clock-time>—:—</p>
+          </li>
+        </ul>
+        <a class="lc-link mt-8" href="/la-galeria/">Ver direcciones y horarios completos <span class="lc-arrow" aria-hidden="true">→</span></a>
+      </aside>
+    </div>
+  </section>
+</main>

@@ -1,0 +1,189 @@
+<!--meta
+{
+  "out": "exhibiciones/index.html",
+  "url": "/exhibiciones/",
+  "title": "Exposiciones — Galería La Cometa",
+  "description": "Exposiciones en sala, programación y archivo de Galería La Cometa en Bogotá, Medellín, Miami, Madrid y Ciudad de México. Recorrido por año, no scroll infinito.",
+  "image": "/assets/img/exh-apocalypse.webp",
+  "imageAlt": "Vista de sala de una exposición en Galería La Cometa",
+  "ld": {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Exposiciones de Galería La Cometa",
+    "url": "https://galerialacometa.com/exhibiciones/",
+    "about": { "@id": "https://galerialacometa.com/#organizacion" }
+  }
+}
+meta-->
+
+<main id="contenido">
+  <section class="lc-shell pt-8 pb-6 md:pt-12">
+    <nav class="lc-crumbs" aria-label="Ruta">
+      <ol>
+        <li><a href="/">Inicio</a></li>
+        <li aria-current="page">Exposiciones</li>
+      </ol>
+    </nav>
+
+    <h1 class="text-[length:var(--text-display-s)] mt-6 max-w-[14ch]">Exposiciones</h1>
+    <p class="lc-measure lc-meta mt-5 text-[length:var(--text-lg)] leading-relaxed">
+      Lo que está en sala hoy, lo que viene y todo lo que ya pasó. El archivo se recorre
+      saltando de año en año: cada salto tiene su propia URL.
+    </p>
+  </section>
+
+  <!-- En sala ahora -->
+  <section class="lc-shell lc-band pt-8" aria-labelledby="h-ensala">
+    <div class="lc-section-head">
+      <div>
+        <h2 id="h-ensala" class="text-[length:var(--text-3xl)]"><span class="lc-live">En sala ahora</span></h2>
+        <p class="lc-meta mt-2">Dos exposiciones abiertas en Bogotá hasta el 12 de septiembre de 2026.</p>
+      </div>
+    </div>
+
+    <div class="grid gap-8 md:grid-cols-2 lc-grid-min-0">
+      <article class="lc-card lc-reveal">
+        <a href="/exhibiciones/bogota/apocalypse-now-o-la-fabricacion-del-paraiso-bogota-2026-es/" class="block">
+          <figure class="lc-figure" style="aspect-ratio: 3 / 2;">
+            <img src="/assets/img/exh-apocalypse.webp" alt="Vista de sala de «Apocalypse now o la fabricación del paraíso» en La Cometa Bogotá" loading="lazy" decoding="async">
+          </figure>
+          <p class="lc-caps mt-4">Bogotá · Colectiva</p>
+          <h3 class="lc-card__title mt-1 text-[length:var(--text-2xl)]">Apocalypse now o la fabricación del paraíso</h3>
+        </a>
+        <p class="lc-meta mt-2">5 de agosto — 12 de septiembre de 2026</p>
+      </article>
+
+      <article class="lc-card lc-reveal">
+        <a href="/exhibiciones/bogota/el-volumen-que-toco-la-luz-damaxo-henao-es/" class="block">
+          <figure class="lc-figure" style="aspect-ratio: 3 / 2;">
+            <img src="/assets/img/sala-volumen-2.webp" alt="Vista de sala de «El volumen que tocó la luz» de Dámaxo Henao en La Cometa Bogotá" loading="lazy" decoding="async">
+          </figure>
+          <p class="lc-caps mt-4">Bogotá · Individual</p>
+          <h3 class="lc-card__title mt-1 text-[length:var(--text-2xl)]">El volumen que tocó la luz</h3>
+        </a>
+        <p class="lc-meta mt-2">Dámaxo Henao · 5 de agosto — 12 de septiembre de 2026</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Línea de tiempo -->
+  <section class="lc-shell lc-band" aria-labelledby="h-archivo">
+    <div class="lc-section-head">
+      <div>
+        <h2 id="h-archivo" class="text-[length:var(--text-3xl)]">Programa y archivo</h2>
+        <p class="lc-meta mt-2 lc-measure">Salta al año que te interesa. Pasa el cursor sobre cualquier fila para ver la sala.</p>
+      </div>
+    </div>
+
+    <div class="lc-alpha mb-3" role="group" aria-label="Filtrar exposiciones por año" data-timeline="linea">
+      <button type="button" data-year="todos" aria-pressed="true">Todos</button>
+      <button type="button" data-year="2026" aria-pressed="false">2026</button>
+      <button type="button" data-year="2025" aria-pressed="false">2025</button>
+      <button type="button" data-year="2024" aria-pressed="false">2024</button>
+    </div>
+    <p class="lc-meta mb-8" data-timeline-note role="status" aria-live="polite">Mostrando todos los años.</p>
+
+    <div id="linea">
+      <section data-year-group="2026" aria-labelledby="y-2026">
+        <h3 id="y-2026" class="lc-caps border-b border-[color:var(--color-rule)] pb-2 mb-2">2026</h3>
+        <ul>
+          <li>
+            <a class="lc-index__row" href="/exhibiciones/bogota/el-volumen-que-toco-la-luz-damaxo-henao-es/">
+              <span class="lc-caps">Bogotá</span>
+              <span class="lc-card__title">El volumen que tocó la luz</span>
+              <span class="lc-meta">Dámaxo Henao</span>
+              <span class="lc-meta md:text-right">05.08 — 12.09</span>
+              <img class="lc-index__peek" src="/assets/img/sala-volumen-3.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            </a>
+          </li>
+          <li>
+            <a class="lc-index__row" href="/exhibiciones/bogota/apocalypse-now-o-la-fabricacion-del-paraiso-bogota-2026-es/">
+              <span class="lc-caps">Bogotá</span>
+              <span class="lc-card__title">Apocalypse now o la fabricación del paraíso</span>
+              <span class="lc-meta">Colectiva</span>
+              <span class="lc-meta md:text-right">05.08 — 12.09</span>
+              <img class="lc-index__peek" src="/assets/img/exh-apocalypse.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            </a>
+          </li>
+          <li>
+            <a class="lc-index__row" href="/exhibiciones/">
+              <span class="lc-caps">Bogotá</span>
+              <span class="lc-card__title">De ruidos, desbordes y otras fricciones</span>
+              <span class="lc-meta">Verónica Lehner</span>
+              <span class="lc-meta md:text-right">09.04 — 23.05</span>
+              <img class="lc-index__peek" src="/assets/img/exh-lehner.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            </a>
+          </li>
+          <li>
+            <a class="lc-index__row" href="/exhibiciones/">
+              <span class="lc-caps">Bogotá</span>
+              <span class="lc-card__title">El Mato</span>
+              <span class="lc-meta">Camilo Echeverri</span>
+              <span class="lc-meta md:text-right">12.02 — 01.04</span>
+            </a>
+          </li>
+          <li>
+            <a class="lc-index__row" href="/exhibiciones/">
+              <span class="lc-caps">Madrid</span>
+              <span class="lc-card__title">Parar el mundo</span>
+              <span class="lc-meta">Adam Goldstein</span>
+              <span class="lc-meta md:text-right">Fechas —</span>
+              <img class="lc-index__peek" src="/assets/img/exh-goldstein.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            </a>
+          </li>
+          <li>
+            <a class="lc-index__row" href="/exhibiciones/">
+              <span class="lc-caps">Madrid</span>
+              <span class="lc-card__title">Pensamiento mágico · El año entrante</span>
+              <span class="lc-meta">Alejandro Ospina</span>
+              <span class="lc-meta md:text-right">Fechas —</span>
+              <img class="lc-index__peek" src="/assets/img/exh-ospina.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            </a>
+          </li>
+          <li>
+            <a class="lc-index__row" href="/exhibiciones/">
+              <span class="lc-caps">Madrid</span>
+              <span class="lc-card__title">Arañas del paraíso</span>
+              <span class="lc-meta">María Fernanda Cardoso</span>
+              <span class="lc-meta md:text-right">Fechas —</span>
+              <img class="lc-index__peek" src="/assets/img/exh-cardoso.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            </a>
+          </li>
+          <li>
+            <a class="lc-index__row" href="/exhibiciones/">
+              <span class="lc-caps">Miami</span>
+              <span class="lc-card__title">Delectable Garden</span>
+              <span class="lc-meta">Zhivago Duncan</span>
+              <span class="lc-meta md:text-right">Fechas —</span>
+              <img class="lc-index__peek" src="/assets/img/exh-zhivago.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            </a>
+          </li>
+          <li>
+            <a class="lc-index__row" href="/exhibiciones/">
+              <span class="lc-caps">Medellín</span>
+              <span class="lc-card__title">Envoltorios</span>
+              <span class="lc-meta">Asicaz Monzón</span>
+              <span class="lc-meta md:text-right">Fechas —</span>
+              <img class="lc-index__peek" src="/assets/img/exh-asicaz.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section data-year-group="2025" aria-labelledby="y-2025" class="mt-12">
+        <h3 id="y-2025" class="lc-caps border-b border-[color:var(--color-rule)] pb-2 mb-2">2025</h3>
+        <p class="lc-meta py-6">
+          El archivo de 2025 está publicado en el sitio actual pero sin fichas normalizadas.
+          Se migra en la Fase 2, con una URL por exposición y su ficha técnica completa.
+        </p>
+      </section>
+
+      <section data-year-group="2024" aria-labelledby="y-2024" class="mt-12">
+        <h3 id="y-2024" class="lc-caps border-b border-[color:var(--color-rule)] pb-2 mb-2">2024</h3>
+        <p class="lc-meta py-6">
+          Mismo caso que 2025: archivo existente, pendiente de estructurar como dato.
+        </p>
+      </section>
+    </div>
+  </section>
+</main>
