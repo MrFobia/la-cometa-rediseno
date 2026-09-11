@@ -21,11 +21,16 @@
                     "target": "preferencias-de-trabajo.md",
                     "condition": "",
                     "type": "neuron"
+                },
+                {
+                    "target": "regla-no-inventar-datos.md",
+                    "condition": "",
+                    "type": "neuron"
                 }
             ],
             "disabled": false,
             "type": null,
-            "last_accessed_at": "2026-09-10T22:53:32+00:00"
+            "last_accessed_at": "2026-09-10T23:57:37+00:00"
         },
         {
             "filename": "build-y-tokens.md",
@@ -40,7 +45,7 @@
                 }
             ],
             "created_at": "2026-09-10T20:29:12+00:00",
-            "last_accessed_at": "2026-09-10T22:53:32+00:00",
+            "last_accessed_at": "2026-09-10T23:57:37+00:00",
             "disabled": false,
             "type": "fact",
             "contradicts": [],
@@ -84,7 +89,7 @@
                 }
             ],
             "created_at": "2026-09-10T20:28:58+00:00",
-            "last_accessed_at": "2026-09-10T22:53:32+00:00",
+            "last_accessed_at": "2026-09-10T23:57:37+00:00",
             "disabled": false,
             "type": "fact",
             "contradicts": [],
@@ -97,7 +102,7 @@
             "source": "ai",
             "connections": [],
             "created_at": "2026-09-10T20:28:22+00:00",
-            "last_accessed_at": "2026-09-10T22:53:32+00:00",
+            "last_accessed_at": "2026-09-10T23:57:37+00:00",
             "disabled": false,
             "type": "quirk",
             "contradicts": [],
@@ -110,7 +115,7 @@
             "source": "ai",
             "connections": [],
             "created_at": "2026-09-10T20:28:28+00:00",
-            "last_accessed_at": "2026-09-10T22:53:32+00:00",
+            "last_accessed_at": "2026-09-10T23:57:37+00:00",
             "disabled": false,
             "type": "decision",
             "contradicts": [],
@@ -123,7 +128,7 @@
             "source": "ai",
             "connections": [],
             "created_at": "2026-09-10T20:28:16+00:00",
-            "last_accessed_at": "2026-09-10T22:53:32+00:00",
+            "last_accessed_at": "2026-09-10T23:57:37+00:00",
             "disabled": false,
             "type": "quirk",
             "contradicts": [],
@@ -157,7 +162,7 @@
                 }
             ],
             "created_at": "2026-09-10T20:28:09+00:00",
-            "last_accessed_at": "2026-09-10T22:53:32+00:00",
+            "last_accessed_at": "2026-09-10T23:57:37+00:00",
             "disabled": false,
             "type": "reference",
             "contradicts": [],
@@ -170,7 +175,7 @@
             "source": "ai",
             "connections": [],
             "created_at": "2026-09-10T20:29:18+00:00",
-            "last_accessed_at": "2026-09-10T22:53:32+00:00",
+            "last_accessed_at": "2026-09-10T23:57:37+00:00",
             "disabled": false,
             "type": "correction",
             "contradicts": [],
@@ -183,7 +188,7 @@
             "source": "ai",
             "connections": [],
             "created_at": "2026-09-10T20:29:05+00:00",
-            "last_accessed_at": "2026-09-10T22:53:32+00:00",
+            "last_accessed_at": "2026-09-10T23:57:37+00:00",
             "disabled": false,
             "type": "fact",
             "contradicts": [],
@@ -202,7 +207,7 @@
                 }
             ],
             "created_at": "2026-09-10T21:16:54+00:00",
-            "last_accessed_at": "2026-09-10T22:53:32+00:00",
+            "last_accessed_at": "2026-09-10T23:57:37+00:00",
             "disabled": false,
             "type": "constraint",
             "contradicts": [],
@@ -215,7 +220,7 @@
             "source": "ai",
             "connections": [],
             "created_at": "2026-09-10T21:17:02+00:00",
-            "last_accessed_at": "2026-09-10T22:53:32+00:00",
+            "last_accessed_at": "2026-09-10T23:57:37+00:00",
             "disabled": false,
             "type": "quirk",
             "contradicts": [],
@@ -228,7 +233,7 @@
             "source": "ai",
             "connections": [],
             "created_at": "2026-09-10T22:05:33+00:00",
-            "last_accessed_at": "2026-09-10T22:53:32+00:00",
+            "last_accessed_at": "2026-09-10T23:57:37+00:00",
             "disabled": false,
             "type": "preference",
             "contradicts": [],
@@ -241,7 +246,7 @@
             "source": "ai",
             "connections": [],
             "created_at": "2026-09-10T22:18:16+00:00",
-            "last_accessed_at": "2026-09-10T22:53:32+00:00",
+            "last_accessed_at": "2026-09-10T23:57:37+00:00",
             "disabled": false,
             "type": "constraint",
             "contradicts": [],
@@ -254,7 +259,7 @@
             "source": "ai",
             "connections": [],
             "created_at": "2026-09-10T22:18:34+00:00",
-            "last_accessed_at": "2026-09-10T22:53:32+00:00",
+            "last_accessed_at": "2026-09-10T23:57:37+00:00",
             "disabled": false,
             "type": "quirk",
             "contradicts": [],
@@ -267,7 +272,7 @@
             "source": "ai",
             "connections": [],
             "created_at": "2026-09-10T22:38:48+00:00",
-            "last_accessed_at": "2026-09-10T22:53:32+00:00",
+            "last_accessed_at": "2026-09-10T23:57:37+00:00",
             "disabled": false,
             "type": "fact",
             "contradicts": [],
@@ -280,11 +285,61 @@
             "source": "ai",
             "connections": [],
             "created_at": "2026-09-10T22:38:55+00:00",
-            "last_accessed_at": "2026-09-10T22:53:32+00:00",
+            "last_accessed_at": "2026-09-10T23:57:37+00:00",
             "disabled": false,
             "type": "quirk",
             "contradicts": [],
             "colour": "lime"
+        },
+        {
+            "filename": "damaxo-ano-en-conflicto.md",
+            "name": "damaxo ano en conflicto",
+            "hierarchy": "secondary",
+            "source": "ai",
+            "connections": [],
+            "created_at": "2026-09-10T22:57:42+00:00",
+            "last_accessed_at": "2026-09-10T23:57:37+00:00",
+            "disabled": false,
+            "type": "constraint",
+            "contradicts": [],
+            "colour": "cyan"
+        },
+        {
+            "filename": "regla-no-inventar-datos.md",
+            "name": "regla no inventar datos",
+            "hierarchy": "secondary",
+            "source": "ai",
+            "connections": [
+                {
+                    "target": "damaxo-ano-en-conflicto.md",
+                    "condition": "",
+                    "type": "neuron"
+                },
+                {
+                    "target": "sitio-real-sin-fichas-de-obra.md",
+                    "condition": "",
+                    "type": "neuron"
+                }
+            ],
+            "created_at": "2026-09-10T22:57:35+00:00",
+            "last_accessed_at": "2026-09-10T23:57:37+00:00",
+            "disabled": false,
+            "type": "constraint",
+            "contradicts": [],
+            "colour": "fuchsia"
+        },
+        {
+            "filename": "sitio-real-sin-fichas-de-obra.md",
+            "name": "sitio real sin fichas de obra",
+            "hierarchy": "secondary",
+            "source": "ai",
+            "connections": [],
+            "created_at": "2026-09-10T22:57:49+00:00",
+            "last_accessed_at": "2026-09-10T23:57:37+00:00",
+            "disabled": false,
+            "type": "quirk",
+            "contradicts": [],
+            "colour": "orange"
         }
     ],
     "context_pins": []

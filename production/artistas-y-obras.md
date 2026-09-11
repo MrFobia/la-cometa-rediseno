@@ -90,11 +90,35 @@ para la sección «obras» de sus fichas:
 - Daniel Nyström — *The Capacity To Comprehend Infinity*, hierro, lana, hormigón, MDF y tinta,
   200 × 200 × 4 cm, 2023.
 
-## 6. Qué hay que decidir antes de seguir
+## 6. Decisiones tomadas (2026-09-11, consultadas con Nicolas)
 
-1. **Año de Dámaxo**: confirmar con la galería, o publicar con `.lc-pending`.
-2. **Fichas de obra sin fuente**: si se construyen igual, quedan con la línea de catálogo y poco
-   más; hay que decidir si vale la pena para las 12, sólo para las 5 de Dámaxo (las únicas con
-   texto curatorial), o ninguna.
-3. **Ana González**: agregarla al panal como artista número 13, o dejar su obra sin enlace.
-4. **La errata «Elliptic Spsce II»**: respetar la fuente o mantener la corrección.
+1. **Año de Dámaxo**: se usa **1995**, como hasta ahora. **El conflicto NO se cierra**: queda
+   anotado en el README y en la memoria como dato sin confirmar por la galería. No sacarlo de la
+   lista de pendientes.
+2. **Fichas de obra**: **sólo las 5 de Dámaxo**, únicas con texto curatorial real. El resto del
+   catálogo se queda sin ficha hasta que la galería entregue textos.
+3. **Ana González**: **entra al panal como artista 13**, con ficha propia y sus dos obras
+   publicadas. Hay que sumarla también a `js/data.js` para que aparezca en el buscador global.
+4. **«Elliptic Space II»**: se mantiene **la corrección**. La errata del origen no se arrastra y
+   queda anotada en el README.
+5. **Verónica Lehner**: se publica lo que sí está (Cali, Colombia, 1980); la **disciplina se
+   muestra como pendiente**.
+6. **Zhivago Duncan**: se publica **Terre Haute, Indiana, USA, 1980 y nada más**. No se le asigna
+   nacionalidad — nacido en Estados Unidos no equivale a artista estadounidense.
+7. **Roster real vs. panal**: no se agregan los 16 artistas del sitio. Es una decisión de la
+   galería; queda documentado acá y en el README, sin tocar el panal.
+
+## 7. Ana González — datos para su ficha (artista 13)
+
+Publicado en `/artistas/ana-gonzalez-es`: **Bogotá, Colombia, 1974**. Disciplina **no publicada**.
+Biografía **no publicada**. Exposiciones publicadas: *Chinyia* (Madrid, 14 nov – 20 dic 2019),
+*Chinyia* en la Embajada de Colombia en Madrid (7 – 21 jul 2020) y la colectiva *Opening galería
+Madrid* (11 abr – 31 may 2019).
+
+Ojo con una particularidad: **su ficha de artista y el catálogo publican obras distintas**. La
+ficha lista *Cattleya I* (porcelana limoges, 25 × 25 cm, 2021), *Calima* (bronce, 8 × 19 × 9 cm,
+2018), *Frailejón I*, *Colibrí I*, *Amazonas* (mixta sobre lienzo, 50 × 40 cm, 2021) y otras —
+pero **no** incluye las dos que trae el catálogo, *Serranías del Dios de la Noche II* (textil,
+22 × 96 cm, 2024) y *Bromelia* (mixta sobre lienzo, 60 × 50 cm, 2024). Las dos fuentes son del
+mismo sitio, así que las obras del catálogo entran igual; simplemente no conviene tratar la ficha
+de artista como la lista completa de su obra.

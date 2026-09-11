@@ -15,4 +15,6 @@ Cuando la fuente se contradice consigo misma, tampoco se elige: se marca como pe
 <!-- backbone:memory-references -->
 - [El año de nacimiento de Dámaxo Henao está en conflicto](./damaxo-ano-en-conflicto.md)
 - [El sitio real no tiene fichas de obra](./sitio-real-sin-fichas-de-obra.md)
+- [La nacionalidad no se deduce del lugar de nacimiento](./nacionalidad-no-se-deduce-del-nacimiento.md)
+- [El alcance de contenido lo fija la galería](./alcance-de-contenido-lo-fija-la-galeria.md)
 <!-- backbone:memory-references -->

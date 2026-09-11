@@ -146,12 +146,29 @@ Los datos que el sitio actual no tiene cargados aparecen como `—` o con el sel
 
 - **Fechas de la programación 2026** fuera de las cuatro exposiciones de Bogotá.
 - **Año de nacimiento de Dámaxo Henao**: el sitio publica 1955 en la ficha de artista y
-  1995 en el texto curatorial. Se usa 1995; falta confirmarlo.
+  1995 en el texto curatorial. **Se usa 1995** por decisión del 2026-09-11, pero la
+  contradicción sigue **sin confirmar por la galería** y no se da por cerrada: es la
+  fuente contradiciéndose a sí misma, no un dato que falte.
+- **Fichas de obra**: sólo se construyen las cinco de Dámaxo Henao, las únicas con texto
+  curatorial publicado. El resto del catálogo queda sin ficha propia **hasta que la
+  galería entregue textos**. El sitio actual no tiene fichas de obra: `/obras/<slug>/`
+  devuelve 404 y los títulos del catálogo no son enlaces.
 - **Medellín** tiene exposiciones publicadas en 2026 pero no tiene página de sede ni
   dirección: aparece listada con los datos marcados como pendientes.
-- **«Elliptic Spsce II»**: typo del sitio original. Aquí se escribe «Elliptic Space II».
-- **Disciplina y país** de varios artistas (Carlos Castro, Daniel Nyström, Verónica Lehner,
-  Zhivago Duncan).
+- **«Elliptic Spsce II»**: errata del sitio original. Aquí se escribe «Elliptic Space II»
+  y la corrección se mantiene deliberadamente — la errata del origen no se arrastra.
+- **Disciplina de Verónica Lehner**: no publicada, se muestra como pendiente. Su origen sí
+  está publicado (Cali, Colombia, 1980) y ya figura.
+- **Zhivago Duncan**: el sitio sólo publica lugar y año de nacimiento (Terre Haute,
+  Indiana, USA, 1980). Su ficha es mayormente «Dato pendiente», a propósito. **No se le
+  asigna nacionalidad**: haber nacido en Estados Unidos no lo vuelve un artista
+  estadounidense, y eso lo define la galería.
+- **El roster del sitio no coincide con el del prototipo**: `/artistas/` publica 16
+  artistas en dos páginas (Gabriela Pinilla, Glenda León, Johan Samboni, Juan Cárdenas,
+  Juan Jaramillo, Justyna Kisielewicz, Liliana García, Luisa Pastor, entre otros) y
+  ninguno está en el panal; a la inversa, cuatro de los nuestros no aparecen en esas dos
+  páginas aunque tienen ficha propia. **A quién representa la galería lo decide la
+  galería**: queda documentado y sin tocar. Detalle en `production/artistas-y-obras.md`.
 - **Precios y CV en PDF**: no publicados.
 - **Formularios**: validan y muestran estados de carga, error y éxito, pero el envío está
   simulado. Falta el endpoint.
