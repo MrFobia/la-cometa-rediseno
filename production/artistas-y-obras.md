@@ -108,6 +108,31 @@ para la sección «obras» de sus fichas:
 7. **Roster real vs. panal**: no se agregan los 16 artistas del sitio. Es una decisión de la
    galería; queda documentado acá y en el README, sin tocar el panal.
 
+## 6 bis. Resolución de las imágenes nuevas — limitación de la fuente
+
+Las 19 imágenes descargadas el 2026-09-11 salieron en dos calidades muy distintas, y no por
+elección nuestra:
+
+| Origen | Qué llegó | Cuáles |
+|---|---|---|
+| JPG de tamaño completo | **1800 px** tras `cwebp -q 78 -resize 1800 0` | las 5 obras de Ana González de su ficha |
+| WebP servido por el CMS | **383–389 px**, ya en WebP | las 6 de Verónica Lehner, las 6 de Zhivago Duncan y *Bromelia* |
+| WebP de tamaño completo | 1455 px, copiado sin recomprimir | el retrato de Miguel Ángel Rojas |
+
+El resto del proyecto usa **1800 px**, así que esas 13 imágenes chicas van a verse más blandas si
+se las usa en grande. **No hay versión mayor publicada**: se probaron las variantes `.jpg` y `.png`
+de esas mismas rutas y todas devuelven 404; el `.webp` de 383 px es el original que entrega el
+sitio. Los archivos pesan 100–185 KB pese a medir 383 px, o sea que son recortes de buena calidad
+pero de baja resolución.
+
+Consecuencia de diseño: en las fichas de Lehner, Duncan y en *Bromelia* esas imágenes se usan a
+tamaño de tarjeta y **no** como pieza a sangre completa. Si la galería quiere esas fichas en
+grande, tiene que entregar los originales.
+
+Criterio aplicado en la conversión: los WebP que ya venían por debajo de 1800 px se copiaron **sin
+recomprimir** (reencodarlos sólo habría perdido calidad); los JPG y cualquier cosa por encima de
+1800 px sí pasaron por `cwebp -q 78 -resize 1800 0`.
+
 ## 7. Ana González — datos para su ficha (artista 13)
 
 Publicado en `/artistas/ana-gonzalez-es`: **Bogotá, Colombia, 1974**. Disciplina **no publicada**.
