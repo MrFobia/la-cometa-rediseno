@@ -438,11 +438,11 @@
     <div class="lc-section-head">
       <div>
         <h2 id="h-artistas" class="text-[length:var(--text-3xl)]">Artistas</h2>
-        <p class="lc-meta mt-2 lc-measure">Filtro alfabético y vista intercambiable. Cada página del listado tiene su propia URL indexable.</p>
+        <p class="lc-meta mt-2 lc-measure">Pasa el cursor sobre cualquier nombre: en vez de un retrato, aparece una obra.</p>
       </div>
       <div class="flex items-center gap-3">
         <div class="flex" role="group" aria-label="Vista del listado de artistas">
-          <button type="button" class="lc-tab px-3" data-view="mosaico" aria-pressed="true">Mosaico</button>
+          <button type="button" class="lc-tab px-3" data-view="mosaico" aria-pressed="true">Panal</button>
           <button type="button" class="lc-tab px-3" data-view="lista" aria-pressed="false">Lista</button>
         </div>
       </div>
@@ -450,80 +450,105 @@
 
     <div class="lc-alpha mb-8" role="group" aria-label="Filtrar artistas por inicial" data-alpha></div>
 
-    <ul class="grid gap-x-6 gap-y-10 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lc-grid-min-0" data-artist-grid>
-      <li class="lc-card lc-reveal" data-letter="A">
-        <a href="/preview/1098" class="block group">
-          <figure class="lc-figure" style="aspect-ratio: 3 / 4;">
-            <img src="/projects/re-diseno-la-cometa/assets/img/artista-adam-goldstein.webp" alt="Retrato del artista Adam Goldstein" loading="lazy" decoding="async">
-          </figure>
-          <h3 class="lc-card__title mt-3">Adam Goldstein</h3>
-          <p class="lc-meta">Colombia · Pintura</p>
+    <!-- ============ PANAL DE ARTISTAS (compartido) ============
+     Se usa igual en el home y en /artistas/. Al pasar el cursor sobre un
+     nombre aparece una obra, no un retrato: se reconoce al artista por lo que
+     hace. Si se suma alguien, se suma acá y aparece en los dos lugares.
+     Una celda = un artista = un enlace. -->
+<ul class="lc-hive" data-artist-grid>
+      <li data-letter="A">
+        <a href="/preview/1098">
+          <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/exh-goldstein.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+          <span class="lc-hive__name">Adam Goldstein</span>
+          <span class="lc-hive__meta">Colombia · Pintura</span>
         </a>
       </li>
-      <li class="lc-card lc-reveal" data-letter="A">
-        <a href="/preview/1100" class="block">
-          <figure class="lc-figure" style="aspect-ratio: 3 / 4;">
-            <img src="/projects/re-diseno-la-cometa/assets/img/artista-adrian-gaitan.webp" alt="Retrato del artista Adrián Gaitán" loading="lazy" decoding="async">
-          </figure>
-          <h3 class="lc-card__title mt-3">Adrián Gaitán</h3>
-          <p class="lc-meta">Colombia · Ensamblaje</p>
+      <li data-letter="A">
+        <a href="/preview/1100">
+          <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/obra-3.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+          <span class="lc-hive__name">Adrián Gaitán</span>
+          <span class="lc-hive__meta">Colombia · Ensamblaje</span>
         </a>
       </li>
-      <li class="lc-card lc-reveal" data-letter="A">
-        <a href="/preview/1102" class="block">
-          <figure class="lc-figure" style="aspect-ratio: 3 / 4;">
-            <img src="/projects/re-diseno-la-cometa/assets/img/artista-alejandro-ospina.webp" alt="Retrato del artista Alejandro Ospina" loading="lazy" decoding="async">
-          </figure>
-          <h3 class="lc-card__title mt-3">Alejandro Ospina</h3>
-          <p class="lc-meta">Colombia · Pintura</p>
+      <li data-letter="A">
+        <a href="/preview/1102">
+          <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/exh-ospina.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+          <span class="lc-hive__name">Alejandro Ospina</span>
+          <span class="lc-hive__meta">Colombia · Pintura</span>
         </a>
       </li>
-      <li class="lc-card lc-reveal" data-letter="A">
-        <a href="/preview/1103" class="block">
-          <figure class="lc-figure" style="aspect-ratio: 3 / 4;">
-            <img src="/projects/re-diseno-la-cometa/assets/img/artista-alejandro-sanchez.webp" alt="Retrato del artista Alejandro Sánchez" loading="lazy" decoding="async">
-          </figure>
-          <h3 class="lc-card__title mt-3">Alejandro Sánchez</h3>
-          <p class="lc-meta">Colombia · Escultura</p>
+      <li data-letter="A">
+        <a href="/preview/1103">
+          <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/obra-7.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+          <span class="lc-hive__name">Alejandro Sánchez</span>
+          <span class="lc-hive__meta">Colombia · Escultura</span>
         </a>
       </li>
-      <li class="lc-card lc-reveal" data-letter="C">
-        <a href="/preview/1106" class="block">
-          <figure class="lc-figure" style="aspect-ratio: 3 / 4;">
-            <img src="/projects/re-diseno-la-cometa/assets/img/artista-camilo-restrepo.webp" alt="Retrato del artista Camilo Restrepo" loading="lazy" decoding="async">
-          </figure>
-          <h3 class="lc-card__title mt-3">Camilo Restrepo</h3>
-          <p class="lc-meta">Colombia · Dibujo</p>
+      <li data-letter="A">
+        <a href="/preview/1096">
+          <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/obra-amazonas.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+          <span class="lc-hive__name">Ana González</span>
+          <span class="lc-hive__meta">Colombia</span>
         </a>
       </li>
-      <li class="lc-card lc-reveal" data-letter="C">
-        <a href="/preview/1099" class="block">
-          <figure class="lc-figure" style="aspect-ratio: 3 / 4;">
-            <img src="/projects/re-diseno-la-cometa/assets/img/artista-carlos-castro.webp" alt="Retrato del artista Carlos Castro" loading="lazy" decoding="async">
-          </figure>
-          <h3 class="lc-card__title mt-3">Carlos Castro</h3>
-          <p class="lc-meta">Colombia</p>
+      <li data-letter="C">
+        <a href="/preview/1106">
+          <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/obra-4.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+          <span class="lc-hive__name">Camilo Restrepo</span>
+          <span class="lc-hive__meta">Colombia · Dibujo</span>
         </a>
       </li>
-      <li class="lc-card lc-reveal" data-letter="D">
-        <a href="/preview/1101" class="block">
-          <figure class="lc-figure" style="aspect-ratio: 3 / 4;">
-            <img src="/projects/re-diseno-la-cometa/assets/img/artista-daniel-nystrom.webp" alt="Retrato del artista Daniel Nyström" loading="lazy" decoding="async">
-          </figure>
-          <h3 class="lc-card__title mt-3">Daniel Nyström</h3>
-          <p class="lc-meta">Suecia</p>
+      <li data-letter="C">
+        <a href="/preview/1099">
+          <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/artista-carlos-castro.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+          <span class="lc-hive__name">Carlos Castro</span>
+          <span class="lc-hive__meta">Colombia</span>
         </a>
       </li>
-      <li class="lc-card lc-reveal" data-letter="F">
-        <a href="/preview/1104" class="block">
-          <figure class="lc-figure" style="aspect-ratio: 3 / 4;">
-            <img src="/projects/re-diseno-la-cometa/assets/img/artista-fernando-pinto.webp" alt="Retrato del artista Fernando Pinto" loading="lazy" decoding="async">
-          </figure>
-          <h3 class="lc-card__title mt-3">Fernando Pinto</h3>
-          <p class="lc-meta">Colombia · Escultura</p>
+      <li data-letter="D">
+        <a href="/preview/1092">
+          <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/obra-puerta.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+          <span class="lc-hive__name">Dámaxo Henao</span>
+          <span class="lc-hive__meta">Medellín, Colombia · Pintura</span>
+        </a>
+      </li>
+      <li data-letter="D">
+        <a href="/preview/1101">
+          <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/artista-daniel-nystrom.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+          <span class="lc-hive__name">Daniel Nyström</span>
+          <span class="lc-hive__meta">Suecia</span>
+        </a>
+      </li>
+      <li data-letter="F">
+        <a href="/preview/1104">
+          <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/obra-6.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+          <span class="lc-hive__name">Fernando Pinto</span>
+          <span class="lc-hive__meta">Colombia · Escultura</span>
+        </a>
+      </li>
+      <li data-letter="M">
+        <a href="/preview/1097">
+          <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/obra-1.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+          <span class="lc-hive__name">Miguel Ángel Rojas</span>
+          <span class="lc-hive__meta">Colombia</span>
+        </a>
+      </li>
+      <li data-letter="V">
+        <a href="/preview/1105">
+          <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/exh-lehner.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+          <span class="lc-hive__name">Verónica Lehner</span>
+          <span class="lc-hive__meta">—</span>
+        </a>
+      </li>
+      <li data-letter="Z">
+        <a href="/preview/1107">
+          <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/exh-zhivago.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+          <span class="lc-hive__name">Zhivago Duncan</span>
+          <span class="lc-hive__meta">—</span>
         </a>
       </li>
     </ul>
+
 
     <p class="lc-meta mt-6" data-artist-empty hidden>No hay artistas cargados en esta inicial dentro de esta página del listado.</p>
 

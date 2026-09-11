@@ -173,7 +173,12 @@
       </div>
     </div>
 
-    <ul class="lc-hive" data-artist-grid>
+    <!-- ============ PANAL DE ARTISTAS (compartido) ============
+     Se usa igual en el home y en /artistas/. Al pasar el cursor sobre un
+     nombre aparece una obra, no un retrato: se reconoce al artista por lo que
+     hace. Si se suma alguien, se suma acá y aparece en los dos lugares.
+     Una celda = un artista = un enlace. -->
+<ul class="lc-hive" data-artist-grid>
       <li data-letter="A">
         <a href="/preview/1098">
           <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/exh-goldstein.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
@@ -266,6 +271,7 @@
         </a>
       </li>
     </ul>
+
 
     <p class="lc-meta mt-6" data-artist-empty hidden>No hay artistas cargados en esta inicial dentro de esta página del listado.</p>
 
