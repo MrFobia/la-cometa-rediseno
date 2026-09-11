@@ -367,7 +367,13 @@
 
 <!-- ================= FOOTER (Ft5 · declaración) ================= -->
 <footer class="lc-shell lc-band">
-  <p class="text-[length:var(--text-display-s)] max-w-[14ch] leading-[0.95]">La Cometa</p>
+  <!-- La firma del pie es el lockup, no el nombre compuesto: los guiones son la
+       cola de la cometa y sólo se leen en el logo. Va a la misma altura que
+       tenía el texto display. -->
+  <img src="/assets/LC-Logo.svg" alt="Galería La Cometa"
+       width="1366" height="612"
+       class="w-auto max-w-full"
+       style="height: calc(var(--text-display-s) * 1.95)">
   <p class="lc-measure lc-meta mt-5">
     Arte contemporáneo de Colombia y América Latina. Bogotá · Medellín · Miami · Madrid · Ciudad de México.
   </p>

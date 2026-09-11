@@ -1,6 +1,38 @@
 @import "tailwindcss";
 @import "../tokens.css";
 
+/* ---------------------------------------------------------------------------
+ * Utilidades garantizadas
+ *
+ * Tailwind sólo emite las clases que ve en el código, y la plataforma donde se
+ * escriben las páginas no tiene con qué recompilar: una utilidad nueva allá
+ * saldría sin estilo y en silencio. Este bloque deja emitidas de antemano las
+ * utilidades de composición que una página puede necesitar, para que el marcado
+ * se escriba con Tailwind y no con CSS propio.
+ * ------------------------------------------------------------------------ */
+@source inline("{sm:,md:,lg:,}{flex,grid,block,inline-flex,inline-block,hidden}");
+@source inline("{sm:,md:,lg:,}flex-{row,col,wrap,nowrap}");
+@source inline("{sm:,md:,lg:,}grid-cols-{1,2,3,4,5,6,12}");
+@source inline("{sm:,md:,lg:,}col-span-{1,2,3,4,5,6,full}");
+@source inline("{sm:,md:,lg:,}items-{start,center,end,stretch,baseline}");
+@source inline("{sm:,md:,lg:,}justify-{start,center,end,between,around}");
+@source inline("{sm:,md:,lg:,}gap-{0,1,2,3,4,5,6,8,10,12,16,20}");
+@source inline("{sm:,md:,lg:,}{p,px,py,pt,pb,pl,pr}-{0,1,2,3,4,5,6,8,10,12,16,20,24}");
+@source inline("{sm:,md:,lg:,}{m,mx,my,mt,mb,ml,mr}-{0,1,2,3,4,5,6,8,10,12,16,20,auto}");
+@source inline("{sm:,md:,lg:,}{w,h}-{full,auto,screen,fit,px}");
+@source inline("{sm:,md:,lg:,}max-w-{none,full,prose,xs,sm,md,lg,xl,2xl,3xl,4xl}");
+@source inline("{sm:,md:,lg:,}min-h-{0,full,screen}");
+@source inline("{sm:,md:,lg:,}text-{left,center,right,balance,pretty}");
+@source inline("{sm:,md:,lg:,}{border,border-t,border-b,border-l,border-r}");
+@source inline("border-{0,2,dashed,dotted,solid}");
+@source inline("{sm:,md:,lg:,}{relative,absolute,fixed,sticky,static}");
+@source inline("{sm:,md:,lg:,}{overflow-hidden,overflow-x-auto,overflow-y-auto}");
+@source inline("{sm:,md:,lg:,}order-{1,2,3,first,last,none}");
+@source inline("{space-y,space-x}-{1,2,3,4,5,6,8}");
+@source inline("{sm:,md:,lg:,}aspect-{square,video,auto}");
+@source inline("{sm:,md:,lg:,}object-{cover,contain,center,top,bottom}");
+@source inline("{sr-only,not-sr-only,truncate,list-none,mx-auto,w-fit,shrink-0,flex-1,mt-auto,self-start,self-center,self-end}");
+
 /* Puente tokens → utilidades de Tailwind.
    `inline` hace que las utilidades apunten a las variables de tokens.css,
    así tokens.css sigue siendo la única fuente de verdad. */
