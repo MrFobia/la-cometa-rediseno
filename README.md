@@ -43,20 +43,31 @@ es `src/pages`.
 
 ## Páginas
 
+**28 vistas** compuestas por `build.js` desde `src/pages/`.
+
 | URL | Qué es |
 |---|---|
 | `/` | Home |
-| `/artistas/` | Listado en panal, filtro alfabético, vista panal/lista |
-| `/artistas/damaxo-henao-es/` | Ficha de artista con nav contextual |
+| `/artistas/` | Listado en panal (13 artistas), filtro alfabético, vista panal/lista |
+| `/artistas/<slug>-es/` | **13 fichas de artista** con nav contextual — ver detalle abajo |
 | `/exhibiciones/` | En sala + programa y archivo por año |
 | `/exhibiciones/bogota/el-volumen-…/` | Ficha de exposición con recorrido de sala |
 | `/obras/` | Catálogo con filtros cruzados y muro a escala |
-| `/obras/transeunte/` | Ficha de obra con lupa y escala humana |
+| `/obras/<slug>/` | **5 fichas de obra** con lupa y escala humana — sólo Dámaxo Henao |
 | `/ferias/` | Próxima participación + historial por año |
 | `/noticias/` | Listado por categoría |
 | `/noticias/mexico-ahora-mas-cerca/` | Artículo con schema `Article` y bloque citable |
 | `/la-galeria/` | Las cinco sedes, con hora local |
 | `/contacto/` | Formulario + relojes de sede |
+
+**Las 13 fichas de artista** (`Person` + `ProfilePage`): Adam Goldstein, Adrián Gaitán,
+Alejandro Ospina, Alejandro Sánchez, Ana González, Camilo Restrepo, Carlos Castro, Dámaxo
+Henao, Daniel Nyström, Fernando Pinto, Miguel Ángel Rojas, Verónica Lehner y Zhivago Duncan.
+
+**Las 5 fichas de obra** (`VisualArtwork` + `Offer`), todas de Dámaxo Henao: *Transeúnte*,
+*El centinela diurno*, *La torre del ermitaño*, *Mejores amigos* y *Los tiempos de la ilusión
+del hogar*. Enlazadas en las dos direcciones desde el catálogo, desde la ficha del artista y
+desde la exposición.
 
 ## Componentes de las internas
 
@@ -149,10 +160,16 @@ Los datos que el sitio actual no tiene cargados aparecen como `—` o con el sel
   1995 en el texto curatorial. **Se usa 1995** por decisión del 2026-09-11, pero la
   contradicción sigue **sin confirmar por la galería** y no se da por cerrada: es la
   fuente contradiciéndose a sí misma, no un dato que falte.
-- **Fichas de obra**: sólo se construyen las cinco de Dámaxo Henao, las únicas con texto
-  curatorial publicado. El resto del catálogo queda sin ficha propia **hasta que la
-  galería entregue textos**. El sitio actual no tiene fichas de obra: `/obras/<slug>/`
-  devuelve 404 y los títulos del catálogo no son enlaces.
+- **El sitio real no publica fichas de obra.** Comprobado de dos formas independientes:
+  `https://galerialacometa.com/obras/<slug>/` devuelve **404**, y en la ficha de cada
+  artista los títulos de obra **no son enlaces**. Su catálogo son galerías paginadas
+  (116 páginas) con título, artista, técnica, medidas y año, y nada más. Por eso **las
+  únicas cinco fichas de obra construidas son las de Dámaxo Henao** —*Transeúnte*,
+  *El centinela diurno*, *La torre del ermitaño*, *Mejores amigos* y *Los tiempos de la
+  ilusión del hogar*—, las únicas piezas con texto curatorial publicado. El resto del
+  catálogo queda sin ficha propia **hasta que la galería entregue textos**; no se
+  escriben acá. *Puerta* tampoco tiene ficha: aparece en la exposición y en la ficha del
+  artista, pero no en el catálogo.
 - **Medellín** tiene exposiciones publicadas en 2026 pero no tiene página de sede ni
   dirección: aparece listada con los datos marcados como pendientes.
 - **«Elliptic Spsce II»**: errata del sitio original. Aquí se escribe «Elliptic Space II»
@@ -163,12 +180,31 @@ Los datos que el sitio actual no tiene cargados aparecen como `—` o con el sel
   Indiana, USA, 1980). Su ficha es mayormente «Dato pendiente», a propósito. **No se le
   asigna nacionalidad**: haber nacido en Estados Unidos no lo vuelve un artista
   estadounidense, y eso lo define la galería.
-- **El roster del sitio no coincide con el del prototipo**: `/artistas/` publica 16
-  artistas en dos páginas (Gabriela Pinilla, Glenda León, Johan Samboni, Juan Cárdenas,
-  Juan Jaramillo, Justyna Kisielewicz, Liliana García, Luisa Pastor, entre otros) y
-  ninguno está en el panal; a la inversa, cuatro de los nuestros no aparecen en esas dos
-  páginas aunque tienen ficha propia. **A quién representa la galería lo decide la
-  galería**: queda documentado y sin tocar. Detalle en `production/artistas-y-obras.md`.
+- **El roster publicado no coincide con el del prototipo.** `/artistas/` publica **16
+  artistas** en dos páginas —Gabriela Pinilla, Glenda León, Johan Samboni, Juan Cárdenas,
+  Juan Jaramillo, Justyna Kisielewicz, Liliana García y Luisa Pastor, entre otros— y
+  **ninguno** está en nuestro panal; a la inversa, cuatro de los nuestros (Dámaxo Henao,
+  Miguel Ángel Rojas, Verónica Lehner y Zhivago Duncan) **no aparecen** en esas dos
+  páginas aunque tienen ficha propia. Nuestro panal son los **12 originales + Ana
+  González**, única alta aprobada y sólo porque ya tenía obra en el catálogo sin ficha a
+  la que enlazar. **A quién representa la galería lo decide la galería**: el hallazgo
+  queda documentado y sin tocar. Detalle en `production/artistas-y-obras.md`.
+
+- **La mayoría de las obras no tiene ficha técnica publicada.** De Alejandro Sánchez y de
+  Fernando Pinto hay **una sola pieza** con técnica, medidas y año, y viene del catálogo,
+  no de su página de artista. De Verónica Lehner y de Zhivago Duncan **no hay ninguna**:
+  el sitio publica el título y la imagen, nada más. Esas tarjetas van con «Ficha técnica:
+  pendiente» en vez de completarse. Criterio aplicado: varios nombres de archivo del CMS
+  traen la ficha técnica escrita adentro
+  (`Fernando Pinto_ONDA_Piedra Sibaté_15 x 25 x 7 cm_2021.jpg`), pero **un nombre de
+  archivo no es un dato publicado** —y además traen erratas («dolas», «inkyet»,
+  «solubres»)—, así que no se usaron como fuente.
+
+- **El buscador global cae en 404 dentro del preview.** Las URLs del índice viven como
+  strings `u: "/artistas/…"` en `js/data.js`, que se incrusta en `@verbatim<script>`, así
+  que la reescritura a `/preview/{id}` de `toBlade()` —que sólo toca `href` y `action`—
+  no las alcanza. Sólo afecta al preview de la plataforma, no a producción. El arreglo es
+  una reescritura extra en `toBlade()` sobre `u: "/…"`.
 - **Precios y CV en PDF**: no publicados.
 - **Formularios**: validan y muestran estados de carga, error y éxito, pero el envío está
   simulado. Falta el endpoint.
@@ -176,8 +212,8 @@ Los datos que el sitio actual no tiene cargados aparecen como `—` o con el sel
 
 ## Siguientes pasos sugeridos
 
-1. Fichas restantes de artista, obra y exposición generadas desde Expressia con esta misma
-   plantilla (las tres internas construidas sirven de patrón).
+1. Fichas de exposición y las de obra que falten, generadas desde Expressia con esta misma
+   plantilla. Las 13 de artista y las 5 de obra ya construidas sirven de patrón.
 2. Versión EN con patrón de URL unificado `/en/…` (hoy conviven `/en/` y `/the-galery/`).
 3. Listados con paginación server-side y filtros en la URL (`/obras/?artista=…`).
 4. Conectar formularios y newsletter a un endpoint real.
