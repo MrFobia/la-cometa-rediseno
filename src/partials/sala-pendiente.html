@@ -1,0 +1,21 @@
+<!--
+  Estado vacío del recorrido de sala.
+  Se inserta con {{> sala-pendiente }} en las fichas de exposiciones que no tienen
+  vistas de sala publicadas, en lugar de la tira de fotos. Ocupa el mismo id y el mismo
+  título que el recorrido real, así que la navegación lateral (lc-spy) sigue funcionando
+  sin cambios. Nunca se rellena con fotos de otra institución: una imagen ajena no se
+  republica.
+-->
+<section id="recorrido" class="lc-band lc-band--quiet" aria-labelledby="h-recorrido" style="border-top: 0;">
+  <div class="lc-shell">
+    <h2 id="h-recorrido" class="text-[length:var(--text-3xl)]">Recorrido de sala</h2>
+    <p class="lc-meta lc-measure mt-3">
+      El recorrido fotográfico de esta muestra está en preparación. La obra se puede ver
+      en el catálogo, y las exposiciones abiertas tienen su recorrido de sala completo.
+    </p>
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a class="lc-btn" href="/obras/">Ver la obra en el catálogo</a>
+      <a class="lc-btn lc-btn--ghost" href="/exhibiciones/">Exposiciones en sala</a>
+    </div>
+  </div>
+</section>

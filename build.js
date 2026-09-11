@@ -43,9 +43,11 @@ const SHELL = (meta, body) => `<!DOCTYPE html>
 
 <title>${meta.title}</title>
 <meta name="description" content="${meta.description}">
-<link rel="canonical" href="https://galerialacometa.com${meta.url}">
-<link rel="alternate" hreflang="es" href="https://galerialacometa.com${meta.url}">
-<link rel="alternate" hreflang="en" href="https://galerialacometa.com/en${meta.url}">
+${meta.robots
+  ? '<meta name="robots" content="' + meta.robots + '">'
+  : '<link rel="canonical" href="https://galerialacometa.com' + meta.url + '">\n' +
+    '<link rel="alternate" hreflang="es" href="https://galerialacometa.com' + meta.url + '">\n' +
+    '<link rel="alternate" hreflang="en" href="https://galerialacometa.com/en' + meta.url + '">'}
 
 <meta property="og:type" content="${meta.ogType || "website"}">
 <meta property="og:locale" content="es_CO">
@@ -144,7 +146,10 @@ function build() {
     const html = SHELL(meta, body);
     fs.writeFileSync(out, html, "utf8");
 
-    const view = path.join(VIEWS, meta.out.replace(/index\.html$/, "").replace(/\/$/, "") || "home");
+    // "obras/index.html" → "obras"; "index.html" → "home"; "404.html" → "404".
+    // El .html suelto se recorta para que la vista no quede como "404.html.blade.php",
+    // que Blade leería como el directorio 404/ y el archivo html.
+    const view = path.join(VIEWS, meta.out.replace(/index\.html$/, "").replace(/\/$/, "").replace(/\.html$/, "") || "home");
     fs.mkdirSync(path.dirname(view + ".blade.php"), { recursive: true });
     fs.writeFileSync(view + ".blade.php", toBlade(html, meta), "utf8");
     count++;
