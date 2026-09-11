@@ -305,9 +305,1128 @@
 </div>
 
 
-<script src="/projects/re-diseno-la-cometa/assets/js/data.js"></script>
-<script src="/projects/re-diseno-la-cometa/assets/js/main.js"></script>
-<script src="/projects/re-diseno-la-cometa/assets/js/components.js"></script>
-<script src="/projects/re-diseno-la-cometa/assets/js/motion.js"></script>
+@verbatim<script>/* Índice de búsqueda del home.
+ * Datos reales tomados de galerialacometa.com (sep. 2026).
+ * En producción esto lo entrega Expressia como JSON por entidad;
+ * aquí vive como archivo estático para poder probar el buscador. */
+window.LC_INDEX = [
+  // — Exposiciones —
+  { t: "Apocalypse now o la fabricación del paraíso", k: "Exposición · Bogotá · en sala", u: "/exhibiciones/bogota/apocalypse-now-o-la-fabricacion-del-paraiso-bogota-2026-es", x: "colectiva bogota 2026" },
+  { t: "El volumen que tocó la luz", k: "Exposición · Bogotá · en sala", u: "/exhibiciones/bogota/el-volumen-que-toco-la-luz-damaxo-henao-es", x: "damaxo henao bogota 2026" },
+  { t: "Parar el mundo", k: "Exposición · Madrid", u: "/exhibiciones/madrid/adam-goldstein-2026-madrid-parar-el-mundo-es", x: "adam goldstein madrid" },
+  { t: "Pensamiento mágico · El año entrante", k: "Exposición · Madrid", u: "/exhibiciones/madrid/pensamiento-magico-el-a%C3%B1o-entrante-es", x: "alejandro ospina madrid" },
+  { t: "Delectable Garden", k: "Exposición · Miami", u: "/exhibiciones/miami/zhivago-duncan-delectable-garden-es", x: "zhivago duncan miami" },
+  { t: "Envoltorios", k: "Exposición · Medellín", u: "/exhibiciones/medellin/asicaz-monzon-envoltorios-es", x: "asicaz monzon medellin" },
+  { t: "De ruidos, desbordes y otras fricciones", k: "Exposición · Bogotá", u: "/exhibiciones/bogota/veronica-lehner-de-ruidos-desbordes-y-otras-fricciones-2026-es", x: "veronica lehner bogota" },
+  { t: "Arañas del paraíso", k: "Exposición · Madrid", u: "/exhibiciones/madrid/maria-fernanda-cardoso-ara%C3%B1as-del-paraiso-es", x: "maria fernanda cardoso madrid" },
+
+  // — Artistas —
+  { t: "Adam Goldstein", k: "Artista · Colombia", u: "/artistas/adam-goldstein-es", x: "pintura oleo" },
+  { t: "Adrián Gaitán", k: "Artista · Colombia", u: "/artistas/adrian-gaitan-es", x: "ensamblaje madera" },
+  { t: "Alejandro Ospina", k: "Artista · Colombia", u: "/artistas/alejandro-ospina-es", x: "pintura saatchi" },
+  { t: "Alejandro Sánchez", k: "Artista · Colombia", u: "/artistas/alejandro-sanchez-es", x: "escultura teja" },
+  { t: "Camilo Restrepo", k: "Artista · Colombia", u: "/artistas/camilo-restrepo-es", x: "dibujo tinta" },
+  { t: "Carlos Castro", k: "Artista · Colombia", u: "/artistas/carlos-castro-es", x: "" },
+  { t: "Daniel Nyström", k: "Artista · Suecia", u: "/artistas/daniel-nystrom-es", x: "" },
+  { t: "Fernando Pinto", k: "Artista · Colombia", u: "/artistas/fernando-pinto-es", x: "escultura piedra" },
+  { t: "Dámaxo Henao", k: "Artista · Colombia", u: "/artistas/damaxo-henao-es", x: "volumen luz" },
+
+  // — Obras —
+  { t: "Corte en el ojo", k: "Obra · Miguel Ángel Rojas · 1991", u: "/obras/", x: "acrilico lienzo" },
+  { t: "Expectations 99/100", k: "Obra · Miguel Ángel Rojas · 2007", u: "/obras/", x: "acrilico hojilla oro" },
+  { t: "Aparición (San Sebastián, Mattia Preti)", k: "Obra · Adrián Gaitán · 2022", u: "/obras/", x: "aceite quemado madera" },
+  { t: "Drawing #1", k: "Obra · Camilo Restrepo", u: "/obras/", x: "tinta pastel papel" },
+  { t: "Elliptic Space II", k: "Obra · Adam Goldstein · 2024", u: "/obras/", x: "oleo lienzo" },
+  { t: "Ruru Layu", k: "Obra · Fernando Pinto · 2024", u: "/obras/", x: "piedra sol negro" },
+  { t: "Incrustación", k: "Obra · Alejandro Sánchez · 2025", u: "/obras/", x: "acrilico teja galvanizada" },
+  { t: "Serranías del Dios de la Noche II", k: "Obra · Ana González · 2024", u: "/obras/", x: "textil" },
+
+  // — Ferias —
+  { t: "ARCO Madrid 2026", k: "Feria · Madrid · 4—8 marzo", u: "/ferias/", x: "" },
+  { t: "Zona Maco 2026", k: "Feria · Ciudad de México · 4—8 febrero", u: "/ferias/", x: "cdmx" },
+  { t: "Untitled Art 2025", k: "Feria · Miami · 3—7 diciembre", u: "/ferias/", x: "" },
+  { t: "ArtBo 2025", k: "Feria · Bogotá · 25—28 septiembre", u: "/ferias/", x: "" },
+
+  // — Noticias —
+  { t: "Un paso en México: Marek Wolfryd y Anuar Maauad, «Divino Engaño»", k: "Noticia · Exposiciones", u: "/noticias/un-paso-en-mexico-marek-y-anuar-maauad-divino-engano-es", x: "" },
+  { t: "México, ahora más cerca", k: "Noticia · Galería", u: "/noticias/mexico-ahora-mas-cerca", x: "sede nueva" },
+  { t: "Una nueva representación · Luis Fernando Roldán", k: "Noticia · Artistas", u: "/noticias/a-new-representation-luis-fernando-roldan-es", x: "" },
+  { t: "Alejandro Ospina en «The Long Now: Saatchi Gallery at 40»", k: "Noticia · Prensa", u: "/noticias/alejandro-ospina-en-the-long-now-saatchi-gallery-at-40-es", x: "londres" },
+
+  // — Sedes —
+  { t: "La Cometa Bogotá", k: "Sede · Colombia", u: "/la-galeria/bogota", x: "" },
+  { t: "La Cometa Medellín", k: "Sede · Colombia", u: "/la-galeria/medellin", x: "" },
+  { t: "La Cometa Miami", k: "Sede · Estados Unidos", u: "/la-galeria/miami", x: "" },
+  { t: "La Cometa Madrid", k: "Sede · España", u: "/la-galeria/madrid", x: "" },
+  { t: "La Cometa México", k: "Sede · México", u: "/la-galeria/mexico", x: "cdmx" }
+];
+</script>@endverbatim
+@verbatim<script>/* Galería La Cometa — comportamiento del home.
+ * Vanilla JS, sin dependencias. Cada bloque es independiente:
+ * si uno falla, el resto de la página sigue funcionando. */
+(function () {
+  "use strict";
+
+  var $ = function (sel, ctx) { return (ctx || document).querySelector(sel); };
+  var $$ = function (sel, ctx) { return Array.prototype.slice.call((ctx || document).querySelectorAll(sel)); };
+  var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ---------------------------------------------------------------
+   * Año del copyright — el sitio actual quedó congelado en 2024.
+   * ------------------------------------------------------------- */
+  $$("[data-year]").forEach(function (el) { el.textContent = String(new Date().getFullYear()); });
+
+  /* ---------------------------------------------------------------
+   * Marca la sección activa en el menú principal.
+   * ------------------------------------------------------------- */
+  (function () {
+    var here = location.pathname;
+    $$(".lc-navlink, .lc-megalink").forEach(function (a) {
+      var href = a.getAttribute("href") || "";
+      if (href.length > 1 && here.indexOf(href) === 0) a.setAttribute("aria-current", "page");
+    });
+  })();
+
+  /* ---------------------------------------------------------------
+   * Diálogos a pantalla completa (menú + consulta por obra).
+   * Gestionan foco, Escape y bloqueo del scroll de fondo.
+   * ------------------------------------------------------------- */
+  var scrollLock = 0;
+
+  function focusables(root) {
+    return $$('a[href], button:not([disabled]), input, select, textarea, [tabindex]:not([tabindex="-1"])', root)
+      .filter(function (el) { return el.offsetParent !== null; });
+  }
+
+  function openDialog(el, focusSel) {
+    if (!el) return;
+    el.hidden = false;
+    el.__opener = document.activeElement;
+    // dos frames para que la transición arranque desde el estado cerrado
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () { el.classList.add("is-open"); });
+    });
+    scrollLock++;
+    document.body.style.overflow = "hidden";
+    var target = focusSel ? $(focusSel, el) : null;
+    (target || focusables(el)[0] || el).focus({ preventScroll: true });
+  }
+
+  function closeDialog(el) {
+    if (!el || el.hidden) return;
+    el.classList.remove("is-open");
+    scrollLock = Math.max(0, scrollLock - 1);
+    if (scrollLock === 0) document.body.style.overflow = "";
+    var done = function () { el.hidden = true; };
+    if (reduceMotion) done();
+    else window.setTimeout(done, 260);
+    if (el.__opener && el.__opener.focus) el.__opener.focus({ preventScroll: true });
+  }
+
+  document.addEventListener("keydown", function (ev) {
+    var open = $(".lc-overlay.is-open");
+    if (!open) return;
+    if (ev.key === "Escape") { ev.preventDefault(); closeDialog(open); return; }
+    if (ev.key !== "Tab") return;
+    var items = focusables(open);
+    if (!items.length) return;
+    var first = items[0], last = items[items.length - 1];
+    if (ev.shiftKey && document.activeElement === first) { ev.preventDefault(); last.focus(); }
+    else if (!ev.shiftKey && document.activeElement === last) { ev.preventDefault(); first.focus(); }
+  });
+
+  /* ---------------------------------------------------------------
+   * Menú general + buscador global (referencia Victoria Miro:
+   * los resultados se navegan dentro del propio menú).
+   * ------------------------------------------------------------- */
+  var menu = $("#menu-general");
+  var searchInput = $("[data-search-input]");
+  var results = $("[data-search-results]");
+  var status = $("[data-search-status]");
+  var panels = $("[data-menu-panels]");
+
+  $$("[data-open-menu]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      btn.setAttribute("aria-expanded", "true");
+      openDialog(menu, btn.hasAttribute("data-open-search") ? "[data-search-input]" : null);
+    });
+  });
+
+  $$("[data-close-menu]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      $$('[data-open-menu][aria-expanded]').forEach(function (b) { b.setAttribute("aria-expanded", "false"); });
+      closeDialog(menu);
+    });
+  });
+
+  // Atajo: “/” abre el buscador si no se está escribiendo en un campo.
+  document.addEventListener("keydown", function (ev) {
+    if (ev.key !== "/" || ev.metaKey || ev.ctrlKey) return;
+    var tag = (document.activeElement && document.activeElement.tagName) || "";
+    if (/INPUT|TEXTAREA|SELECT/.test(tag)) return;
+    ev.preventDefault();
+    openDialog(menu, "[data-search-input]");
+  });
+
+  function normalize(str) {
+    return String(str).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+  }
+
+  function renderResults(query) {
+    var index = window.LC_INDEX || [];
+    var q = normalize(query).trim();
+
+    if (q.length < 2) {
+      results.hidden = true;
+      results.innerHTML = "";
+      status.textContent = "";
+      if (panels) panels.hidden = false;
+      return;
+    }
+
+    var hits = index.filter(function (item) {
+      return normalize(item.t + " " + item.k + " " + (item.x || "")).indexOf(q) !== -1;
+    }).slice(0, 12);
+
+    if (panels) panels.hidden = true;
+    results.hidden = false;
+    status.textContent = hits.length
+      ? hits.length + (hits.length === 1 ? " resultado" : " resultados")
+      : "Sin resultados para «" + query.trim() + "». Prueba con el nombre de un artista o de una sede.";
+
+    results.innerHTML = hits.map(function (item) {
+      return '<li><a class="lc-result" href="' + item.u + '">' +
+        '<span class="lc-card__title">' + item.t + "</span>" +
+        '<span class="lc-meta">' + item.k + "</span></a></li>";
+    }).join("");
+  }
+
+  if (searchInput) {
+    var timer = null;
+    searchInput.addEventListener("input", function () {
+      window.clearTimeout(timer);
+      timer = window.setTimeout(function () { renderResults(searchInput.value); }, 120);
+    });
+  }
+
+  var searchForm = $("[data-search-form]");
+  if (searchForm) {
+    searchForm.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      var first = $(".lc-result", results);
+      if (first) first.click();
+    });
+  }
+
+  /* ---------------------------------------------------------------
+   * Tabs de exposiciones (patrón ARIA con flechas).
+   * ------------------------------------------------------------- */
+  var tabs = $$('[role="tab"]');
+
+  function selectTab(tab, moveFocus) {
+    tabs.forEach(function (t) {
+      var on = t === tab;
+      t.setAttribute("aria-selected", String(on));
+      t.tabIndex = on ? 0 : -1;
+      var panel = document.getElementById(t.getAttribute("aria-controls"));
+      if (panel) panel.hidden = !on;
+    });
+    if (moveFocus) tab.focus({ preventScroll: true });
+  }
+
+  tabs.forEach(function (tab, i) {
+    tab.addEventListener("click", function () { selectTab(tab, false); });
+    tab.addEventListener("keydown", function (ev) {
+      var dir = ev.key === "ArrowRight" ? 1 : ev.key === "ArrowLeft" ? -1 : 0;
+      if (!dir) return;
+      ev.preventDefault();
+      selectTab(tabs[(i + dir + tabs.length) % tabs.length], true);
+    });
+  });
+
+  /* ---------------------------------------------------------------
+   * Artistas: filtro alfabético + vista mosaico/lista.
+   * Reemplaza el scroll infinito por control explícito.
+   * ------------------------------------------------------------- */
+  var grid = $("[data-artist-grid]");
+  var alpha = $("[data-alpha]");
+  var emptyNote = $("[data-artist-empty]");
+
+  if (grid && alpha) {
+    var cards = $$("li", grid);
+    var present = {};
+    cards.forEach(function (c) { present[c.getAttribute("data-letter")] = true; });
+
+    var letters = ["Todos"].concat("ABCDEFGHIJKLMNOPQRSTUVWXYZ".split(""));
+    alpha.innerHTML = letters.map(function (l) {
+      var isAll = l === "Todos";
+      var enabled = isAll || present[l];
+      return '<button type="button" data-letter="' + l + '"' +
+        (enabled ? "" : " disabled") +
+        ' aria-pressed="' + (isAll ? "true" : "false") + '"' +
+        (enabled ? "" : ' title="Sin artistas en esta página del listado"') +
+        ">" + l + "</button>";
+    }).join("");
+
+    alpha.addEventListener("click", function (ev) {
+      var btn = ev.target.closest("button[data-letter]");
+      if (!btn || btn.disabled) return;
+      var letter = btn.getAttribute("data-letter");
+      $$("button", alpha).forEach(function (b) {
+        b.setAttribute("aria-pressed", String(b === btn));
+      });
+      var shown = 0;
+      cards.forEach(function (c) {
+        var on = letter === "Todos" || c.getAttribute("data-letter") === letter;
+        c.hidden = !on;
+        if (on) shown++;
+      });
+      if (emptyNote) emptyNote.hidden = shown !== 0;
+    });
+
+    // Vista mosaico/panal ↔ lista. El modo vive como atributo en la retícula
+    // y el CSS hace el resto, así funciona igual en el home y en /artistas/.
+    $$("[data-view]").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var mode = btn.getAttribute("data-view");
+        $$("[data-view]").forEach(function (b) {
+          b.setAttribute("aria-pressed", String(b === btn));
+        });
+        grid.setAttribute("data-view", mode);
+      });
+    });
+  }
+
+  /* ---------------------------------------------------------------
+   * Consultar por esta obra (referencia David Zwirner).
+   * ------------------------------------------------------------- */
+  var inquire = $("#consulta");
+  var subject = $("[data-inquire-subject]");
+
+  $$("[data-inquire]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      if (subject) subject.textContent = btn.getAttribute("data-inquire");
+      openDialog(inquire, "#in-nombre");
+    });
+  });
+
+  $$("[data-close-inquire]").forEach(function (btn) {
+    btn.addEventListener("click", function () { closeDialog(inquire); });
+  });
+
+  /* ---------------------------------------------------------------
+   * Formularios: validación en el envío + estados de carga/error/éxito.
+   * Sin backend todavía; el envío queda simulado y marcado como tal.
+   * ------------------------------------------------------------- */
+  function wireForm(form, submitBtn, note, successText) {
+    if (!form) return;
+    form.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      var invalid = null;
+      $$("input, select, textarea", form).forEach(function (field) {
+        if (!field.required) return;
+        var ok = field.type === "checkbox" ? field.checked : field.checkValidity();
+        field.setAttribute("aria-invalid", String(!ok));
+        if (!ok && !invalid) invalid = field;
+      });
+
+      if (invalid) {
+        note.dataset.state = "error";
+        note.textContent = "Revisa los campos marcados antes de enviar.";
+        invalid.focus();
+        return;
+      }
+
+      submitBtn.disabled = true;
+      note.dataset.state = "";
+      note.textContent = "Enviando…";
+
+      window.setTimeout(function () {
+        submitBtn.disabled = false;
+        note.dataset.state = "success";
+        note.textContent = successText;
+        form.reset();
+      }, 700);
+    });
+  }
+
+  wireForm($("[data-newsletter]"), $("[data-nl-submit]"), $("[data-nl-note]"),
+    "Listo. Te escribiremos con las próximas aperturas.");
+  wireForm($("[data-inquire-form]"), $("[data-inquire-submit]"), $("[data-inquire-note]"),
+    "Consulta registrada. El equipo de la galería responde por correo.");
+
+  /* ---------------------------------------------------------------
+   * Revelado al entrar en pantalla (una sola primitiva de movimiento).
+   * ------------------------------------------------------------- */
+  var revealables = $$(".lc-reveal");
+  if (!("IntersectionObserver" in window) || reduceMotion) {
+    revealables.forEach(function (el) { el.classList.add("is-in"); });
+  } else {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("is-in");
+        io.unobserve(entry.target);
+      });
+    }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
+    revealables.forEach(function (el) { io.observe(el); });
+  }
+})();
+</script>@endverbatim
+@verbatim<script>/* Componentes de las páginas internas — Galería La Cometa.
+ * Cada bloque se activa solo si su marcado existe en la página.
+ * Sin dependencias; todo degrada a contenido legible si el JS no corre. */
+(function () {
+  "use strict";
+
+  var $ = function (s, c) { return (c || document).querySelector(s); };
+  var $$ = function (s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); };
+  var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* =============================================================
+   * 1. Navegación contextual con scroll-spy
+   *    (ficha de artista y de exposición — referencia Pace Gallery)
+   * ============================================================= */
+  $$("[data-spy]").forEach(function (nav) {
+    var links = $$("a[href^='#']", nav);
+    var sections = links
+      .map(function (a) { return document.getElementById(a.getAttribute("href").slice(1)); })
+      .filter(Boolean);
+    if (!sections.length) return;
+
+    function mark(id) {
+      links.forEach(function (a) {
+        var on = a.getAttribute("href") === "#" + id;
+        a.setAttribute("aria-current", on ? "true" : "false");
+      });
+    }
+
+    var spy = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) mark(e.target.id); });
+    }, { rootMargin: "-30% 0px -60% 0px" });
+
+    sections.forEach(function (s) { spy.observe(s); });
+    mark(sections[0].id);
+  });
+
+  /* =============================================================
+   * 2. Filmstrip — riel horizontal de obras / vistas de sala.
+   *    Arrastre con el ratón, rueda horizontal, teclado y barra de avance.
+   * ============================================================= */
+  $$("[data-filmstrip]").forEach(function (root) {
+    var rail = $("[data-rail]", root);
+    var bar = $("[data-rail-progress]", root);
+    var counter = $("[data-rail-counter]", root);
+    var prev = $("[data-rail-prev]", root);
+    var next = $("[data-rail-next]", root);
+    if (!rail) return;
+
+    var items = $$(":scope > *", rail);
+
+    function update() {
+      var max = rail.scrollWidth - rail.clientWidth;
+      var ratio = max > 0 ? rail.scrollLeft / max : 0;
+      if (bar) bar.style.transform = "scaleX(" + Math.max(0.04, ratio) + ")";
+      if (counter) {
+        // La primera pieza visible manda, no la que queda en el centro.
+        var left = rail.scrollLeft + 8;
+        var idx = items.length - 1;
+        for (var i = 0; i < items.length; i++) {
+          if (items[i].offsetLeft + items[i].offsetWidth > left) { idx = i; break; }
+        }
+        counter.textContent = (idx + 1) + " / " + items.length;
+      }
+      if (prev) prev.disabled = rail.scrollLeft < 4;
+      if (next) next.disabled = rail.scrollLeft > max - 4;
+    }
+
+    function step(dir) {
+      var el = items[0];
+      var amount = el ? el.getBoundingClientRect().width + 24 : rail.clientWidth * 0.8;
+      rail.scrollBy({ left: dir * amount, behavior: reduceMotion ? "auto" : "smooth" });
+    }
+
+    if (prev) prev.addEventListener("click", function () { step(-1); });
+    if (next) next.addEventListener("click", function () { step(1); });
+    rail.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+
+    rail.addEventListener("keydown", function (ev) {
+      if (ev.key === "ArrowRight") { ev.preventDefault(); step(1); }
+      if (ev.key === "ArrowLeft") { ev.preventDefault(); step(-1); }
+    });
+
+    // Arrastre con el ratón (en táctil ya funciona el scroll nativo).
+    var down = false, startX = 0, startScroll = 0, moved = 0;
+    rail.addEventListener("pointerdown", function (ev) {
+      if (ev.pointerType === "touch") return;
+      down = true; moved = 0;
+      startX = ev.clientX; startScroll = rail.scrollLeft;
+      rail.setPointerCapture(ev.pointerId);
+      rail.classList.add("is-dragging");
+    });
+    rail.addEventListener("pointermove", function (ev) {
+      if (!down) return;
+      var dx = ev.clientX - startX;
+      moved = Math.max(moved, Math.abs(dx));
+      rail.scrollLeft = startScroll - dx;
+    });
+    ["pointerup", "pointercancel"].forEach(function (evt) {
+      rail.addEventListener(evt, function () {
+        down = false;
+        rail.classList.remove("is-dragging");
+      });
+    });
+    // Un arrastre largo no debe disparar el enlace de la tarjeta.
+    rail.addEventListener("click", function (ev) {
+      if (moved > 8) { ev.preventDefault(); ev.stopPropagation(); }
+    }, true);
+
+    update();
+  });
+
+  /* =============================================================
+   * 3. Lupa — amplía el detalle de la obra siguiendo el cursor.
+   *    En táctil y con teclado se ofrece un botón de acercar/alejar.
+   * ============================================================= */
+  $$("[data-lens]").forEach(function (frame) {
+    var img = $("img", frame);
+    var lens = $("[data-lens-glass]", frame);
+    var toggle = $("[data-lens-toggle]", frame);
+    if (!img || !lens) return;
+
+    var zoom = 2.6;
+    var pinned = false;
+
+    function place(x, y) {
+      var r = frame.getBoundingClientRect();
+      var px = Math.min(Math.max(x - r.left, 0), r.width);
+      var py = Math.min(Math.max(y - r.top, 0), r.height);
+      lens.style.setProperty("--lens-x", px + "px");
+      lens.style.setProperty("--lens-y", py + "px");
+      lens.style.backgroundImage = "url(" + img.currentSrc + ")";
+      lens.style.backgroundSize = r.width * zoom + "px " + r.height * zoom + "px";
+      lens.style.backgroundPosition =
+        -(px * zoom - 90) + "px " + -(py * zoom - 90) + "px";
+    }
+
+    frame.addEventListener("pointermove", function (ev) {
+      if (ev.pointerType === "touch") return;
+      frame.classList.add("is-lensing");
+      place(ev.clientX, ev.clientY);
+    });
+
+    frame.addEventListener("pointerleave", function () {
+      if (!pinned) frame.classList.remove("is-lensing");
+    });
+
+    if (toggle) {
+      toggle.addEventListener("click", function () {
+        pinned = !pinned;
+        frame.classList.toggle("is-zoomed", pinned);
+        toggle.setAttribute("aria-pressed", String(pinned));
+        toggle.querySelector("[data-lens-label]").textContent = pinned ? "Alejar" : "Acercar";
+      });
+    }
+  });
+
+  /* =============================================================
+   * 4. Escala humana — dibuja una figura de 170 cm junto a la obra
+   *    para entender su tamaño real antes de consultar por ella.
+   * ============================================================= */
+  var HUMAN_CM = 170;
+
+  $$("[data-scale]").forEach(function (root) {
+    var w = parseFloat(root.getAttribute("data-w"));
+    var h = parseFloat(root.getAttribute("data-h"));
+    var stage = $("[data-scale-stage]", root);
+    var readout = $("[data-scale-readout]", root);
+    if (!w || !h || !stage) return;
+
+    var work = $("[data-scale-work]", stage);
+    var human = $("[data-scale-human]", stage);
+    var HUMAN_W_CM = 45; // ancho de hombros aproximado de la silueta
+
+    // Altura de colgada de museo: centro de la obra a 150 cm del piso.
+    var HANG_CM = 150;
+
+    function draw() {
+      var available = stage.clientWidth || root.clientWidth || 800;
+      var topCm = Math.max(HUMAN_CM, HANG_CM + h / 2);
+      var totalWCm = w + HUMAN_W_CM + 60; // 60 cm de aire entre obra y persona
+      // La escala la fija la dimensión que primero se queda sin espacio.
+      var perCm = Math.min(380 / topCm, available / totalWCm);
+
+      stage.style.height = topCm * perCm + "px";
+      work.style.width = w * perCm + "px";
+      work.style.height = h * perCm + "px";
+      work.style.marginBottom = Math.max(0, HANG_CM - h / 2) * perCm + "px";
+      human.style.width = HUMAN_W_CM * perCm + "px";
+      human.style.height = HUMAN_CM * perCm + "px";
+
+      var src = root.getAttribute("data-scale-src");
+      if (src) {
+        work.style.backgroundImage = "url(" + src + ")";
+        work.style.backgroundSize = "cover";
+        work.style.backgroundPosition = "center";
+      }
+    }
+
+    if (readout) {
+      readout.textContent =
+        h >= HUMAN_CM
+          ? "Esta obra es " + Math.round(h - HUMAN_CM) + " cm más alta que una persona de 1,70 m."
+          : "Una persona de 1,70 m la supera en " + Math.round(HUMAN_CM - h) +
+            " cm de alto. Colgada a la altura de museo, su centro queda a 150 cm del piso.";
+    }
+
+    // El botón puede vivir en la cabecera de la sección, fuera del escenario.
+    var scope = root.closest("section") || document;
+    var toggle = $("[data-scale-toggle]", scope);
+    if (toggle) {
+      toggle.addEventListener("click", function () {
+        var on = root.classList.toggle("is-scaled");
+        toggle.setAttribute("aria-pressed", String(on));
+        var label = toggle.querySelector("[data-scale-label]");
+        if (label) label.textContent = on ? "Ocultar la escala" : "Ver a escala humana";
+        if (on) draw();
+      });
+    }
+
+    window.addEventListener("resize", function () {
+      if (root.classList.contains("is-scaled")) draw();
+    });
+  });
+
+  /* =============================================================
+   * 5. Muro a escala — cuelga el listado de obras respetando su
+   *    tamaño real, como un montaje de salón. Alterna con la retícula.
+   * ============================================================= */
+  $$("[data-wall-switch]").forEach(function (group) {
+    var target = document.getElementById(group.getAttribute("data-wall-switch"));
+    if (!target) return;
+
+    // Ancho de muro imaginario, en centímetros. En móvil el muro es más
+    // corto para que las piezas pequeñas sigan siendo visibles.
+    function wallCm() { return target.clientWidth < 640 ? 420 : 900; }
+
+    function hang() {
+      var perCm = target.clientWidth / wallCm();
+      $$(":scope > li", target).forEach(function (li) {
+        var w = parseFloat(li.getAttribute("data-w"));
+        var h = parseFloat(li.getAttribute("data-h"));
+        var fig = li.querySelector("figure");
+        if (!w || !h || !fig) { li.hidden = true; return; }
+        li.hidden = false;
+        li.style.width = Math.max(26, w * perCm) + "px";
+        fig.style.aspectRatio = "auto";
+        fig.style.height = Math.max(20, h * perCm) + "px";
+      });
+
+      var note = document.querySelector("[data-wall-note]");
+      if (note) {
+        note.textContent =
+          "Muro de referencia: " + (wallCm() / 100) + " m de ancho · escala aproximada 1:" +
+          Math.round(1 / perCm * 10) / 10 + " cm por píxel.";
+      }
+    }
+
+    function unhang() {
+      $$(":scope > li", target).forEach(function (li) {
+        li.hidden = false;
+        li.style.removeProperty("width");
+        var fig = li.querySelector("figure");
+        if (fig) {
+          fig.style.removeProperty("height");
+          fig.style.aspectRatio = "4 / 5";
+        }
+      });
+    }
+
+    function apply(mode) {
+      target.setAttribute("data-mode", mode);
+      $$("[data-mode-btn]", group).forEach(function (b) {
+        b.setAttribute("aria-pressed", String(b.getAttribute("data-mode-btn") === mode));
+      });
+      if (mode === "muro") hang(); else unhang();
+      var note = document.querySelector("[data-wall-note]");
+      if (note) note.hidden = mode !== "muro";
+    }
+
+    $$("[data-mode-btn]", group).forEach(function (btn) {
+      btn.addEventListener("click", function () { apply(btn.getAttribute("data-mode-btn")); });
+    });
+
+    apply(target.getAttribute("data-mode") || "reticula");
+
+    var resizeTimer = null;
+    window.addEventListener("resize", function () {
+      if (target.getAttribute("data-mode") !== "muro") return;
+      window.clearTimeout(resizeTimer);
+      resizeTimer = window.setTimeout(hang, 120);
+    });
+  });
+
+  /* =============================================================
+   * 6. Filtros cruzados del catálogo (artista · técnica · década ·
+   *    disponibilidad). Combinables, con conteo en vivo.
+   * ============================================================= */
+  $$("[data-filters]").forEach(function (panel) {
+    var target = document.getElementById(panel.getAttribute("data-filters"));
+    if (!target) return;
+    var items = $$("li", target);
+    var count = $("[data-filter-count]", panel);
+    var clear = $("[data-filter-clear]", panel);
+    var selects = $$("select", panel);
+
+    function apply() {
+      var active = {};
+      selects.forEach(function (s) { if (s.value) active[s.name] = s.value; });
+
+      var shown = 0;
+      items.forEach(function (li) {
+        var ok = Object.keys(active).every(function (k) {
+          return (li.getAttribute("data-" + k) || "") === active[k];
+        });
+        li.hidden = !ok;
+        if (ok) shown++;
+      });
+
+      if (count) {
+        count.textContent = shown === items.length
+          ? items.length + " obras"
+          : shown + " de " + items.length + " obras";
+      }
+      if (clear) clear.hidden = Object.keys(active).length === 0;
+      var empty = $("[data-filter-empty]", panel.parentNode) || $("[data-filter-empty]");
+      if (empty) empty.hidden = shown !== 0;
+    }
+
+    selects.forEach(function (s) { s.addEventListener("change", apply); });
+    if (clear) {
+      clear.addEventListener("click", function () {
+        selects.forEach(function (s) { s.value = ""; });
+        apply();
+      });
+    }
+    apply();
+  });
+
+  /* =============================================================
+   * 7. Línea de tiempo por año — el archivo se recorre saltando
+   *    de año en año, no con scroll infinito.
+   * ============================================================= */
+  $$("[data-timeline]").forEach(function (nav) {
+    var target = document.getElementById(nav.getAttribute("data-timeline"));
+    if (!target) return;
+    var groups = $$("[data-year-group]", target);
+    var buttons = $$("button[data-year]", nav);
+
+    buttons.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var year = btn.getAttribute("data-year");
+        buttons.forEach(function (b) { b.setAttribute("aria-pressed", String(b === btn)); });
+        var shown = 0;
+        groups.forEach(function (g) {
+          var on = year === "todos" || g.getAttribute("data-year-group") === year;
+          g.hidden = !on;
+          if (on) shown++;
+        });
+        var note = $("[data-timeline-note]", nav.parentNode);
+        if (note) note.textContent = year === "todos"
+          ? "Mostrando todos los años."
+          : "Mostrando " + year + ".";
+      });
+    });
+  });
+
+  /* =============================================================
+   * 8. Hora local de cada sede — saber si la galería está abierta
+   *    ahora mismo, sin hacer cuentas de husos horarios.
+   * ============================================================= */
+  var ZONES = {
+    bogota: "America/Bogota",
+    medellin: "America/Bogota",
+    miami: "America/New_York",
+    madrid: "Europe/Madrid",
+    mexico: "America/Mexico_City"
+  };
+
+  function tick() {
+    $$("[data-clock]").forEach(function (el) {
+      var zone = ZONES[el.getAttribute("data-clock")];
+      if (!zone) return;
+      try {
+        var now = new Date();
+        el.querySelector("[data-clock-time]").textContent =
+          new Intl.DateTimeFormat("es-CO", {
+            hour: "2-digit", minute: "2-digit", hour12: false, timeZone: zone
+          }).format(now);
+
+        var parts = new Intl.DateTimeFormat("en-GB", {
+          weekday: "short", hour: "2-digit", hour12: false, timeZone: zone
+        }).formatToParts(now);
+        var day = parts.find(function (p) { return p.type === "weekday"; }).value;
+        var hour = parseInt(parts.find(function (p) { return p.type === "hour"; }).value, 10);
+
+        var open = false;
+        var schedule = el.getAttribute("data-hours"); // "L-V 10-18|S 11-16" o "cita"
+        if (schedule && schedule !== "cita") {
+          schedule.split("|").forEach(function (block) {
+            var m = block.trim().match(/^([A-Za-z-]+)\s+(\d+)-(\d+)$/);
+            if (!m) return;
+            var days = m[1].toUpperCase();
+            var isWeekday = ["MON", "TUE", "WED", "THU", "FRI"].indexOf(day.toUpperCase()) !== -1;
+            var isSat = day.toUpperCase() === "SAT";
+            var inBlock =
+              (days === "L-V" && isWeekday) ||
+              (days === "M-V" && isWeekday && day.toUpperCase() !== "MON") ||
+              (days === "S" && isSat);
+            if (inBlock && hour >= +m[2] && hour < +m[3]) open = true;
+          });
+        }
+
+        var badge = el.querySelector("[data-clock-state]");
+        if (badge) {
+          if (!schedule) {
+            // Sin horario cargado no se afirma si está abierta o cerrada.
+            badge.textContent = "Horario por confirmar";
+            badge.dataset.state = "pendiente";
+          } else if (schedule === "cita") {
+            badge.textContent = "Solo con cita previa";
+            badge.dataset.state = "cita";
+          } else {
+            badge.textContent = open ? "Abierto ahora" : "Cerrado ahora";
+            badge.dataset.state = open ? "abierto" : "cerrado";
+          }
+        }
+      } catch (err) {
+        /* Si el navegador no soporta la zona, se deja el horario impreso. */
+      }
+    });
+  }
+
+  if ($("[data-clock]")) {
+    tick();
+    window.setInterval(tick, 30000);
+  }
+
+  /* =============================================================
+   * 9. Visor de sala — abre una vista de sala a pantalla completa,
+   *    navegable con flechas. Reutiliza el diálogo del sistema.
+   * ============================================================= */
+  var viewer = $("[data-viewer]");
+  if (viewer) {
+    var vImg = $("[data-viewer-img]", viewer);
+    var vCap = $("[data-viewer-caption]", viewer);
+    var vCount = $("[data-viewer-count]", viewer);
+    var sources = [];
+    var current = 0;
+
+    function show(i) {
+      current = (i + sources.length) % sources.length;
+      var item = sources[current];
+      vImg.src = item.src;
+      vImg.alt = item.alt;
+      vCap.textContent = item.alt;
+      vCount.textContent = (current + 1) + " / " + sources.length;
+    }
+
+    $$("[data-viewer-open]").forEach(function (trigger, i) {
+      trigger.addEventListener("click", function (ev) {
+        ev.preventDefault();
+        sources = $$("[data-viewer-open]").map(function (t) {
+          var im = t.querySelector("img");
+          return { src: im.getAttribute("data-full") || im.src, alt: im.alt };
+        });
+        show(i);
+        viewer.hidden = false;
+        requestAnimationFrame(function () {
+          requestAnimationFrame(function () { viewer.classList.add("is-open"); });
+        });
+        document.body.style.overflow = "hidden";
+        $("[data-viewer-next]", viewer).focus();
+      });
+    });
+
+    $("[data-viewer-next]", viewer).addEventListener("click", function () { show(current + 1); });
+    $("[data-viewer-prev]", viewer).addEventListener("click", function () { show(current - 1); });
+    $("[data-viewer-close]", viewer).addEventListener("click", close);
+
+    function close() {
+      viewer.classList.remove("is-open");
+      document.body.style.overflow = "";
+      window.setTimeout(function () { viewer.hidden = true; }, reduceMotion ? 0 : 260);
+    }
+
+    document.addEventListener("keydown", function (ev) {
+      if (viewer.hidden) return;
+      if (ev.key === "ArrowRight") show(current + 1);
+      if (ev.key === "ArrowLeft") show(current - 1);
+      if (ev.key === "Escape") close();
+    });
+  }
+})();
+</script>@endverbatim
+@verbatim<script>/* ===========================================================================
+ * Movimiento — Galería La Cometa
+ *
+ * Una sola capa, sin dependencias, que instrumenta el DOM ya construido: no
+ * hay que marcar nada en las páginas. Reglas de la casa:
+ *   · El movimiento acompaña al scroll o confirma una acción. Nunca decora.
+ *   · La obra no se deforma: el paralaje mueve el encuadre, no la pintura.
+ *   · Con prefers-reduced-motion no se instala nada.
+ * ======================================================================== */
+(function () {
+  "use strict";
+
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var $$ = function (s, r) {
+    return Array.prototype.slice.call((r || document).querySelectorAll(s));
+  };
+
+  var reduce = window.matchMedia &&
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (reduce) return;
+
+  var raf = window.requestAnimationFrame.bind(window);
+
+  /* --------------------------------------------------------------------
+   * 1. Telón de entrada. Una sola vez por sesión y por página de entrada:
+   *    volver atrás no vuelve a cerrar la puerta.
+   * ------------------------------------------------------------------ */
+  (function curtain() {
+    try {
+      if (sessionStorage.getItem("lc-entered")) return;
+      sessionStorage.setItem("lc-entered", "1");
+    } catch (e) { /* modo privado: se muestra y ya */ }
+
+    var el = document.createElement("div");
+    el.className = "lc-curtain";
+    el.setAttribute("aria-hidden", "true");
+    el.innerHTML = '<span class="lc-curtain__mark">___lacometa</span>';
+    document.body.appendChild(el);
+    setTimeout(function () { el.remove(); }, 1100);
+  })();
+
+  /* --------------------------------------------------------------------
+   * 2. Barra de avance de lectura.
+   * ------------------------------------------------------------------ */
+  var bar = document.createElement("div");
+  bar.className = "lc-progress";
+  bar.setAttribute("aria-hidden", "true");
+  document.body.appendChild(bar);
+
+  /* --------------------------------------------------------------------
+   * 3. Masthead que se retira al bajar y vuelve al subir.
+   * ------------------------------------------------------------------ */
+  var masthead = $(".lc-masthead");
+  var lastY = window.scrollY;
+
+  /* --------------------------------------------------------------------
+   * 4. Títulos por línea. Se parte por palabras, se miden los saltos reales
+   *    y cada línea sube desde detrás de su propio borde.
+   * ------------------------------------------------------------------ */
+  function splitLines(el) {
+    if (el.dataset.lcSplit === "1") return;
+    /* Si el título lleva marcado adentro (un enlace, una cursiva, un icono),
+     * no se toca: partirlo por palabras lo destruiría. */
+    if (el.querySelector("a, button, em, strong, img, svg, span")) return;
+    var text = el.textContent.replace(/\s+/g, " ").trim();
+    if (!text || text.length > 220) return;
+
+    var words = text.split(" ");
+    el.textContent = "";
+    var probes = words.map(function (w, i) {
+      var s = document.createElement("span");
+      s.textContent = w + (i < words.length - 1 ? " " : "");
+      s.style.display = "inline-block";
+      el.appendChild(s);
+      return s;
+    });
+
+    var lines = [];
+    var top = null;
+    probes.forEach(function (s) {
+      var t = s.offsetTop;
+      if (top === null || Math.abs(t - top) > 3) { lines.push([]); top = t; }
+      lines[lines.length - 1].push(s.textContent);
+    });
+
+    el.textContent = "";
+    el.classList.add("lc-lines");
+    lines.forEach(function (words) {
+      var line = document.createElement("span");
+      line.className = "lc-lines__line";
+      var inner = document.createElement("span");
+      inner.className = "lc-lines__inner";
+      inner.textContent = words.join("");
+      line.appendChild(inner);
+      el.appendChild(line);
+    });
+    el.dataset.lcSplit = "1";
+  }
+
+  /* Sólo los títulos de sección: los de tarjeta y los de lista quedan quietos,
+   * porque ahí el movimiento se vuelve ruido. */
+  var headings = $$("h1, .lc-section-head > div > h2, .lc-section-head > h2")
+    .filter(function (h) { return !h.closest(".lc-card, .lc-hive, .lc-overlay, .lc-viewer"); });
+  headings.forEach(splitLines);
+
+  /* --------------------------------------------------------------------
+   * 5. Revelado escalonado. Se marca lo que la página no marcó a mano.
+   * ------------------------------------------------------------------ */
+  var groups = $$([
+    "[data-artist-grid] > *",
+    ".lc-hive > li",
+    ".lc-index__row",
+    ".lc-strip__rail > *",
+    ".lc-card",
+    ".lc-datasheet > div",
+    ".lc-round"
+  ].join(","));
+
+  groups.forEach(function (el, i) {
+    if (el.closest(".lc-overlay, .lc-viewer")) return;
+    el.classList.add("lc-reveal");
+    var parent = el.parentElement;
+    var index = parent ? Array.prototype.indexOf.call(parent.children, el) : i;
+    el.style.setProperty("--lc-delay", Math.min(index, 7) * 55 + "ms");
+  });
+
+  $$("section > .lc-shell, .lc-band > .lc-shell, .lc-prose > p").forEach(function (el) {
+    if (el.closest(".lc-overlay, .lc-viewer")) return;
+    el.classList.add("lc-reveal");
+  });
+
+  /* --------------------------------------------------------------------
+   * 6. La obra se descubre de abajo hacia arriba, y las figuras grandes
+   *    llevan paralaje corto.
+   * ------------------------------------------------------------------ */
+  var figures = $$(".lc-figure").filter(function (f) {
+    return !f.closest(".lc-overlay, .lc-viewer, .lc-lens") && f.querySelector("img");
+  });
+
+  var parallaxed = [];
+  figures.forEach(function (f) {
+    f.classList.add("lc-unveil");
+    var img = f.querySelector("img");
+    /* Sólo las figuras que ocupan pantalla: en una miniatura el paralaje no
+     * se lee y sí cuesta cuadros. Y nunca sobre obra, que se recortaría. */
+    if (f.classList.contains("lc-figure--obra")) return;
+    if (f.getBoundingClientRect().height < 260) return;
+    f.setAttribute("data-parallax", "");
+    parallaxed.push({ el: f, img: img });
+  });
+
+  /* --------------------------------------------------------------------
+   * 7. Un solo bucle de scroll para barra, masthead y paralaje.
+   * ------------------------------------------------------------------ */
+  var ticking = false;
+  var vh = window.innerHeight;
+
+  function frame() {
+    ticking = false;
+    var y = window.scrollY;
+    var max = document.documentElement.scrollHeight - vh;
+
+    bar.style.setProperty("--lc-progress", max > 0 ? (y / max).toFixed(4) : "0");
+
+    if (masthead) {
+      masthead.setAttribute("data-scrolled", y > 8 ? "1" : "0");
+      var down = y > lastY && y > 220;
+      var openMenu = document.body.hasAttribute("data-menu-open") ||
+        $(".lc-overlay[data-open]");
+      masthead.setAttribute("data-pinned", down && !openMenu ? "off" : "on");
+    }
+    lastY = y;
+
+    for (var i = 0; i < parallaxed.length; i++) {
+      var p = parallaxed[i];
+      var r = p.el.getBoundingClientRect();
+      if (r.bottom < -200 || r.top > vh + 200) continue;
+      /* -1 arriba de pantalla, +1 abajo: el encuadre se mueve 6 % del alto */
+      var center = (r.top + r.height / 2 - vh / 2) / (vh / 2 + r.height / 2);
+      var shift = Math.max(-1, Math.min(1, center)) * r.height * 0.06;
+      p.el.style.setProperty("--lc-shift", shift.toFixed(1) + "px");
+    }
+  }
+
+  function onScroll() {
+    if (ticking) return;
+    ticking = true;
+    raf(frame);
+  }
+
+  window.addEventListener("scroll", onScroll, { passive: true });
+  window.addEventListener("resize", function () {
+    vh = window.innerHeight;
+    headings.forEach(function (h) { h.dataset.lcSplit = ""; });
+    onScroll();
+  }, { passive: true });
+  frame();
+
+  /* --------------------------------------------------------------------
+   * 8. Observador: revelados y títulos.
+   * ------------------------------------------------------------------ */
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add("is-in");
+      io.unobserve(entry.target);
+    });
+  }, { rootMargin: "0px 0px -6% 0px", threshold: 0.06 });
+
+  $$(".lc-reveal, .lc-unveil, .lc-lines").forEach(function (el) {
+    var r = el.getBoundingClientRect();
+    /* Lo que ya está en pantalla al cargar entra enseguida: nadie debería
+     * tener que hacer scroll para ver el título de la página que abrió. */
+    if (r.top < vh * 0.9) { el.classList.add("is-in"); return; }
+    io.observe(el);
+  });
+
+  /* --------------------------------------------------------------------
+   * 9. Punto de sala. Sólo con ratón fino; se agranda sobre lo que se puede
+   *    tocar. No reemplaza el cursor del sistema.
+   * ------------------------------------------------------------------ */
+  if (window.matchMedia("(pointer: fine)").matches) {
+    var dot = document.createElement("div");
+    dot.className = "lc-dot";
+    dot.setAttribute("aria-hidden", "true");
+    document.body.appendChild(dot);
+
+    var dx = 0, dy = 0, pending = false;
+    document.addEventListener("mousemove", function (e) {
+      dx = e.clientX; dy = e.clientY;
+      if (pending) return;
+      pending = true;
+      raf(function () {
+        pending = false;
+        dot.style.setProperty("--lc-x", dx + "px");
+        dot.style.setProperty("--lc-y", dy + "px");
+        dot.classList.add("is-on");
+      });
+    }, { passive: true });
+
+    document.addEventListener("mouseover", function (e) {
+      var hot = e.target.closest("a, button, [role='button'], input, select, textarea");
+      dot.classList.toggle("is-hot", !!hot);
+    }, { passive: true });
+
+    document.addEventListener("mouseleave", function () {
+      dot.classList.remove("is-on");
+    });
+  }
+
+  /* --------------------------------------------------------------------
+   * 10. Riel de sedes. Se duplica el contenido para que el bucle no salte.
+   * ------------------------------------------------------------------ */
+  var ticker = $("[data-ticker]");
+  if (ticker) {
+    var track = ticker.querySelector(".lc-ticker__track");
+    if (track) track.innerHTML += track.innerHTML;
+  }
+})();
+</script>@endverbatim
 </body>
 </html>
