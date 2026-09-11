@@ -297,7 +297,7 @@
       <section data-year-group="2025" aria-labelledby="y-2025" class="mt-12">
         <h3 id="y-2025" class="lc-caps border-b border-[color:var(--color-rule)] pb-2 mb-2">2025</h3>
         <p class="lc-meta py-6">
-          El archivo de 2025 está publicado en el sitio actual pero sin fichas normalizadas.
+          Las fichas del archivo 2025 están en preparación.
           Se migra en la Fase 2, con una URL por exposición y su ficha técnica completa.
         </p>
       </section>

@@ -182,7 +182,7 @@
           <figure class="lc-figure" style="aspect-ratio: 4 / 3;">
             <img src="/projects/re-diseno-la-cometa/assets/img/noticia-1.webp" alt="Vista de la muestra «Divino Engaño» de Marek Wolfryd y Anuar Maauad" loading="lazy" decoding="async">
           </figure>
-          <p class="lc-caps mt-3">Exposiciones · Fecha —</p>
+          <p class="lc-caps mt-3">Exposiciones · Fecha por confirmar</p>
           <h3 class="lc-card__title mt-1">Un paso en México: Marek Wolfryd y Anuar Maauad, «Divino Engaño»</h3>
         </a>
       </article>
@@ -192,7 +192,7 @@
           <figure class="lc-figure" style="aspect-ratio: 4 / 3;">
             <img src="/projects/re-diseno-la-cometa/assets/img/noticia-3.webp" alt="Obra de Luis Fernando Roldán" loading="lazy" decoding="async">
           </figure>
-          <p class="lc-caps mt-3">Artistas · Fecha —</p>
+          <p class="lc-caps mt-3">Artistas · Fecha por confirmar</p>
           <h3 class="lc-card__title mt-1">Una nueva representación · Luis Fernando Roldán</h3>
         </a>
       </article>
@@ -202,16 +202,11 @@
           <figure class="lc-figure" style="aspect-ratio: 4 / 3;">
             <img src="/projects/re-diseno-la-cometa/assets/img/noticia-4.webp" alt="Obra de Alejandro Ospina en la muestra The Long Now, Saatchi Gallery" loading="lazy" decoding="async">
           </figure>
-          <p class="lc-caps mt-3">Prensa · Fecha —</p>
+          <p class="lc-caps mt-3">Prensa · Fecha por confirmar</p>
           <h3 class="lc-card__title mt-1">Alejandro Ospina en «The Long Now: Saatchi Gallery at 40»</h3>
         </a>
       </article>
     </div>
-
-    <p class="lc-meta mt-10 lc-measure">
-      Las fechas marcadas «—» existen en el sitio actual pero no están normalizadas como dato.
-      Sin fecha estructurada, un artículo no puede firmarse ni citarse.
-    </p>
   </section>
 </main>
 
