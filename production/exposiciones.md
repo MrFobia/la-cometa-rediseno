@@ -62,7 +62,7 @@ en nuestro panal**, así que es el único de esa lista que puede enlazar a una f
 |---|---|---|---|---|
 | **Pensamiento mágico / El año entrante** | 09.05 — 05.07 | Alejandro Ospina | sí, extenso | **ninguna publicada** |
 | **Parar el Mundo** | 09.05 — 05.07 | Adam Goldstein | sí | 2 |
-| **Arañas del Paraíso** | 05.03 — 25.04 | Maria Fernanda Cardoso | sí | 6 |
+| **Arañas del Paraíso** | 05.03 — 25.04 | Maria Fernanda Cardoso | sí | **ninguna publicada** |
 
 ### Miami — 1
 
@@ -86,9 +86,15 @@ tienen ninguna fila detrás: las 7 filas del archivo son todas de 2026. El sitio
 publica un archivo anterior — sólo el programa 2026. O se llena con lo que entregue la galería, o
 los dos botones vacíos deberían salir.
 
-**d) Dos exposiciones tienen un hueco real, y no se completa.** *Pensamiento mágico* no publica
-ninguna vista de sala —sólo hay texto—, y *Delectable Garden* no publica texto curatorial —sólo
-hay imágenes—. Sus fichas van a quedar cojas de un lado, con `.lc-pending` en lenguaje de sala.
+**d) Tres exposiciones tienen un hueco real, y no se completa.** *Pensamiento mágico* y
+*Arañas del Paraíso* **no publican ninguna vista de sala** —sólo texto y registro de obra—, y
+*Delectable Garden* **no publica texto curatorial** —sólo imágenes—. Sus fichas van a quedar cojas
+de un lado, con `.lc-pending` en lenguaje de sala.
+
+**e) La ficha de *Envoltorios* sólo responde en inglés.** `/exhibiciones/medellin/asicaz-monzon-envoltorios-es`
+da 404 y la que existe es `-en`, así que **su texto curatorial está publicado únicamente en
+inglés**. Traducirlo sería producir texto que la galería no publicó: o se pide la versión en
+español, o la ficha va sin texto curatorial y marcada en lenguaje de sala.
 
 ## 4. Imágenes: qué hay y qué falta
 
@@ -96,10 +102,17 @@ En `assets/img/` tenemos **una imagen representativa por exposición** (`exh-apo
 `exh-asicaz`, `exh-cardoso`, `exh-goldstein`, `exh-lehner`, `exh-ospina`, `exh-volumen`,
 `exh-zhivago`) más las **7 vistas de sala** de *El volumen* (`sala-volumen-1..7`). Nada más.
 
-Para el recorrido de sala de las fichas nuevas faltan **46 imágenes**: 9 de Apocalypse (las únicas
-en `.jpg`, así que dan 1800 px), 7 de Lehner, 6 de El Mato, 6 de Envoltorios, 4 de Aristizábal,
-3 de Díez, 4 de Meira, 2 de Goldstein, 6 de Cardoso y 5 de Duncan. Faltan además las dos
-representativas de las exposiciones nuevas de Medellín que no tienen `exh-*`.
+_(actualizado 2026-09-11, Paso 2 hecho: **46 vistas de sala descargadas**, 0 fallidas.)_
+9 de Apocalypse, 7 de Lehner, 6 de El Mato, 6 de Envoltorios, 5 de Duncan, 4 de Aristizábal,
+4 de Meira, 3 de Díez y 2 de Goldstein. Ospina y Cardoso aportan **0**: no publican vistas de sala.
+
+**Dos resoluciones distintas.** Las 9 de Apocalypse venían en `.jpg` y dan **1800 × 730** tras
+`cwebp -q 78 -resize 1800 0`, igual que las 7 de *El volumen* que ya teníamos. Las otras 37 son
+`.webp` del CMS y vienen a **1111 × 451**: se copiaron sin recomprimir y son perfectamente usables
+a tamaño de tarjeta o de tira, pero no dan para una pieza a sangre completa.
+
+Siguen faltando las dos imágenes representativas (`exh-*`) de las exposiciones nuevas de Medellín
+que no tienen una.
 
 ## 5. Qué hay que decidir antes del Paso 2
 
