@@ -14,4 +14,5 @@ cambio, sí existen y tienen contenido propio. No volver a buscar fichas de obra
 
 <!-- backbone:memory-references -->
 - [Cómo se bajan las imágenes del sitio](./descarga-de-imagenes-del-sitio.md)
+- [Las exposiciones sí tienen fechas publicadas](./exposiciones-si-tienen-fechas.md)
 <!-- backbone:memory-references -->
