@@ -93,7 +93,15 @@ function toBlade(html, meta) {
      * salen con su content-type correcto y quedan enlazados. */
     .replace(/<link rel="stylesheet" href="\/dist\/styles\.css">/,
       "@verbatim<style>" + fs.readFileSync(path.join(ROOT, "dist", "styles.css"), "utf8") + "</style>@endverbatim")
-    .replace(/\/js\//g, ASSET_BASE + "/assets/js/")
+    /* Mismo problema que el CSS, y además intermitente: el mismo endpoint
+     * devuelve a veces text/javascript y a veces text/plain, y con nosniff el
+     * navegador descarta el archivo sin decir nada. Los cuatro scripts van
+     * incrustados. */
+    .replace(/<script src="\/js\/([a-z]+)\.js"><\/script>/g, function (_, name) {
+      return "@verbatim<script>" +
+        fs.readFileSync(path.join(ROOT, "js", name + ".js"), "utf8") +
+        "</script>@endverbatim";
+    })
     .replace(/(src|href|content)="\/assets\//g, '$1="' + ASSET_BASE + '/assets/')
     .replace(/url\(\/assets\//g, "url(" + ASSET_BASE + "/assets/")
     .replace(/data-scale-src="\/assets\//g, 'data-scale-src="' + ASSET_BASE + '/assets/')
