@@ -277,9 +277,9 @@
         <h3 class="lc-caps mb-3">Del mismo artista</h3>
         <ul class="space-y-3">
           <li><a class="lc-link" href="/preview/1093">Transeúnte · 65,5 × 293 cm</a></li>
-          <li><a class="lc-link" href="/preview/1090">El centinela diurno · 95 × 128,5 cm</a></li>
-          <li><a class="lc-link" href="/preview/1090">La torre del ermitaño · 161,5 × 45,5 × 51 cm</a></li>
-          <li><a class="lc-link" href="/preview/1090">Mejores amigos · 31 × 20 × 3 cm</a></li>
+          <li><a class="lc-link" href="/preview/1111">El centinela diurno · 95 × 128,5 cm</a></li>
+          <li><a class="lc-link" href="/preview/1108">La torre del ermitaño · 161,5 × 45,5 × 51 cm</a></li>
+          <li><a class="lc-link" href="/preview/1110">Mejores amigos · 31 × 20 × 3 cm</a></li>
         </ul>
       </aside>
     </div>

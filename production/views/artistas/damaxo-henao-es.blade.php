@@ -270,7 +270,7 @@
             <button type="button" class="lc-link mt-3" data-inquire="Transeúnte — Dámaxo Henao">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
-            <a href="/preview/1090" class="block">
+            <a href="/preview/1111" class="block">
               <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
                 <img src="/projects/re-diseno-la-cometa/assets/img/obra-centinela.webp" alt="«El centinela diurno», óleo sobre lienzo de Dámaxo Henao, 95 × 128,5 cm" loading="lazy" decoding="async">
               </figure>
@@ -290,7 +290,7 @@
             <button type="button" class="lc-link mt-3" data-inquire="Puerta — Dámaxo Henao">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
-            <a href="/preview/1090" class="block">
+            <a href="/preview/1110" class="block">
               <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
                 <img src="/projects/re-diseno-la-cometa/assets/img/obra-mejores-amigos.webp" alt="«Mejores amigos», óleo sobre lienzo de Dámaxo Henao, 31 × 20 × 3 cm" loading="lazy" decoding="async">
               </figure>
@@ -300,7 +300,7 @@
             <button type="button" class="lc-link mt-3" data-inquire="Mejores amigos — Dámaxo Henao">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
-            <a href="/preview/1090" class="block">
+            <a href="/preview/1108" class="block">
               <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
                 <img src="/projects/re-diseno-la-cometa/assets/img/obra-torre-ermitano.webp" alt="«La torre del ermitaño», óleo sobre lienzo y madera de Dámaxo Henao, 161,5 × 45,5 × 51 cm" loading="lazy" decoding="async">
               </figure>
@@ -310,7 +310,7 @@
             <button type="button" class="lc-link mt-3" data-inquire="La torre del ermitaño — Dámaxo Henao">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
-            <a href="/preview/1090" class="block">
+            <a href="/preview/1109" class="block">
               <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
                 <img src="/projects/re-diseno-la-cometa/assets/img/obra-los-tiempos.webp" alt="«Los tiempos de la ilusión del hogar», tríptico al óleo sobre lienzo de Dámaxo Henao, 150 × 150 cm, 2023" loading="lazy" decoding="async">
               </figure>

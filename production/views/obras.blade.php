@@ -327,7 +327,7 @@
       </li>
 
       <li class="lc-card lc-card--obra" data-artista="damaxo-henao" data-tecnica="pintura" data-decada="2020" data-estado="disponible" data-w="128.5" data-h="95">
-        <a href="/preview/1090" class="block">
+        <a href="/preview/1111" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
             <img src="/projects/re-diseno-la-cometa/assets/img/obra-centinela.webp" alt="«El centinela diurno», óleo sobre lienzo de Dámaxo Henao, 2026" loading="lazy" decoding="async">
           </figure>
@@ -339,7 +339,7 @@
       </li>
 
       <li class="lc-card lc-card--obra" data-artista="damaxo-henao" data-tecnica="escultura" data-decada="2020" data-estado="disponible" data-w="45.5" data-h="161.5">
-        <a href="/preview/1090" class="block">
+        <a href="/preview/1108" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
             <img src="/projects/re-diseno-la-cometa/assets/img/obra-torre-ermitano.webp" alt="«La torre del ermitaño», óleo sobre lienzo y madera de Dámaxo Henao, 2026" loading="lazy" decoding="async">
           </figure>
@@ -351,7 +351,7 @@
       </li>
 
       <li class="lc-card lc-card--obra" data-artista="damaxo-henao" data-tecnica="pintura" data-decada="2020" data-estado="disponible" data-w="20" data-h="31">
-        <a href="/preview/1090" class="block">
+        <a href="/preview/1110" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
             <img src="/projects/re-diseno-la-cometa/assets/img/obra-mejores-amigos.webp" alt="«Mejores amigos», óleo sobre lienzo de Dámaxo Henao, 2026" loading="lazy" decoding="async">
           </figure>
@@ -363,7 +363,7 @@
       </li>
 
       <li class="lc-card lc-card--obra" data-artista="damaxo-henao" data-tecnica="pintura" data-decada="2020" data-estado="disponible" data-w="150" data-h="150">
-        <a href="/preview/1090" class="block">
+        <a href="/preview/1109" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
             <img src="/projects/re-diseno-la-cometa/assets/img/obra-los-tiempos.webp" alt="«Los tiempos de la ilusión del hogar», tríptico al óleo sobre lienzo de Dámaxo Henao, 2023" loading="lazy" decoding="async">
           </figure>

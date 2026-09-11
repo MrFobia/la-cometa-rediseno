@@ -367,7 +367,7 @@
         <button type="button" class="lc-link" data-inquire="Transeúnte — Dámaxo Henao">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
       </li>
       <li class="lc-card lc-card--obra lc-reveal">
-        <a href="/preview/1090" class="block">
+        <a href="/preview/1111" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
             <img src="/projects/re-diseno-la-cometa/assets/img/obra-centinela.webp" alt="«El centinela diurno», óleo sobre lienzo de Dámaxo Henao, 95 × 128,5 cm" loading="lazy" decoding="async">
           </figure>
@@ -387,7 +387,7 @@
         <button type="button" class="lc-link" data-inquire="Puerta — Dámaxo Henao">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
       </li>
       <li class="lc-card lc-card--obra lc-reveal">
-        <a href="/preview/1090" class="block">
+        <a href="/preview/1110" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
             <img src="/projects/re-diseno-la-cometa/assets/img/obra-mejores-amigos.webp" alt="«Mejores amigos», óleo sobre lienzo de Dámaxo Henao, 31 × 20 × 3 cm" loading="lazy" decoding="async">
           </figure>
@@ -397,7 +397,7 @@
         <button type="button" class="lc-link" data-inquire="Mejores amigos — Dámaxo Henao">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
       </li>
       <li class="lc-card lc-card--obra lc-reveal">
-        <a href="/preview/1090" class="block">
+        <a href="/preview/1108" class="block">
           <figure class="lc-figure lc-figure--obra" style="aspect-ratio: 4 / 5;">
             <img src="/projects/re-diseno-la-cometa/assets/img/obra-torre-ermitano.webp" alt="«La torre del ermitaño», óleo sobre lienzo y madera de Dámaxo Henao, 161,5 × 45,5 × 51 cm" loading="lazy" decoding="async">
           </figure>
