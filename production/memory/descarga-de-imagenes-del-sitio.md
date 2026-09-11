@@ -10,6 +10,10 @@ detalle: el CMS publica dos calidades muy distintas — los `.jpg` son originale
 1800 px tras `cwebp -q 78 -resize 1800 0`), mientras que muchos `.webp` son miniaturas de
 **383 px** y **no existe versión mayor** (las variantes `.jpg`/`.png` de esas mismas rutas dan
 404). Los WebP por debajo de 1800 px se copian sin recomprimir, para no perder calidad al reencodar.
+_(updated 2026-09-11: **`cwebp` no viene instalado y no sobrevive entre turnos** — el contenedor
+del agente es efímero, igual que pasa con `safe.directory`. Hay que correr
+`apt-get install -y --no-install-recommends webp` al principio de cada tanda de descargas, o el
+script muere con `FileNotFoundError: 'cwebp'` a mitad de camino. Trae también `dwebp` y `webpinfo`.)_
 
 ## References
 
