@@ -10,6 +10,19 @@ está publicado y la nacionalidad parece seguirse de él, pero son dos hechos di
 está en la fuente. Cómo se adscribe un artista lo define la galería. Vale igual para la disciplina,
 que tampoco se infiere de las obras que se le conocen.
 
+**Vale igual para el género, y hay un caso concreto en el proyecto.** La galería escribe
+«**egresade**» en la biografía de **Asicaz Monzón-Aguirre** —morfología inclusiva, elegida a
+propósito— y el sitio propio de la artista usa *they/their*. En la ficha de *Envoltorios*, entonces,
+no se escribe «el artista» ni «la artista»: se usa el nombre o construcciones sin marca de género
+(«su práctica», «su obra»). Igual que con la nacionalidad, la trampa es que la inferencia se siente
+automática — en español casi cualquier frase obliga a elegir un artículo — y hay que escribir
+salteándola a propósito.
+
+Otro caso del mismo criterio, a la inversa: de **Mónica Meira** la galería publica que nació en
+Londres en 1949, que es de ascendencia argentina y que se nacionalizó colombiana en 2004. Las tres
+cosas van juntas y **no se resumen a un solo país**; reducirlo a «artista colombiana» o a «artista
+británica» sería perder el dato, no simplificarlo.
+
 ## References
 
 <!-- backbone:memory-references -->

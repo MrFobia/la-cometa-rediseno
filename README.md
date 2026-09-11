@@ -155,7 +155,11 @@ Recortar una pintura para que calce en una tarjeta es el error que una galería 
 Los datos que el sitio actual no tiene cargados aparecen como `—` o con el sello
 «Dato pendiente». No se completaron con supuestos.
 
-- **Fechas de la programación 2026** fuera de las cuatro exposiciones de Bogotá.
+- ~~**Fechas de la programación 2026** fuera de las cuatro exposiciones de Bogotá.~~
+  **Resuelto, y era error nuestro**: se abrieron las doce fichas individuales del sitio, una
+  por una, y **las doce publican inicio y fin**. El «Fechas —» que mostraban cinco filas de
+  nuestro archivo no reflejaba a la fuente. Cada ficha de exposición lleva `ExhibitionEvent`
+  con `startDate` y `endDate` reales.
 - **Año de nacimiento de Dámaxo Henao**: el sitio publica 1955 en la ficha de artista y
   1995 en el texto curatorial. **Se usa 1995** por decisión del 2026-09-11, pero la
   contradicción sigue **sin confirmar por la galería** y no se da por cerrada: es la
@@ -170,8 +174,14 @@ Los datos que el sitio actual no tiene cargados aparecen como `—` o con el sel
   catálogo queda sin ficha propia **hasta que la galería entregue textos**; no se
   escriben acá. *Puerta* tampoco tiene ficha: aparece en la exposición y en la ficha del
   artista, pero no en el catálogo.
-- **Medellín** tiene exposiciones publicadas en 2026 pero no tiene página de sede ni
-  dirección: aparece listada con los datos marcados como pendientes.
+- **Medellín** tiene cuatro exposiciones publicadas en 2026 pero **no tiene página de sede**
+  en el sitio de la galería: las páginas de sede son sólo Bogotá, Madrid, México y Miami, y
+  en `/contacto/` Medellín aparece únicamente como opción del newsletter. La **dirección**
+  se resolvió con fuentes externas y ya figura en las fichas —Calle 10B # 37-29, El Poblado,
+  en la planta baja del Hotel Click Clack; tres fuentes coinciden y una de febrero de 2026
+  confirma que sigue ahí—. El **horario sigue pendiente**: ninguna fuente verificable lo
+  publica y los dos horarios que circulan en agregadores se contradicen entre sí. La
+  trazabilidad completa está en `production/fuentes-externas.md`.
 - **«Elliptic Spsce II»**: errata del sitio original. Aquí se escribe «Elliptic Space II»
   y la corrección se mantiene deliberadamente — la errata del origen no se arrastra.
 - **Disciplina de Verónica Lehner**: no publicada, se muestra como pendiente. Su origen sí

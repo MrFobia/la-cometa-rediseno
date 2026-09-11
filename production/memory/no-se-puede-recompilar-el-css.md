@@ -1,6 +1,13 @@
-# Desde el chat no se puede recompilar el CSS: sólo se pueden usar clases que ya estén en dist/styles.css
+# No se inventan clases CSS: se compone con las que ya existen, y si hace falta CSS nuevo se le pide al usuario
 <!-- backbone:type:constraint -->
-Source: observed
+Source: user-stated
+
+**La regla, dicha por el usuario el 2026-09-11:** «no inventes clases nuevas, componé con las que
+ya existen. Y si alguna vez una pantalla realmente necesita CSS nuevo, me lo pedís y lo compilo yo
+acá — tengo el proyecto con dependencias instaladas y puedo correr el build de Tailwind y pushear
+el CSS. No lo resuelvas por tu cuenta con clases que no van a existir.» O sea que **hay vía de
+escape y hay que usarla**: pedir el CSS nuevo es una opción legítima, inventar una clase no lo es.
+Abajo, por qué.
 
 El proyecto **no tiene `node_modules`** en la copia de la plataforma, así que `npm run css:build`
 —y con él `npm run build` completo— **no corre**: el Tailwind CLI no está instalado y, como pasa con

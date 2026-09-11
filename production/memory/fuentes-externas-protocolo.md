@@ -22,5 +22,5 @@ artistas—. Las cinco condiciones que impiden que esto se vuelva invención con
 ## References
 
 <!-- backbone:memory-references -->
-_None yet — connect this neuron to others on the memory map._
+- [La sede de Medellín y lo que no publica](./sede-medellin-sin-datos-publicados.md)
 <!-- backbone:memory-references -->
