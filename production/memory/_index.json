@@ -30,7 +30,7 @@
             ],
             "disabled": false,
             "type": null,
-            "last_accessed_at": "2026-09-11T14:15:13+00:00"
+            "last_accessed_at": "2026-09-11T14:43:58+00:00"
         },
         {
             "filename": "build-y-tokens.md",
@@ -94,7 +94,7 @@
                 }
             ],
             "created_at": "2026-09-10T20:28:58+00:00",
-            "last_accessed_at": "2026-09-11T14:15:13+00:00",
+            "last_accessed_at": "2026-09-11T14:43:58+00:00",
             "disabled": false,
             "type": "fact",
             "contradicts": [],
@@ -107,7 +107,7 @@
             "source": "ai",
             "connections": [],
             "created_at": "2026-09-10T20:28:22+00:00",
-            "last_accessed_at": "2026-09-11T14:15:13+00:00",
+            "last_accessed_at": "2026-09-11T14:43:58+00:00",
             "disabled": false,
             "type": "quirk",
             "contradicts": [],
@@ -120,7 +120,7 @@
             "source": "ai",
             "connections": [],
             "created_at": "2026-09-10T20:28:28+00:00",
-            "last_accessed_at": "2026-09-11T14:15:13+00:00",
+            "last_accessed_at": "2026-09-11T14:43:58+00:00",
             "disabled": false,
             "type": "decision",
             "contradicts": [],
@@ -167,7 +167,7 @@
                 }
             ],
             "created_at": "2026-09-10T20:28:09+00:00",
-            "last_accessed_at": "2026-09-11T14:15:13+00:00",
+            "last_accessed_at": "2026-09-11T14:43:58+00:00",
             "disabled": false,
             "type": "reference",
             "contradicts": [],
@@ -180,7 +180,7 @@
             "source": "ai",
             "connections": [],
             "created_at": "2026-09-10T20:29:18+00:00",
-            "last_accessed_at": "2026-09-11T14:15:13+00:00",
+            "last_accessed_at": "2026-09-11T14:43:58+00:00",
             "disabled": false,
             "type": "correction",
             "contradicts": [],
@@ -212,7 +212,7 @@
                 }
             ],
             "created_at": "2026-09-10T21:16:54+00:00",
-            "last_accessed_at": "2026-09-11T14:15:13+00:00",
+            "last_accessed_at": "2026-09-11T14:43:58+00:00",
             "disabled": false,
             "type": "constraint",
             "contradicts": [],
@@ -238,7 +238,7 @@
             "source": "ai",
             "connections": [],
             "created_at": "2026-09-10T22:05:33+00:00",
-            "last_accessed_at": "2026-09-11T14:15:13+00:00",
+            "last_accessed_at": "2026-09-11T14:43:58+00:00",
             "disabled": false,
             "type": "preference",
             "contradicts": [],
@@ -251,7 +251,7 @@
             "source": "ai",
             "connections": [],
             "created_at": "2026-09-10T22:18:16+00:00",
-            "last_accessed_at": "2026-09-11T14:15:13+00:00",
+            "last_accessed_at": "2026-09-11T14:43:58+00:00",
             "disabled": false,
             "type": "constraint",
             "contradicts": [],
@@ -303,7 +303,7 @@
             "source": "ai",
             "connections": [],
             "created_at": "2026-09-10T22:57:42+00:00",
-            "last_accessed_at": "2026-09-11T14:15:13+00:00",
+            "last_accessed_at": "2026-09-11T14:43:58+00:00",
             "disabled": false,
             "type": "constraint",
             "contradicts": [],
@@ -334,10 +334,15 @@
                     "target": "alcance-de-contenido-lo-fija-la-galeria.md",
                     "condition": "",
                     "type": "neuron"
+                },
+                {
+                    "target": "lenguaje-de-sala-para-los-pendientes.md",
+                    "condition": "",
+                    "type": "neuron"
                 }
             ],
             "created_at": "2026-09-10T22:57:35+00:00",
-            "last_accessed_at": "2026-09-11T14:15:13+00:00",
+            "last_accessed_at": "2026-09-11T14:43:58+00:00",
             "disabled": false,
             "type": "constraint",
             "contradicts": [],
@@ -382,7 +387,7 @@
             "source": "ai",
             "connections": [],
             "created_at": "2026-09-11T00:07:05+00:00",
-            "last_accessed_at": "2026-09-11T14:15:13+00:00",
+            "last_accessed_at": "2026-09-11T14:43:58+00:00",
             "disabled": false,
             "type": "quirk",
             "contradicts": [],
@@ -395,7 +400,7 @@
             "source": "ai",
             "connections": [],
             "created_at": "2026-09-11T00:01:28+00:00",
-            "last_accessed_at": "2026-09-11T14:15:13+00:00",
+            "last_accessed_at": "2026-09-11T14:43:58+00:00",
             "disabled": false,
             "type": "constraint",
             "contradicts": [],
@@ -413,6 +418,19 @@
             "type": "naming",
             "contradicts": [],
             "colour": "pink"
+        },
+        {
+            "filename": "lenguaje-de-sala-para-los-pendientes.md",
+            "name": "lenguaje de sala para los pendientes",
+            "hierarchy": "secondary",
+            "source": "ai",
+            "connections": [],
+            "created_at": "2026-09-11T14:15:39+00:00",
+            "last_accessed_at": "2026-09-11T14:43:58+00:00",
+            "disabled": false,
+            "type": "constraint",
+            "contradicts": [],
+            "colour": "orange"
         }
     ],
     "context_pins": []
