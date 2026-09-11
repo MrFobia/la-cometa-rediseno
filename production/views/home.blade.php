@@ -452,7 +452,7 @@
 
     <ul class="grid gap-x-6 gap-y-10 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lc-grid-min-0" data-artist-grid>
       <li class="lc-card lc-reveal" data-letter="A">
-        <a href="/preview/1095" class="block group">
+        <a href="/preview/1098" class="block group">
           <figure class="lc-figure" style="aspect-ratio: 3 / 4;">
             <img src="/projects/re-diseno-la-cometa/assets/img/artista-adam-goldstein.webp" alt="Retrato del artista Adam Goldstein" loading="lazy" decoding="async">
           </figure>
@@ -461,7 +461,7 @@
         </a>
       </li>
       <li class="lc-card lc-reveal" data-letter="A">
-        <a href="/preview/1095" class="block">
+        <a href="/preview/1100" class="block">
           <figure class="lc-figure" style="aspect-ratio: 3 / 4;">
             <img src="/projects/re-diseno-la-cometa/assets/img/artista-adrian-gaitan.webp" alt="Retrato del artista Adrián Gaitán" loading="lazy" decoding="async">
           </figure>
@@ -470,7 +470,7 @@
         </a>
       </li>
       <li class="lc-card lc-reveal" data-letter="A">
-        <a href="/preview/1095" class="block">
+        <a href="/preview/1102" class="block">
           <figure class="lc-figure" style="aspect-ratio: 3 / 4;">
             <img src="/projects/re-diseno-la-cometa/assets/img/artista-alejandro-ospina.webp" alt="Retrato del artista Alejandro Ospina" loading="lazy" decoding="async">
           </figure>
@@ -479,7 +479,7 @@
         </a>
       </li>
       <li class="lc-card lc-reveal" data-letter="A">
-        <a href="/preview/1095" class="block">
+        <a href="/preview/1103" class="block">
           <figure class="lc-figure" style="aspect-ratio: 3 / 4;">
             <img src="/projects/re-diseno-la-cometa/assets/img/artista-alejandro-sanchez.webp" alt="Retrato del artista Alejandro Sánchez" loading="lazy" decoding="async">
           </figure>
@@ -488,7 +488,7 @@
         </a>
       </li>
       <li class="lc-card lc-reveal" data-letter="C">
-        <a href="/preview/1095" class="block">
+        <a href="/preview/1106" class="block">
           <figure class="lc-figure" style="aspect-ratio: 3 / 4;">
             <img src="/projects/re-diseno-la-cometa/assets/img/artista-camilo-restrepo.webp" alt="Retrato del artista Camilo Restrepo" loading="lazy" decoding="async">
           </figure>
@@ -497,7 +497,7 @@
         </a>
       </li>
       <li class="lc-card lc-reveal" data-letter="C">
-        <a href="/preview/1095" class="block">
+        <a href="/preview/1099" class="block">
           <figure class="lc-figure" style="aspect-ratio: 3 / 4;">
             <img src="/projects/re-diseno-la-cometa/assets/img/artista-carlos-castro.webp" alt="Retrato del artista Carlos Castro" loading="lazy" decoding="async">
           </figure>
@@ -506,7 +506,7 @@
         </a>
       </li>
       <li class="lc-card lc-reveal" data-letter="D">
-        <a href="/preview/1095" class="block">
+        <a href="/preview/1101" class="block">
           <figure class="lc-figure" style="aspect-ratio: 3 / 4;">
             <img src="/projects/re-diseno-la-cometa/assets/img/artista-daniel-nystrom.webp" alt="Retrato del artista Daniel Nyström" loading="lazy" decoding="async">
           </figure>
@@ -515,7 +515,7 @@
         </a>
       </li>
       <li class="lc-card lc-reveal" data-letter="F">
-        <a href="/preview/1095" class="block">
+        <a href="/preview/1104" class="block">
           <figure class="lc-figure" style="aspect-ratio: 3 / 4;">
             <img src="/projects/re-diseno-la-cometa/assets/img/artista-fernando-pinto.webp" alt="Retrato del artista Fernando Pinto" loading="lazy" decoding="async">
           </figure>

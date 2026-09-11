@@ -175,42 +175,42 @@
 
     <ul class="lc-hive" data-artist-grid>
       <li data-letter="A">
-        <a href="/preview/1095">
+        <a href="/preview/1098">
           <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/exh-goldstein.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
           <span class="lc-hive__name">Adam Goldstein</span>
           <span class="lc-hive__meta">Colombia · Pintura</span>
         </a>
       </li>
       <li data-letter="A">
-        <a href="/preview/1095">
+        <a href="/preview/1100">
           <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/obra-3.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
           <span class="lc-hive__name">Adrián Gaitán</span>
           <span class="lc-hive__meta">Colombia · Ensamblaje</span>
         </a>
       </li>
       <li data-letter="A">
-        <a href="/preview/1095">
+        <a href="/preview/1102">
           <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/exh-ospina.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
           <span class="lc-hive__name">Alejandro Ospina</span>
           <span class="lc-hive__meta">Colombia · Pintura</span>
         </a>
       </li>
       <li data-letter="A">
-        <a href="/preview/1095">
+        <a href="/preview/1103">
           <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/obra-7.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
           <span class="lc-hive__name">Alejandro Sánchez</span>
           <span class="lc-hive__meta">Colombia · Escultura</span>
         </a>
       </li>
       <li data-letter="C">
-        <a href="/preview/1095">
+        <a href="/preview/1106">
           <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/obra-4.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
           <span class="lc-hive__name">Camilo Restrepo</span>
           <span class="lc-hive__meta">Colombia · Dibujo</span>
         </a>
       </li>
       <li data-letter="C">
-        <a href="/preview/1095">
+        <a href="/preview/1099">
           <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/artista-carlos-castro.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
           <span class="lc-hive__name">Carlos Castro</span>
           <span class="lc-hive__meta">Colombia</span>
@@ -224,35 +224,35 @@
         </a>
       </li>
       <li data-letter="D">
-        <a href="/preview/1095">
+        <a href="/preview/1101">
           <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/artista-daniel-nystrom.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
           <span class="lc-hive__name">Daniel Nyström</span>
           <span class="lc-hive__meta">Suecia</span>
         </a>
       </li>
       <li data-letter="F">
-        <a href="/preview/1095">
+        <a href="/preview/1104">
           <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/obra-6.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
           <span class="lc-hive__name">Fernando Pinto</span>
           <span class="lc-hive__meta">Colombia · Escultura</span>
         </a>
       </li>
       <li data-letter="M">
-        <a href="/preview/1095">
+        <a href="/preview/1097">
           <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/obra-1.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
           <span class="lc-hive__name">Miguel Ángel Rojas</span>
           <span class="lc-hive__meta">Colombia</span>
         </a>
       </li>
       <li data-letter="V">
-        <a href="/preview/1095">
+        <a href="/preview/1105">
           <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/exh-lehner.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
           <span class="lc-hive__name">Verónica Lehner</span>
           <span class="lc-hive__meta">—</span>
         </a>
       </li>
       <li data-letter="Z">
-        <a href="/preview/1095">
+        <a href="/preview/1107">
           <img class="lc-hive__peek" src="/projects/re-diseno-la-cometa/assets/img/exh-zhivago.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
           <span class="lc-hive__name">Zhivago Duncan</span>
           <span class="lc-hive__meta">—</span>
