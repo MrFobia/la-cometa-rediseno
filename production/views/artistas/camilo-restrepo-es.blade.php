@@ -232,7 +232,7 @@
           <div><dt>Formación</dt><dd>—</dd></div>
           <div><dt>Representado por</dt><dd>La Cometa</dd></div>
         </dl>
-        <p class="lc-pending mt-4">Disciplina y formación: no publicadas. Los medios no se deducen de los materiales de sus piezas.</p>
+        <p class="lc-pending mt-4">Disciplina y formación por confirmar con la galería.</p>
       </aside>
     </div>
   </section>
@@ -325,7 +325,7 @@
       </div>
 
       <p class="lc-meta mt-6 lc-measure">
-        El sitio publica con ficha técnica completa otras cuatro piezas: <em>Alias 2022</em>
+        También hay obra disponible: <em>Alias 2022</em>
         (2023, medidas variables), <em>Sinfín</em> (ocho piezas de 30 × 42 cm, 2013),
         <em>Quemarropas</em> (siete piezas de 21 × 28 cm, 2019) y
         <em>Juegos finitos / Juegos infinitos</em> (impresión digital, 120 × 160 cm, 2012—2019).
@@ -366,7 +366,7 @@
         </a>
       </li>
     </ul>
-    <p class="lc-pending mt-4">Las tres exposiciones están publicadas sin ficha propia en el sitio actual: los enlaces llevan al programa general.</p>
+    <p class="lc-pending mt-4">Fichas de estas exposiciones en preparación.</p>
   </section>
 
   <!-- ---------- CV ---------- -->
@@ -386,7 +386,7 @@
       </div>
       <div>
         <h3 class="lc-caps mb-3">Reconocimientos y colecciones</h3>
-        <p class="lc-pending">No publicados. Descarga del CV en PDF: pendiente de cargar en Expressia.</p>
+        <p class="lc-pending">Por confirmar con la galería. CV en PDF en preparación.</p>
       </div>
     </div>
   </section>

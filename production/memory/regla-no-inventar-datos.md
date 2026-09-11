@@ -17,4 +17,5 @@ Cuando la fuente se contradice consigo misma, tampoco se elige: se marca como pe
 - [El sitio real no tiene fichas de obra](./sitio-real-sin-fichas-de-obra.md)
 - [La nacionalidad no se deduce del lugar de nacimiento](./nacionalidad-no-se-deduce-del-nacimiento.md)
 - [El alcance de contenido lo fija la galería](./alcance-de-contenido-lo-fija-la-galeria.md)
+- [Lenguaje de sala para los pendientes](./lenguaje-de-sala-para-los-pendientes.md)
 <!-- backbone:memory-references -->

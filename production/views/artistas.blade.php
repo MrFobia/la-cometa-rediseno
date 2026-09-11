@@ -268,8 +268,7 @@
     <p class="lc-meta mt-6" data-artist-empty hidden>No hay artistas cargados en esta inicial dentro de esta página del listado.</p>
 
     <p class="lc-meta mt-6">
-      Los guiones «—» son datos de país o disciplina que aún no están cargados por entidad
-      en Expressia. No se completan con supuestos.
+      Los guiones «—» son datos por confirmar con la galería.
     </p>
 
     <nav class="mt-10 flex flex-wrap items-center justify-between gap-4 border-t border-[color:var(--color-rule)] pt-6" aria-label="Paginación de artistas">

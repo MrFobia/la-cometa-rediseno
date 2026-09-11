@@ -205,10 +205,7 @@
     <div class="grid gap-10 lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
       <div class="lc-prose">
         <p class="lc-pending">
-          El sitio actual no publica biografía ni disciplina de la artista. Lo único documentado es
-          su origen, los títulos de su obra —agrupada en las series <em>Interferencia</em>,
-          <em>Interferencias</em>, <em>Intersecciones</em> y <em>Desdoblados</em>— y su exposición
-          en la sede de Bogotá.
+          Biografía en preparación.
         </p>
       </div>
 
@@ -221,7 +218,7 @@
           <div><dt>Colecciones</dt><dd>—</dd></div>
           <div><dt>Representada por</dt><dd>La Cometa</dd></div>
         </dl>
-        <p class="lc-pending mt-4">Disciplina, formación y colecciones: no publicadas. Los medios no se deducen de sus piezas.</p>
+        <p class="lc-pending mt-4">Disciplina, formación y colecciones por confirmar con la galería.</p>
       </aside>
     </div>
   </section>
@@ -246,7 +243,7 @@
               </figure>
               <h3 class="lc-card__title mt-3">Interferencia 1</h3>
             </a>
-            <p class="lc-pending mt-1">Ficha técnica: pendiente</p>
+            <p class="lc-pending mt-1">Ficha técnica en preparación</p>
             <button type="button" class="lc-link mt-3" data-inquire="Interferencia 1 — Verónica Lehner">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
@@ -256,7 +253,7 @@
               </figure>
               <h3 class="lc-card__title mt-3">Interferencia 2</h3>
             </a>
-            <p class="lc-pending mt-1">Ficha técnica: pendiente</p>
+            <p class="lc-pending mt-1">Ficha técnica en preparación</p>
             <button type="button" class="lc-link mt-3" data-inquire="Interferencia 2 — Verónica Lehner">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
@@ -266,7 +263,7 @@
               </figure>
               <h3 class="lc-card__title mt-3">Interferencia 3</h3>
             </a>
-            <p class="lc-pending mt-1">Ficha técnica: pendiente</p>
+            <p class="lc-pending mt-1">Ficha técnica en preparación</p>
             <button type="button" class="lc-link mt-3" data-inquire="Interferencia 3 — Verónica Lehner">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
@@ -276,7 +273,7 @@
               </figure>
               <h3 class="lc-card__title mt-3">Interferencia 6</h3>
             </a>
-            <p class="lc-pending mt-1">Ficha técnica: pendiente</p>
+            <p class="lc-pending mt-1">Ficha técnica en preparación</p>
             <button type="button" class="lc-link mt-3" data-inquire="Interferencia 6 — Verónica Lehner">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
@@ -286,7 +283,7 @@
               </figure>
               <h3 class="lc-card__title mt-3">Desdoblados 9</h3>
             </a>
-            <p class="lc-pending mt-1">Ficha técnica: pendiente</p>
+            <p class="lc-pending mt-1">Ficha técnica en preparación</p>
             <button type="button" class="lc-link mt-3" data-inquire="Desdoblados 9 — Verónica Lehner">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
@@ -296,7 +293,7 @@
               </figure>
               <h3 class="lc-card__title mt-3">Desdoblados 10</h3>
             </a>
-            <p class="lc-pending mt-1">Ficha técnica: pendiente</p>
+            <p class="lc-pending mt-1">Ficha técnica en preparación</p>
             <button type="button" class="lc-link mt-3" data-inquire="Desdoblados 10 — Verónica Lehner">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
         </ul>
@@ -314,10 +311,9 @@
       </div>
 
       <p class="lc-pending mt-6">
-        El sitio publica dieciséis piezas de la artista —las series <em>Interferencia</em>,
+        Hay más obra de la artista: las series <em>Interferencia</em>,
         <em>Interferencias</em>, <em>Intersecciones</em> y <em>Desdoblados</em>, varias con su
-        caja— pero <strong>de ninguna publica técnica, medidas ni año</strong>. Las imágenes
-        disponibles son de baja resolución (383 px), por lo que aquí se usan a tamaño de tarjeta.
+        caja. Fichas técnicas en preparación.
       </p>
     </div>
   </section>
@@ -340,7 +336,7 @@
         </a>
       </li>
     </ul>
-    <p class="lc-pending mt-4">Fechas exactas de la exposición: pendientes. Su ficha de artista no publica exposiciones; esta figura en el programa del sitio.</p>
+    <p class="lc-pending mt-4">Fechas de la exposición por confirmar.</p>
   </section>
 
   <!-- ---------- CV ---------- -->
@@ -349,7 +345,7 @@
       <h2 id="h-cv" class="text-[length:var(--text-3xl)]">Hoja de vida</h2>
     </div>
 
-    <p class="lc-pending">Formación, exposiciones anteriores, premios y colecciones: no publicados. Retrato de la artista y descarga del CV en PDF: pendientes de cargar en Expressia.</p>
+    <p class="lc-pending">Formación, exposiciones anteriores, premios y colecciones por confirmar. Retrato y CV en PDF en preparación.</p>
   </section>
 
   <!-- ---------- Consultar ---------- -->

@@ -231,7 +231,7 @@
           <div><dt>Formación</dt><dd>—</dd></div>
           <div><dt>Representado por</dt><dd>La Cometa</dd></div>
         </dl>
-        <p class="lc-pending mt-4">Formación y colecciones: el sitio actual no las publica.</p>
+        <p class="lc-pending mt-4">Formación y colecciones por confirmar con la galería.</p>
       </aside>
     </div>
   </section>
@@ -324,7 +324,7 @@
       </div>
 
       <p class="lc-meta mt-6 lc-measure">
-        El catálogo suma además <em>The Capacity To Comprehend Infinity</em> (hierro, lana,
+        También hay obra disponible: <em>The Capacity To Comprehend Infinity</em> (hierro, lana,
         hormigón, MDF y tinta, 200 × 200 × 4 cm, 2023), <em>La Bandera</em> (papel y tinta,
         218 × 118 × 17 cm, 2019) y <em>Por Qué</em> (concreto, cuero y brea, 120 × 80 × 5 cm, 2019).
       </p>
@@ -356,7 +356,7 @@
         </a>
       </li>
     </ul>
-    <p class="lc-pending mt-4">Las dos exposiciones están publicadas sin ficha propia en el sitio actual: los enlaces llevan al programa general.</p>
+    <p class="lc-pending mt-4">Fichas de estas exposiciones en preparación.</p>
   </section>
 
   <!-- ---------- CV ---------- -->
@@ -375,7 +375,7 @@
       </div>
       <div>
         <h3 class="lc-caps mb-3">Reconocimientos y colecciones</h3>
-        <p class="lc-pending">No publicados. Descarga del CV en PDF: pendiente de cargar en Expressia.</p>
+        <p class="lc-pending">Por confirmar con la galería. CV en PDF en preparación.</p>
       </div>
     </div>
   </section>

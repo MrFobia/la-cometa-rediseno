@@ -291,10 +291,8 @@
       </div>
 
       <p class="lc-pending mt-6">
-        El sitio actual publica muchas más obras del artista —<em>Gringos</em>, la serie
-        <em>El camino corto</em>, <em>Aluvión</em>, <em>Carbón Carbón</em>, <em>Primaria</em>—
-        pero sin técnica, medidas ni año. Aquí figuran sólo las dos que tienen ficha técnica
-        completa; el resto queda pendiente de que la galería cargue sus datos.
+        Hay más obra del artista: <em>Gringos</em>, la serie
+        <em>El camino corto</em>, <em>Aluvión</em>, <em>Carbón Carbón</em>, <em>Primaria</em>. Fichas técnicas en preparación.
       </p>
     </div>
   </section>
@@ -306,7 +304,7 @@
       <a class="lc-link" href="/preview/1088">Ver el programa completo <span class="lc-arrow" aria-hidden="true">→</span></a>
     </div>
 
-    <p class="lc-pending">Sin exposiciones en La Cometa publicadas en el sitio actual. Sus muestras institucionales se listan en el CV.</p>
+    <p class="lc-pending">Sus muestras se listan en la hoja de vida.</p>
   </section>
 
   <!-- ---------- CV ---------- -->
@@ -335,7 +333,7 @@
           <div><dt>1992</dt><dd>Premio Banco Bonzano Simonsen, Río de Janeiro</dd></div>
           <div><dt>1981</dt><dd>Premio León Dobrzinsky, Bogotá</dd></div>
         </dl>
-        <p class="lc-pending mt-4">Colecciones: no publicadas. Descarga del CV en PDF: pendiente de cargar en Expressia.</p>
+        <p class="lc-pending mt-4">Colecciones por confirmar. CV en PDF en preparación.</p>
       </div>
     </div>
   </section>

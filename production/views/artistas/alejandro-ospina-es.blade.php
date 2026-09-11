@@ -232,7 +232,7 @@
           <div><dt>Formación</dt><dd>—</dd></div>
           <div><dt>Representado por</dt><dd>La Cometa</dd></div>
         </dl>
-        <p class="lc-pending mt-4">Formación y colecciones: el sitio actual no las publica.</p>
+        <p class="lc-pending mt-4">Formación y colecciones por confirmar con la galería.</p>
       </aside>
     </div>
   </section>
@@ -257,7 +257,7 @@
               </figure>
               <h3 class="lc-card__title mt-3">Supergirl 76</h3>
             </a>
-            <p class="lc-pending mt-1">Ficha técnica: pendiente</p>
+            <p class="lc-pending mt-1">Ficha técnica en preparación</p>
             <button type="button" class="lc-link mt-3" data-inquire="Supergirl 76 — Alejandro Ospina">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
@@ -267,7 +267,7 @@
               </figure>
               <h3 class="lc-card__title mt-3">Not Even Me. A continuity of thought</h3>
             </a>
-            <p class="lc-pending mt-1">Ficha técnica: pendiente</p>
+            <p class="lc-pending mt-1">Ficha técnica en preparación</p>
             <button type="button" class="lc-link mt-3" data-inquire="Not Even Me. A continuity of thought — Alejandro Ospina">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
@@ -277,7 +277,7 @@
               </figure>
               <h3 class="lc-card__title mt-3">Not Even Me. El Polvillo Radioactivo</h3>
             </a>
-            <p class="lc-pending mt-1">Ficha técnica: pendiente</p>
+            <p class="lc-pending mt-1">Ficha técnica en preparación</p>
             <button type="button" class="lc-link mt-3" data-inquire="Not Even Me. El Polvillo Radioactivo — Alejandro Ospina">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
@@ -287,7 +287,7 @@
               </figure>
               <h3 class="lc-card__title mt-3">All Hotties Eat Corgetti</h3>
             </a>
-            <p class="lc-pending mt-1">Ficha técnica: pendiente</p>
+            <p class="lc-pending mt-1">Ficha técnica en preparación</p>
             <button type="button" class="lc-link mt-3" data-inquire="All Hotties Eat Corgetti — Alejandro Ospina">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
@@ -297,7 +297,7 @@
               </figure>
               <h3 class="lc-card__title mt-3">Just me and the Juice</h3>
             </a>
-            <p class="lc-pending mt-1">Ficha técnica: pendiente</p>
+            <p class="lc-pending mt-1">Ficha técnica en preparación</p>
             <button type="button" class="lc-link mt-3" data-inquire="Just me and the Juice — Alejandro Ospina">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
@@ -307,7 +307,7 @@
               </figure>
               <h3 class="lc-card__title mt-3">Shouting at Tea</h3>
             </a>
-            <p class="lc-pending mt-1">Ficha técnica: pendiente</p>
+            <p class="lc-pending mt-1">Ficha técnica en preparación</p>
             <button type="button" class="lc-link mt-3" data-inquire="Shouting at Tea — Alejandro Ospina">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
         </ul>
@@ -325,11 +325,8 @@
       </div>
 
       <p class="lc-pending mt-6">
-        De toda su obra publicada, el sitio sólo entrega ficha técnica completa de dos piezas —
-        <em>Supergirl 54</em> (acrílico y óleo sobre tela, 54,82 × 110,5 cm, 2018) y
-        <em>The Invisible Contract</em> (acrílico y óleo sobre tela, 201 × 275,5 cm, 2021)—, y de
-        ninguna de las dos hay imagen. Las piezas de arriba se muestran sin técnica, medidas ni año
-        porque el sitio no los publica.
+        También hay obra disponible: <em>Supergirl 54</em> (acrílico y óleo sobre tela, 54,82 × 110,5 cm, 2018) y
+        <em>The Invisible Contract</em> (acrílico y óleo sobre tela, 201 × 275,5 cm, 2021). Las fichas técnicas de las piezas de arriba están en preparación.
       </p>
     </div>
   </section>
@@ -367,7 +364,7 @@
         </a>
       </li>
     </ul>
-    <p class="lc-pending mt-4">Las tres exposiciones están publicadas sin ficha propia en el sitio actual: los enlaces llevan al programa general.</p>
+    <p class="lc-pending mt-4">Fichas de estas exposiciones en preparación.</p>
   </section>
 
   <!-- ---------- CV ---------- -->
@@ -390,7 +387,7 @@
         <dl class="lc-datasheet">
           <div><dt>Nota</dt><dd><a class="lc-link" href="/preview/1087">Alejandro Ospina en «The Long Now: Saatchi Gallery at 40»</a></dd></div>
         </dl>
-        <p class="lc-pending mt-4">Reconocimientos y colecciones: no publicados. Descarga del CV en PDF: pendiente de cargar en Expressia.</p>
+        <p class="lc-pending mt-4">Reconocimientos y colecciones por confirmar. CV en PDF en preparación.</p>
       </div>
     </div>
   </section>

@@ -232,7 +232,7 @@
           <div><dt>Colecciones</dt><dd>—</dd></div>
           <div><dt>Representado por</dt><dd>La Cometa</dd></div>
         </dl>
-        <p class="lc-pending mt-4">Formación y colecciones: el sitio actual no las publica.</p>
+        <p class="lc-pending mt-4">Formación y colecciones por confirmar con la galería.</p>
       </aside>
     </div>
   </section>
@@ -325,8 +325,7 @@
       </div>
 
       <p class="lc-meta mt-6 lc-measure">
-        El sitio publica una veintena larga de piezas más, casi todas al óleo sobre lienzo y con
-        ficha técnica completa: <em>D-S</em>, <em>S-O-L</em>, <em>VS-3</em>, <em>Magma</em>,
+        Hay más obra disponible del artista, casi toda al óleo sobre lienzo: <em>D-S</em>, <em>S-O-L</em>, <em>VS-3</em>, <em>Magma</em>,
         <em>Summit Sight</em>, <em>Mar Picado</em>, <em>Divided Landscape</em>, la serie
         <em>Nachbild</em>, <em>Moon Motion</em> y <em>Saturn Interference</em>, entre otras.
       </p>
@@ -358,7 +357,7 @@
         </a>
       </li>
     </ul>
-    <p class="lc-pending mt-4">Las dos exposiciones están publicadas sin ficha propia en el sitio actual: los enlaces llevan al programa general. El cierre de «Ruido al vacío» figura como «2 de febrero», sin año.</p>
+    <p class="lc-pending mt-4">Fichas de estas exposiciones en preparación.</p>
   </section>
 
   <!-- ---------- CV ---------- -->
@@ -377,7 +376,7 @@
       </div>
       <div>
         <h3 class="lc-caps mb-3">Reconocimientos y colecciones</h3>
-        <p class="lc-pending">No publicados. Descarga del CV en PDF: pendiente de cargar en Expressia.</p>
+        <p class="lc-pending">Por confirmar con la galería. CV en PDF en preparación.</p>
       </div>
     </div>
   </section>

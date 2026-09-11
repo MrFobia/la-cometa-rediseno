@@ -232,7 +232,7 @@
           <div><dt>Colecciones</dt><dd>—</dd></div>
           <div><dt>Representado por</dt><dd>La Cometa</dd></div>
         </dl>
-        <p class="lc-pending mt-4">Formación y colecciones: el sitio actual no las publica.</p>
+        <p class="lc-pending mt-4">Formación y colecciones por confirmar con la galería.</p>
       </aside>
     </div>
   </section>
@@ -325,7 +325,7 @@
       </div>
 
       <p class="lc-meta mt-6 lc-measure">
-        El catálogo suma además <em>20 Centavos</em> (maíz sobre madera, 122 × 122 × 5 cm, 2024),
+        También hay obra disponible: <em>20 Centavos</em> (maíz sobre madera, 122 × 122 × 5 cm, 2024),
         <em>El rapto de sus majestades satánicas</em>, <em>Diálogo</em>, <em>Capador</em>,
         <em>La paloma explotada</em> e <em>Inserciones políticas</em>.
       </p>
@@ -339,7 +339,7 @@
       <a class="lc-link" href="/preview/1088">Ver el programa completo <span class="lc-arrow" aria-hidden="true">→</span></a>
     </div>
 
-    <p class="lc-pending">El sitio actual no publica exposiciones asociadas a este artista. Pendiente de cargar en Expressia.</p>
+    <p class="lc-pending">Exposiciones en preparación.</p>
   </section>
 
   <!-- ---------- CV ---------- -->
@@ -348,7 +348,7 @@
       <h2 id="h-cv" class="text-[length:var(--text-3xl)]">Hoja de vida</h2>
     </div>
 
-    <p class="lc-pending">Formación, exposiciones anteriores, premios y colecciones: no publicados. Descarga del CV en PDF: pendiente de cargar en Expressia.</p>
+    <p class="lc-pending">Formación, exposiciones anteriores, premios y colecciones por confirmar. CV en PDF en preparación.</p>
   </section>
 
   <!-- ---------- Consultar ---------- -->

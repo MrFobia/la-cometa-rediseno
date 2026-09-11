@@ -340,7 +340,7 @@
           Un párrafo así, autocontenido y fechado, es lo que un sistema de IA puede citar
           sin tener que resumir toda la página.
         </p>
-        <p class="lc-pending mt-6">Autoría y fecha del texto curatorial: pendientes de firmar en Expressia.</p>
+        <p class="lc-pending mt-6">Autoría y fecha del texto curatorial por confirmar.</p>
       </aside>
     </div>
   </section>

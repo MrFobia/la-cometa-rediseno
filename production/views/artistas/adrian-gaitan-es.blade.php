@@ -234,7 +234,7 @@
           <div><dt>Formación</dt><dd>—</dd></div>
           <div><dt>Representado por</dt><dd>La Cometa</dd></div>
         </dl>
-        <p class="lc-pending mt-4">Formación y colecciones: el sitio actual no las publica.</p>
+        <p class="lc-pending mt-4">Formación y colecciones por confirmar con la galería.</p>
       </aside>
     </div>
   </section>
@@ -328,7 +328,7 @@
 
       <p class="lc-meta mt-6 lc-measure">
         La serie <em>Aparición</em> continúa con las piezas 6, 7, 11 y 13, todas en aceite de motor
-        sobre madera y cartón. El sitio publica además <em>Sin título</em> en bolsas de té y luces,
+        sobre madera y cartón. También hay <em>Sin título</em> en bolsas de té y luces,
         la serie <em>Orange</em> en madera y cemento, y varias cajas de madera con tierra.
       </p>
     </div>
@@ -367,7 +367,7 @@
         </a>
       </li>
     </ul>
-    <p class="lc-pending mt-4">Las tres exposiciones están publicadas sin ficha propia en el sitio actual: los enlaces llevan al programa general.</p>
+    <p class="lc-pending mt-4">Fichas de estas exposiciones en preparación.</p>
   </section>
 
   <!-- ---------- CV ---------- -->
@@ -387,7 +387,7 @@
       </div>
       <div>
         <h3 class="lc-caps mb-3">Reconocimientos y colecciones</h3>
-        <p class="lc-pending">No publicados. Descarga del CV en PDF: pendiente de cargar en Expressia.</p>
+        <p class="lc-pending">Por confirmar con la galería. CV en PDF en preparación.</p>
       </div>
     </div>
   </section>

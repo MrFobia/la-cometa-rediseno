@@ -231,7 +231,7 @@
           <div><dt>Taller</dt><dd>Pietrasanta, Italia</dd></div>
           <div><dt>Representado por</dt><dd>La Cometa</dd></div>
         </dl>
-        <p class="lc-pending mt-4">Colecciones: el sitio actual no las publica.</p>
+        <p class="lc-pending mt-4">Colecciones por confirmar con la galería.</p>
       </aside>
     </div>
   </section>
@@ -266,7 +266,7 @@
               </figure>
               <h3 class="lc-card__title mt-3">Senda</h3>
             </a>
-            <p class="lc-pending mt-1">Ficha técnica: pendiente</p>
+            <p class="lc-pending mt-1">Ficha técnica en preparación</p>
             <button type="button" class="lc-link mt-3" data-inquire="Senda — Fernando Pinto">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
@@ -276,7 +276,7 @@
               </figure>
               <h3 class="lc-card__title mt-3">Senda III</h3>
             </a>
-            <p class="lc-pending mt-1">Ficha técnica: pendiente</p>
+            <p class="lc-pending mt-1">Ficha técnica en preparación</p>
             <button type="button" class="lc-link mt-3" data-inquire="Senda III — Fernando Pinto">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
@@ -286,7 +286,7 @@
               </figure>
               <h3 class="lc-card__title mt-3">Senda IV</h3>
             </a>
-            <p class="lc-pending mt-1">Ficha técnica: pendiente</p>
+            <p class="lc-pending mt-1">Ficha técnica en preparación</p>
             <button type="button" class="lc-link mt-3" data-inquire="Senda IV — Fernando Pinto">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
@@ -296,7 +296,7 @@
               </figure>
               <h3 class="lc-card__title mt-3">Onda</h3>
             </a>
-            <p class="lc-pending mt-1">Ficha técnica: pendiente</p>
+            <p class="lc-pending mt-1">Ficha técnica en preparación</p>
             <button type="button" class="lc-link mt-3" data-inquire="Onda — Fernando Pinto">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
@@ -306,7 +306,7 @@
               </figure>
               <h3 class="lc-card__title mt-3">Mirada</h3>
             </a>
-            <p class="lc-pending mt-1">Ficha técnica: pendiente</p>
+            <p class="lc-pending mt-1">Ficha técnica en preparación</p>
             <button type="button" class="lc-link mt-3" data-inquire="Mirada — Fernando Pinto">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
         </ul>
@@ -324,11 +324,9 @@
       </div>
 
       <p class="lc-pending mt-6">
-        <em>Ruru Layu</em> es la única pieza con ficha técnica publicada, y viene del catálogo.
-        De las demás —la serie <em>Senda</em>, <em>Onda</em>, <em>Onda Díptico</em>,
+        También hay más obra del artista: la serie <em>Senda</em>, <em>Onda</em>, <em>Onda Díptico</em>,
         <em>No Ensamble</em>, <em>Ensamble Gris</em>, <em>Espacio Simple 6</em>,
-        <em>Malo es Bueno</em>, <em>Mirada</em> y <em>Entendiendo el Espacio</em>— el sitio
-        publica el título pero no la técnica, las medidas ni el año.
+        <em>Malo es Bueno</em>, <em>Mirada</em> y <em>Entendiendo el Espacio</em>. Fichas técnicas en preparación.
       </p>
     </div>
   </section>
@@ -358,7 +356,7 @@
         </a>
       </li>
     </ul>
-    <p class="lc-pending mt-4">Las dos exposiciones están publicadas sin ficha propia en el sitio actual: los enlaces llevan al programa general.</p>
+    <p class="lc-pending mt-4">Fichas de estas exposiciones en preparación.</p>
   </section>
 
   <!-- ---------- CV ---------- -->
@@ -377,7 +375,7 @@
       </div>
       <div>
         <h3 class="lc-caps mb-3">Reconocimientos y colecciones</h3>
-        <p class="lc-pending">No publicados. Descarga del CV en PDF: pendiente de cargar en Expressia.</p>
+        <p class="lc-pending">Por confirmar con la galería. CV en PDF en preparación.</p>
       </div>
     </div>
   </section>

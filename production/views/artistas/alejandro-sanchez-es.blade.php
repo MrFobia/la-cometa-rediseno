@@ -233,7 +233,7 @@
           <div><dt>Colecciones</dt><dd>—</dd></div>
           <div><dt>Representado por</dt><dd>La Cometa</dd></div>
         </dl>
-        <p class="lc-pending mt-4">Formación y colecciones: el sitio actual no las publica.</p>
+        <p class="lc-pending mt-4">Formación y colecciones por confirmar con la galería.</p>
       </aside>
     </div>
   </section>
@@ -268,7 +268,7 @@
               </figure>
               <h3 class="lc-card__title mt-3">Gran Hotel</h3>
             </a>
-            <p class="lc-pending mt-1">Ficha técnica: pendiente</p>
+            <p class="lc-pending mt-1">Ficha técnica en preparación</p>
             <button type="button" class="lc-link mt-3" data-inquire="Gran Hotel — Alejandro Sánchez">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
@@ -278,7 +278,7 @@
               </figure>
               <h3 class="lc-card__title mt-3">13-7</h3>
             </a>
-            <p class="lc-pending mt-1">Ficha técnica: pendiente</p>
+            <p class="lc-pending mt-1">Ficha técnica en preparación</p>
             <button type="button" class="lc-link mt-3" data-inquire="13-7 — Alejandro Sánchez">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
@@ -288,7 +288,7 @@
               </figure>
               <h3 class="lc-card__title mt-3">Jiménez</h3>
             </a>
-            <p class="lc-pending mt-1">Ficha técnica: pendiente</p>
+            <p class="lc-pending mt-1">Ficha técnica en preparación</p>
             <button type="button" class="lc-link mt-3" data-inquire="Jiménez — Alejandro Sánchez">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
@@ -298,7 +298,7 @@
               </figure>
               <h3 class="lc-card__title mt-3">Lotero</h3>
             </a>
-            <p class="lc-pending mt-1">Ficha técnica: pendiente</p>
+            <p class="lc-pending mt-1">Ficha técnica en preparación</p>
             <button type="button" class="lc-link mt-3" data-inquire="Lotero — Alejandro Sánchez">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
           <li class="lc-card w-[min(78vw,20rem)]">
@@ -308,7 +308,7 @@
               </figure>
               <h3 class="lc-card__title mt-3">Chupa</h3>
             </a>
-            <p class="lc-pending mt-1">Ficha técnica: pendiente</p>
+            <p class="lc-pending mt-1">Ficha técnica en preparación</p>
             <button type="button" class="lc-link mt-3" data-inquire="Chupa — Alejandro Sánchez">Consultar <span class="lc-arrow" aria-hidden="true">→</span></button>
           </li>
         </ul>
@@ -326,11 +326,9 @@
       </div>
 
       <p class="lc-pending mt-6">
-        <em>Incrustación</em> es la única pieza del artista con ficha técnica publicada, y viene
-        del catálogo. De las demás —<em>Bus</em>, <em>Mensaje</em>, <em>Monte Blanco</em>,
+        También hay más obra del artista: <em>Bus</em>, <em>Mensaje</em>, <em>Monte Blanco</em>,
         <em>Multitud</em>, <em>Paro</em>, las series <em>Encubierta</em>, <em>Landscape</em>,
-        <em>Broken</em>, <em>Rumbo</em>, <em>Sobredual</em> y <em>Sobrecupo</em>— el sitio no
-        publica técnica, medidas ni año.
+        <em>Broken</em>, <em>Rumbo</em>, <em>Sobredual</em> y <em>Sobrecupo</em>. Fichas técnicas en preparación.
       </p>
     </div>
   </section>
@@ -368,7 +366,7 @@
         </a>
       </li>
     </ul>
-    <p class="lc-pending mt-4">Las tres exposiciones están publicadas sin ficha propia ni sede en el sitio actual, salvo la colectiva de Madrid: los enlaces llevan al programa general.</p>
+    <p class="lc-pending mt-4">Fichas de estas exposiciones en preparación.</p>
   </section>
 
   <!-- ---------- CV ---------- -->
@@ -388,7 +386,7 @@
       </div>
       <div>
         <h3 class="lc-caps mb-3">Reconocimientos y colecciones</h3>
-        <p class="lc-pending">No publicados. Descarga del CV en PDF: pendiente de cargar en Expressia.</p>
+        <p class="lc-pending">Por confirmar con la galería. CV en PDF en preparación.</p>
       </div>
     </div>
   </section>

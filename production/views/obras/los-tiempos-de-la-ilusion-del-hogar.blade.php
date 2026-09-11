@@ -208,7 +208,7 @@
           <div><dt>Técnica</dt><dd>Óleo sobre lienzo</dd></div>
           <div><dt>Formato</dt><dd>Tríptico</dd></div>
           <div><dt>Medidas</dt><dd>150 × 150 cm (alto × ancho)</dd></div>
-          <div><dt>Exposición</dt><dd><span class="lc-pending">Sin exposición asociada publicada</span></dd></div>
+          <div><dt>Exposición</dt><dd><span class="lc-pending">Exposición por confirmar</span></dd></div>
           <div><dt>Disponibilidad</dt><dd><span class="lc-live">Disponible</span></dd></div>
           <div><dt>Precio</dt><dd><span class="lc-pending">A consultar con la galería</span></dd></div>
         </dl>
@@ -219,9 +219,7 @@
         </div>
 
         <p class="lc-pending mt-6">
-          Las medidas publicadas —150 × 150 cm— corresponden al conjunto tal como lo registra
-          el catálogo; el sitio no publica la medida de cada uno de los tres paneles ni la
-          ubicación actual de la pieza.
+          Medidas de cada panel y ubicación por confirmar con la galería.
         </p>
       </div>
     </div>
@@ -268,9 +266,7 @@
     <div class="grid gap-10 lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
       <div class="lc-prose">
         <p class="lc-pending">
-          Es la pieza más antigua del artista en el catálogo, tres años anterior a las de
-          «El volumen que tocó la luz», y el sitio no publica texto curatorial para ella.
-          Lo único documentado es su ficha técnica.
+          Es la pieza más antigua del artista en el catálogo, tres años anterior a las de «El volumen que tocó la luz». Texto curatorial en preparación.
         </p>
       </div>
       <aside>
