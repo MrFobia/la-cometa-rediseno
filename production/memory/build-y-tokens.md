@@ -17,4 +17,5 @@ está completo con los 12 ids y los enlaces se reescriben a `/preview/{id}`; ver
 
 <!-- backbone:memory-references -->
 - [La regla de la obra necesita doble clase](./regla-obra-object-fit.md)
+- [El CSS no se puede recompilar desde el chat](./no-se-puede-recompilar-el-css.md)
 <!-- backbone:memory-references -->

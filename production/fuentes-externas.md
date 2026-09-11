@@ -37,3 +37,5 @@ respuesta está en esta tabla._
 | De ruidos, desbordes y otras fricciones | 100 % galería |
 | Parar el Mundo | 100 % galería |
 | El Mato | 100 % galería |
+| Punto de cruce | 100 % galería |
+| Travesía por la zona tórrida | 100 % galería |

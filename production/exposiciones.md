@@ -70,7 +70,7 @@ en nuestro panal**, así que es el único de esa lista que puede enlazar a una f
 |---|---|---|---|---|
 | **Delectable Garden** | 22.02 — 19.04 | Zhivago Duncan | **no publicado** | 5 |
 
-## 3. Cuatro hallazgos que afectan el alcance
+## 3. Siete hallazgos que afectan el alcance
 
 **a) Faltan tres exposiciones en el prototipo.** Las tres de Medellín que no son *Envoltorios* —
 *Nada Es Lo Que Parece…* (Luisa Aristizábal), *Punto de cruce* (Ana Isabel Díez) y *Travesía por la
@@ -95,6 +95,34 @@ de un lado, con `.lc-pending` en lenguaje de sala.
 da 404 y la que existe es `-en`, así que **su texto curatorial está publicado únicamente en
 inglés**. Traducirlo sería producir texto que la galería no publicó: o se pide la versión en
 español, o la ficha va sin texto curatorial y marcada en lenguaje de sala.
+
+**f) Medellín no publica ni dirección ni horario.** Al resolver los datos de sede para las fichas
+se leyeron las cinco en orden de documento. Bogotá, Miami y Madrid tienen dirección y horario
+publicados; Ciudad de México no tiene dirección pero sí una condición de visita («Solo con cita
+previa»). **Medellín no tiene ninguna de las dos cosas** — es la única sede sin `data-hours` en el
+prototipo. Eso afecta a **las cuatro fichas de Medellín**: su sección «Visitar la exposición» sale
+con «Dirección por confirmar» y «Horario por confirmar», y el reloj de sede muestra la hora local
+pero no afirma si está abierta. `components.js` ya resuelve bien ese caso: sin `data-hours` la
+insignia dice «Horario por confirmar» en vez de inventar un estado.
+
+Es el **primer candidato claro para la búsqueda en fuentes externas**: la dirección de una galería
+es un dato objetivo, verificable y sin derechos de autor. Queda para el Paso 5.
+
+_Pista, no fuente:_ en la tercera vista de sala de *Punto de cruce* se alcanza a ver, reflejado en
+el vidrio de la puerta, el aviso de horarios de la sede. No se usa como fuente —es texto espejado
+dentro de una foto a 1111 px, no un dato publicado— pero sirve para contrastar lo que se encuentre
+afuera.
+
+**g) El nombre de Mónica Meira se publica de dos formas.** Los encabezados y las tarjetas del sitio
+dicen «Monica Meira», sin tilde; el texto curatorial y la biografía dicen «Mónica Meira». En la
+ficha se usó la forma con tilde, que es la que aparece en la prosa editorial de la galería. No es
+un conflicto de dato sino de ortografía, así que no va marcado en pantalla, pero conviene
+confirmarlo con la galería junto con el resto de los nombres.
+
+Un dato de la misma ficha que sí es sustantivo y que la galería publica explícitamente: Mónica
+Meira nació en **Londres, Reino Unido, en 1949**, es de **ascendencia argentina** y se
+**nacionalizó colombiana en 2004**. Las tres cosas juntas, tal como las publica la galería — es
+justamente el caso que la regla de nacionalidad previene: de «nacida en Londres» no se sigue nada.
 
 ## 4. Imágenes: qué hay y qué falta
 
