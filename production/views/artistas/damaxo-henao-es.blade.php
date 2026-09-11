@@ -241,7 +241,7 @@
           <div><dt>Colecciones</dt><dd>Museo de Arte Contemporáneo de Bogotá (MAC) y colecciones privadas en Medellín, Bogotá, Nueva York y París</dd></div>
           <div><dt>Representado por</dt><dd>La Cometa, desde su sede de Bogotá</dd></div>
         </dl>
-        <p class="lc-pending mt-4">El sitio actual publica dos años de nacimiento distintos (1955 y 1995). Aquí se usa 1995, el del texto curatorial; falta confirmarlo.</p>
+        <p class="lc-pending mt-4">Año de nacimiento por confirmar con la galería.</p>
       </aside>
     </div>
   </section>
