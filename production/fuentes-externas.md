@@ -35,3 +35,5 @@ respuesta está en esta tabla._
 |---|---|
 | Apocalypse now o la fabricación del paraíso | 100 % galería |
 | De ruidos, desbordes y otras fricciones | 100 % galería |
+| Parar el Mundo | 100 % galería |
+| El Mato | 100 % galería |

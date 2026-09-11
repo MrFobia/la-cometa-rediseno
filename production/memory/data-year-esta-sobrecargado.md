@@ -18,5 +18,5 @@ atributo compartido por dos componentes y ya costó un bug en tres páginas.
 ## References
 
 <!-- backbone:memory-references -->
-_None yet — connect this neuron to others on the memory map._
+- [El filtro de exhibiciones: sede × año](./filtro-por-sede-en-exhibiciones.md)
 <!-- backbone:memory-references -->
