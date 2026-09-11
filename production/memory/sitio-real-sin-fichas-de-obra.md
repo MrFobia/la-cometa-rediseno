@@ -13,5 +13,5 @@ cambio, sí existen y tienen contenido propio. No volver a buscar fichas de obra
 ## References
 
 <!-- backbone:memory-references -->
-_None yet — connect this neuron to others on the memory map._
+- [Cómo se bajan las imágenes del sitio](./descarga-de-imagenes-del-sitio.md)
 <!-- backbone:memory-references -->
