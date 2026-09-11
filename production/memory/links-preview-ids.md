@@ -16,6 +16,10 @@ el ancestro más cercano, así que las cinco sedes `/la-galeria/<ciudad>` caen t
 La galería y las fichas de exposiciones y noticias no construidas caen en su índice — no se ven
 rotas, te llevan a otro lado. Siguen sin resolver `/en/`, `/utilidades/terminos-y-condiciones/` y
 los cinco links con query string (`/obras/?artista=…`, `?page=2`), que el regex excluye.
+**Y el buscador global tampoco**: las URLs viven como strings `u: "/artistas/…"` dentro de
+`js/data.js`, que hoy se incrusta en `@verbatim<script>`, así que la reescritura de `href`/`action`
+no las alcanza y todo resultado de búsqueda cae en 404 dentro del preview. Arreglarlo es una
+reescritura extra en `toBlade()` sobre `u: "/…"`, no un cambio en `data.js`.
 
 ## References
 
