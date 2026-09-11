@@ -323,7 +323,7 @@
   </div>
 
   <div class="mt-12 pt-6 border-t border-[color:var(--color-rule)] flex flex-wrap items-center justify-between gap-4 lc-meta">
-    <p>© <span data-year>2026</span> Galería La Cometa. Todos los derechos reservados.</p>
+    <p>© <span data-year-stamp>2026</span> Galería La Cometa. Todos los derechos reservados.</p>
     <p><a class="lc-link" href="/utilidades/terminos-y-condiciones/">Términos y política de datos</a></p>
   </div>
 </footer>
@@ -435,7 +435,11 @@ window.LC_INDEX = [
   /* ---------------------------------------------------------------
    * Año del copyright — el sitio actual quedó congelado en 2024.
    * ------------------------------------------------------------- */
-  $$("[data-year]").forEach(function (el) { el.textContent = String(new Date().getFullYear()); });
+  /* Sólo el sello del pie. Antes esto era [data-year], el mismo atributo que
+   * usan los botones del filtro por año de ferias, exposiciones y noticias:
+   * los reescribía todos con el año actual y el historial mostraba «2026 2026
+   * 2026 2026». */
+  $$("[data-year-stamp]").forEach(function (el) { el.textContent = String(new Date().getFullYear()); });
 
   /* ---------------------------------------------------------------
    * Marca la sección activa en el menú principal.

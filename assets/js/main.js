@@ -11,7 +11,11 @@
   /* ---------------------------------------------------------------
    * Año del copyright — el sitio actual quedó congelado en 2024.
    * ------------------------------------------------------------- */
-  $$("[data-year]").forEach(function (el) { el.textContent = String(new Date().getFullYear()); });
+  /* Sólo el sello del pie. Antes esto era [data-year], el mismo atributo que
+   * usan los botones del filtro por año de ferias, exposiciones y noticias:
+   * los reescribía todos con el año actual y el historial mostraba «2026 2026
+   * 2026 2026». */
+  $$("[data-year-stamp]").forEach(function (el) { el.textContent = String(new Date().getFullYear()); });
 
   /* ---------------------------------------------------------------
    * Marca la sección activa en el menú principal.
