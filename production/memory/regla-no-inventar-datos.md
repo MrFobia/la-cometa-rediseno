@@ -9,6 +9,10 @@ lo que publique galerialacometa.com. Si un dato no está publicado, va con la cl
 modelo, ni con lo que "suele ser" cierto de un artista, ni deduciéndolo de otra página. Esto vale
 también para el alt de las imágenes, que debe ser descriptivo y real, nunca el nombre del archivo.
 Cuando la fuente se contradice consigo misma, tampoco se elige: se marca como pendiente.
+_(updated 2026-09-11: la regla **se amplió**. Lo que la galería no publique ya no queda en blanco
+de entrada: primero **se busca en fuentes externas verificables** y se registra su procedencia.
+Lo que no cambia es el núcleo — nada se completa por inferencia ni con conocimiento del modelo, y
+si no aparece en ninguna fuente sigue yendo con `.lc-pending`. El protocolo está en su neurona.)_
 
 ## References
 
@@ -18,4 +22,5 @@ Cuando la fuente se contradice consigo misma, tampoco se elige: se marca como pe
 - [La nacionalidad no se deduce del lugar de nacimiento](./nacionalidad-no-se-deduce-del-nacimiento.md)
 - [El alcance de contenido lo fija la galería](./alcance-de-contenido-lo-fija-la-galeria.md)
 - [Lenguaje de sala para los pendientes](./lenguaje-de-sala-para-los-pendientes.md)
+- [Protocolo de fuentes externas](./fuentes-externas-protocolo.md)
 <!-- backbone:memory-references -->
