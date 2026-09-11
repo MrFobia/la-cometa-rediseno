@@ -17,4 +17,5 @@ assets viven en `assets/` en la raíz y se espejan a `production/views/assets/` 
 - [Los assets en el preview](./assets-en-el-preview.md)
 - [Los links internos y preview-ids.json](./links-preview-ids.md)
 - [La capa de movimiento](./capa-de-movimiento.md)
+- [`data-year` está sobrecargado](./data-year-esta-sobrecargado.md)
 <!-- backbone:memory-references -->
