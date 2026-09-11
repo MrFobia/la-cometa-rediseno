@@ -483,6 +483,10 @@ window.LC_INDEX = [
   { t: "Daniel Nyström", k: "Artista · Suecia", u: "/artistas/daniel-nystrom-es", x: "" },
   { t: "Fernando Pinto", k: "Artista · Colombia", u: "/artistas/fernando-pinto-es", x: "escultura piedra" },
   { t: "Dámaxo Henao", k: "Artista · Colombia", u: "/artistas/damaxo-henao-es", x: "volumen luz" },
+  { t: "Miguel Ángel Rojas", k: "Artista · Colombia", u: "/artistas/miguel-angel-rojas-es", x: "hoja de coca dolar" },
+  { t: "Ana González", k: "Artista · Colombia", u: "/artistas/ana-gonzalez-es", x: "textil porcelana bronce" },
+  { t: "Verónica Lehner", k: "Artista · Colombia", u: "/artistas/veronica-lehner-es", x: "interferencia desdoblados" },
+  { t: "Zhivago Duncan", k: "Artista", u: "/artistas/zhivago-duncan-es", x: "delectable garden eden" },
 
   // — Obras —
   { t: "Corte en el ojo", k: "Obra · Miguel Ángel Rojas · 1991", u: "/obras/", x: "acrilico lienzo" },
